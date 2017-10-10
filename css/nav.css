@@ -1,0 +1,159 @@
+@font-face {
+    src: url(../Typo/Relancer-Regular.otf);
+    font-family: relancer;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    border-top: solid 3px #e3ac23;
+}
+
+header > div {
+    width: 95%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+/********LOGO*******/
+div > a > img {
+    height: 50px;
+    padding-top: 5px;
+}
+
+/*******NAV***********/
+nav {
+    width: 90%;
+    height: 100%;
+}
+
+ul {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: relancer;
+}
+
+li {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    list-style: none;
+    text-transform: uppercase; 
+}
+
+li > a {
+    width: 100%;
+    height: 100%;
+}
+
+/******BUTTON LOG IN******/
+div > button {
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+div > button:hover{
+    color: #e3ac23;
+}
+
+/*********FORM******/
+form {
+    color: white;
+    width: 400px;
+    height: 350px;
+    display: none;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    background-color: #b9b9b9;
+    border-radius: 5px;
+    padding: 30px;
+    border: solid 3px #e3ac23;
+}
+
+form > input {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+}
+
+form > button {
+    background-color: #b9b9b9;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+
+/**************.VISIBLE (form)***************/
+.visible {
+    display: block;
+}
+
+/***********LINKS*************/
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.sub-menu > li > a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #e3ac23;
+}
+
+.sub-menu > li > a:hover {
+    color: #e3ac23;
+}
+
+/********SUBMENU ************/
+.nav > li:hover > .sub-menu{
+    display: flex;  
+}
+
+.sub-menu{
+    width: 100%;
+    height: 45px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: none;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 999999;
+    top: 73px;
+    left: 0;    
+}
+
+.sub-menu > li {
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+

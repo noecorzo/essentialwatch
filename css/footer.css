@@ -1,0 +1,94 @@
+@font-face {
+    src: url(../Typo/Relancer-Regular.otf);
+    font-family: relancer;
+}
+
+/***********FOOTER***************/
+
+footer {
+    background-color: black;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**********DIV CONTAINER (logo + 3 divs)***********/
+footer > div {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+/*    font-family: 'Montserrat', sans-serif;*/
+    
+}
+
+/*********LOGO FOOTER***********/
+footer > div > a > img {
+    height: 50px;
+    padding-top: 0;
+}
+
+/********* 3 DIVS enfants avec contenu************/
+footer > div > div {
+    width: 200px;
+    border-top: solid 3px #e3ac23;
+    padding-left: auto;
+    padding-right: auto; 
+    padding-top: 4px;
+}
+
+footer > div > div > p {
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+
+/************DIV enfant 3************/
+footer > div > div:nth-of-type(3) > p:nth-of-type(1){
+    text-transform: uppercase;
+}
+
+/************DIV enfant 4************/
+footer > div > div:nth-of-type(4){
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > div > div:nth-of-type(4) > i:hover {
+    color: #e3ac23;
+}
+
+/************P copyright************/
+footer > p {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 75%;
+}
+
+/*************SPAN info tlf et email***********/
+span {
+    color: #e3ac23;
+}
+
+/***********LINKS*************/
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #e3ac23;
+}
+

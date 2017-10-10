@@ -1,0 +1,8 @@
+# Ignore all binary assets (video, image ...)
+/images/
+/typo/
+
+# Junk
+Thumbs.db
+.DS_STORE
+~*
