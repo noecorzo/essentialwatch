@@ -1,0 +1,19 @@
+@font-face {
+    src: url(../Typo/Relancer-Regular.otf);
+    font-family: relancer;
+}
+
+
+/***************************************************/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height:800px;
+}
