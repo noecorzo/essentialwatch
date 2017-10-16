@@ -1,7 +1,9 @@
+/*
 @font-face {
     src: url(../Typo/Relancer-Regular.otf);
     font-family: relancer;
 }
+*/
 
 
 /***************************************************/
@@ -15,5 +17,129 @@
 }
 
 main {
-    height:800px;
+    height: auto;
+}
+
+
+/******************SECTION1: mesSlides*******************/
+
+#mesSlides>div {
+    padding: 50px;
+    color: black;
+/*    border: 2px solid black;*/
+    height: 200px;
+    text-align: center;
+}
+
+#mesSlides>h1 {
+    font-size: 46px;
+}
+
+
+
+#slide1{
+    
+    background-image: url("../images/montre1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 1000px;
+    background-attachment: fixed;
+    
+}
+
+
+#slide2
+{
+    
+    background-image: url("../images/Plan%20de%20travail%201.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 1000px;
+    background-attachment: fixed;
+   
+    
+}
+
+
+
+#slide3
+{
+   
+    background-image: url("../images/montre1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 900px;
+    background-attachment: fixed;
+   
+    
+}
+
+
+
+/********************SECTION2:feel*******************/
+
+#feel{
+    
+    height: 100px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+    
+    
+}
+
+/********************SECTION3:container*******************/
+
+#container{
+    
+    display: flex;
+/*    justify-content: space-between;*/
+    flex-wrap: wrap;
+/*    border: 2px solid green;*/
+    font-size: 26px;
+    
+}
+
+#container>div{
+    
+    width: 50%;
+/*    border: 2px solid red;*/
+  padding: 70px;
+}
+
+
+
+#container div:nth-child(1){
+    
+    background-image: url("../images/stress.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
+}
+
+
+
+#container div:nth-child(4){
+    
+    background-image: url("../images/D%C3%A9motiv%C3%A9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+   
+    
+}
+#container div:nth-child(5){
+    
+    background-image: url("../images/febrile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
 }
