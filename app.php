@@ -15,8 +15,8 @@
 
     <!-- CSS -->
     <!--normalize-->
-    <link rel="stylesheet" href="./css/normalize.css">
-    
+    <link rel="stylesheet" href="css/normalize.css">
+
     <!--fontawesome-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -35,29 +35,25 @@
     <link rel="stylesheet" href="css/app-animate.css">
 
     <!-- WOW Pluggin-->
-    <script src="js/app/wow.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
 
     </script>
-    
-<!--    lien vers dossier jQuery et notre page JS (pour faire fonctioner le bouton LogIn - Noelia) -->
+
+    <!-- Lien vers dossier jQuery et notre page JS (pour faire fonctioner le bouton LogIn - Noelia) -->
     <script src="./jQuery/jquery-3.2.1.slim.js"></script>
     <script src="./js/script.js"></script>
 </head>
 
 
 <body>
-    <!-- PHP -->
-<!--    j'ai enleve tous les autres versions de la nav, on revient a la version 0, tous les autres pubelle - Noelia-->
+    <!-- NAV -->
     <?php
-            require_once 'include/nav.php'
+            require_once './include/nav.php'
         ?>
 
-
         <section id="header">
-
-            <!--<div class="container">-->
 
             <div class="bg-img">
                 <!-- Animation - image smartphone -->
@@ -76,7 +72,6 @@
                             </a>
 
                         <h2>Essential App, the only app you need</h2>
-                        <!--<p></p>-->
 
                         <!-- App Store icons -->
                         <div class="download-btn">
@@ -91,7 +86,6 @@
                     </div>
                 </div>
             </div>
-            <!-- </div>-->
         </section>
 
 
@@ -100,7 +94,6 @@
 
 
         <section id="service">
-            <!--<div class="container">-->
             <div class="title" data-wow-delay=".5s">
                 <h2>Useful Tools For Your Life</h2>
                 <p>
@@ -112,7 +105,7 @@
 
             <div class="serviceTools">
                 <div class="block wow fadeInLeft" data-wow-delay=".7s">
-                    <img src="images/app/clock.svg" alt="">
+                    <img src="images/app/calendar.svg" alt="">
                     <h3>Day by day</h3>
                     <!--Day after day-->
                     <!--From day to day-->
@@ -123,7 +116,7 @@
                 </div>
 
                 <div class="block wow fadeInLeft" data-wow-delay=".8s">
-                    <img src="images/app/clock2.svg" alt="">
+                    <img src="images/app/clock.svg" alt="">
                     <h3>Timeline &amp; Milestone</h3>
                     <p>
                         Lorem Ipsum is simply dummy text
@@ -138,8 +131,6 @@
                     </p>
                 </div>
             </div>
-
-            <!-- </div>-->
         </section>
 
 
@@ -156,8 +147,6 @@
 
 
         <section id="feature">
-            <!--<div class="container">-->
-
             <!--INTRO FEATURES-->
 
             <div class="title" data-wow-delay=".5s">
@@ -173,8 +162,8 @@
                 <div class="block">
 
                     <!--PROGRESS-->
-                    <div class="media wow fadeInDown" data-wow-delay=".5s">
-                        <img class="media-object pull-left" src="images/app/progress.png" alt="Image">
+<div class="media wow fadeInDown" data-wow-delay=".5s">
+                        <img class="media-object pull-left" src="images/app/progessanim.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Visualize your progress</h4>
                             <p>Start from now, you can easily manage your time and it has reminder to let you know every time.</p>
@@ -183,7 +172,7 @@
 
                     <!--KNOW YOU-->
                     <div class="media wow fadeInDown" data-wow-delay=".8s">
-                        <img class="media-object pull-left" src="images/app/knowYou.png" alt="Image">
+                        <img class="media-object pull-left" src="images/app/knowYou.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Get to know you</h4>
                             <p>Identify your best and worst feelings to take control of stress.</p>
@@ -192,7 +181,7 @@
 
                     <!--HEART RATE-->
                     <div class="media wow fadeInDown" data-wow-delay="1.1s">
-                        <img class="media-object pull-left" src="images/app/heartRate.png" alt="Image">
+                        <img class="media-object pull-left" src="images/app/heart.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Heart Rate</h4>
                             <p>Analyze your heart activity to know more about your natural boost, relax or stressful moments (of your day).</p>
@@ -207,7 +196,7 @@
                 <div class="block">
                     <!--NOTIFICATIONS-->
                     <div class="media wow fadeInDown" data-wow-delay="1.4s">
-                        <img class="media-object pull-left" src="images/app/notifications.png" alt="Image">
+                        <img class="media-object pull-left" src="images/app/notifications.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Notifications</h4>
                             <p>Get notifications to do some relaxing or energizing exercices.</p>
@@ -216,7 +205,7 @@
 
                     <!--CALENDAR-->
                     <div class="media wow fadeInDown" data-wow-delay="1.7s">
-                        <img class="media-object pull-left" src="images/app/" alt="Image">
+                        <img class="media-object pull-left" src="images/app/calendar.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Calendar</h4>
                             <p>Schedule your meetings, lorem ipsum dolor sit amet</p>
@@ -233,11 +222,9 @@
                     </div>
                 </div>
             </div>
-            <!--</div>-->
         </section>
 
-
-
+        <!-- FOOTER -->
         <?php
             require_once './include/footer.php'
         ?>
