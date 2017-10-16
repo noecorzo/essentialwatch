@@ -20,6 +20,7 @@ footer > div {
     display: flex;
     justify-content: space-between;
     color: white; 
+    padding-bottom: 15px;
 /*    font-family: 'Montserrat', sans-serif;*/
     
 }
@@ -63,15 +64,16 @@ footer > div > div:nth-of-type(4) > i:hover {
 /************P copyright************/
 footer > p {
     width: 100%;
+    background-color: #131313;
     text-align: center;
     color: white;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 75%;
 }
 
 /*************SPAN info tlf et email***********/
-span {
+footer > div > div > p > span {
     color: #e3ac23;
 }
 
