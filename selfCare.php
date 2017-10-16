@@ -15,6 +15,7 @@
     <script type="text/javascript"src= "./parallax/jquery.parallax-1.1.3.js"></script>
     <script src="./jQuery/jquery-3.2.1.slim.js"></script>
     <script src="./js/scriptSelfCare/script.js"></script>
+    <script src="./js/nav/script.js"></script>
     
 </head>
 

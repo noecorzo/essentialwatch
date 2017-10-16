@@ -39,7 +39,7 @@ main {
 
 #slide1{
     
-    background-image: url("../images/montre1.png");
+    background-image: url("../images/selfCare/montre1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@ main {
 #slide2
 {
     
-    background-image: url("../images/Plan%20de%20travail%201.png");
+    background-image: url("../images/selfCare/Plan%20de%20travail%201.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,7 +67,7 @@ main {
 #slide3
 {
    
-    background-image: url("../images/montre1.png");
+    background-image: url("../images/selfCare/montre1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,7 +117,7 @@ main {
 
 #container div:nth-child(1){
     
-    background-image: url("../images/stress.jpg");
+    background-image: url("../images/selfCare/stress.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -128,7 +128,7 @@ main {
 
 #container div:nth-child(4){
     
-    background-image: url("../images/D%C3%A9motiv%C3%A9.jpg");
+    background-image: url("../images/selfCare/D%C3%A9motiv%C3%A9.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -137,7 +137,7 @@ main {
 }
 #container div:nth-child(5){
     
-    background-image: url("../images/febrile.jpg");
+    background-image: url("../images/selfCare/febrile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
