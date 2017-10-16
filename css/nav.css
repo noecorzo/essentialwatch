@@ -3,21 +3,6 @@
     font-family: relancer;
 }
 
-/*----- MODIFICATIONS ----*/
-
-/*Raison pour laquelle la nav change*/
-
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-    padding: 0;
-    padding-top: 0px;
-    margin: 0;
-}
-
-/*---- FIN MODIFICATIONS ----*/
-
 header {
     width: 100%;
     background-color: black;
@@ -31,24 +16,22 @@ header > div {
     margin-right: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 
 /********LOGO*******/
-
-div > a > img {
+header > div > a > img {
     height: 50px;
     padding-top: 5px;
 }
 
 /*******NAV***********/
-
-nav {
+header > div > nav {
     width: 90%;
     height: 100%;
 }
 
-ul {
+header > div > nav > ul {
     width: 70%;
     height: 100%;
     display: flex;
@@ -61,21 +44,45 @@ ul {
     font-family: relancer;
 }
 
-li {
+header > div > nav > ul > li {
     padding-bottom: 15px;
     padding-top: 30px;
     list-style: none;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
-li > a {
+header > div > nav > ul > li > a {
     width: 100%;
     height: 100%;
 }
 
-/******BUTTON LOG IN******/
+/********SUBMENU ************/
+nav > ul > li:hover > .sub-menu{
+    display: flex;  
+}
 
-div > button {
+.sub-menu{
+    width: 100%;
+    height: 45px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: none;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 999999;
+    top: 73px;
+    left: 0;    
+}
+
+.sub-menu > li {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+/******BUTTON LOG IN******/
+#buttonLogIn {
     width: 60px;
     height: 40px;
     background-color: black;
@@ -83,52 +90,32 @@ div > button {
     color: white;
 }
 
-div > button:hover {
+#buttonLogIn:hover{
     color: #e3ac23;
 }
 
-/*********FORM******/
-
-form {
-    color: white;
-    width: 400px;
-    height: 350px;
-    display: none;
-    position: absolute;
-    left: 450px;
-    top: 200px;
-    background-color: #b9b9b9;
-    border-radius: 5px;
-    padding: 30px;
-    border: solid 3px #e3ac23;
-}
-
-form > input {
-    width: 300px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 3px;
-    display: block;
-}
-
-form > button {
-    background-color: #b9b9b9;
-    border: 2px solid black;
-    border-radius: 5px;
-    width: 100px;
-    margin-left: 150px;
-    margin-top: 50px;
-
-}
-
 /**************.VISIBLE (form)***************/
-
 .visible {
     display: block;
 }
 
-/***********LINKS*************/
+/***********LogIN/Close*********/
+header > div > div {
+    display: none;
+    background-color: rgb(227, 172, 35);
+    border-radius: 5px;
+    z-index: 9999999999;
+}
 
+header > div > div > a:link {
+    color: black;
+}
+
+header > div > div > a:visited {
+    color: black;
+}
+
+/***********LINKS*************/
 a {
     text-decoration: none;
 }
@@ -153,27 +140,6 @@ a:hover {
     color: #e3ac23;
 }
 
-/********SUBMENU ************/
 
-.nav > li:hover > .sub-menu {
-    display: flex;
-}
 
-.sub-menu {
-    width: 100%;
-    height: 45px;
-    padding-left: 200px;
-    padding-right: 200px;
-    display: none;
-    justify-content: space-between;
-    background-color: white;
-    position: fixed;
-    z-index: 999999;
-    top: 73px;
-    left: 0;
-}
 
-.sub-menu > li {
-    padding-top: 12px;
-    padding-bottom: 10px;
-}

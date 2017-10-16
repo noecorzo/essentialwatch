@@ -1,0 +1,55 @@
+main {
+    background-image: url(../images/user/contact2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    padding-top: 160px;
+    padding-bottom: auto;
+   
+}
+
+/*********FORM******/
+form {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #e3ac23;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;    
+}
+
+form > input {
+    width: 200px;
+    height: 30px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+/*    padding: 10px;*/
+    border-radius: 3px;
+}
+
+
+
+form > button {
+    width: 400px;
+    height: 40px;
+    background-color: #e3ac23;
+    border: 2px solid #e3ac23;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+/*    margin-left: 150px;*/
+/*    margin-top: 50px;*/
+    
+}
+
+form > button:hover {
+    color: white;
+}

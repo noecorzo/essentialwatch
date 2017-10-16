@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Essential Watch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/screen.min.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+     
     <script src="./jQuery/jquery-3.2.1.slim.js"></script>
-    
-    
+    <script src="./js/script.js"></script>
         
 </head>
 <body>
   <?php
-    require_once './include/nav4.php'
+    require_once './include/nav.php'
     ?>
    
    <main>
@@ -131,9 +135,18 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'></script>
         
         <script>
-            document.querySelector('.buttonKnowMore').addEventListener('click', function(e){
-                document.querySelector('.knowMore').classList.toggle('visible');
-
-            });
+//            document.querySelector('.buttonKnowMore').addEventListener('click', function(e){
+//                document.querySelector('.knowMore').classList.toggle('visible');
+//
+//            });
+            
+//function activerLogIn(){ 
+//    document.querySelector('#buttonLogIn').addEventListener('click', function(e){
+//        console.log('click');
+//    document.querySelector('#session').classList.toggle('visible');
+//    });
+//}
+//    
+//activerLogIn();
     </script>
 </html>

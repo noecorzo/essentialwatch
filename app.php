@@ -14,8 +14,9 @@
 
 
     <!-- CSS -->
+    <!--normalize-->
     <link rel="stylesheet" href="./css/normalize.css">
-
+    
     <!--fontawesome-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -39,13 +40,18 @@
         new WOW().init();
 
     </script>
+    
+<!--    lien vers dossier jQuery et notre page JS (pour faire fonctioner le bouton LogIn - Noelia) -->
+    <script src="./jQuery/jquery-3.2.1.slim.js"></script>
+    <script src="./js/script.js"></script>
 </head>
 
 
 <body>
     <!-- PHP -->
+<!--    j'ai enleve tous les autres versions de la nav, on revient a la version 0, tous les autres pubelle - Noelia-->
     <?php
-            require_once 'include/nav4.php'
+            require_once 'include/nav.php'
         ?>
 
 
