@@ -14,6 +14,8 @@
 
 
     <!-- CSS -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
     <!--fontawesome-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -43,7 +45,7 @@
 <body>
     <!-- PHP -->
     <?php
-            require_once 'include/nav2.php'
+            require_once 'include/nav4.php'
         ?>
 
 
