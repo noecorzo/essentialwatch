@@ -43,7 +43,7 @@
     
 <!--    lien vers dossier jQuery et notre page JS (pour faire fonctioner le bouton LogIn - Noelia) -->
     <script src="./jQuery/jquery-3.2.1.slim.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/nav/script.js"></script>
 </head>
 
 
