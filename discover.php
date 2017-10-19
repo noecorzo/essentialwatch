@@ -20,7 +20,7 @@
 </head>
 <body>
   <?php
-    require_once './include/nav.php'
+    require_once './include/nav.php';
     ?>
     
     <section>
@@ -49,7 +49,7 @@
    </main>
    
    <?php
-    require_once './include/footer.php'
+    require_once './include/footer.php';
     ?>
    
     

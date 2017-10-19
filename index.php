@@ -23,7 +23,7 @@
 
 <body>
     <?php
-    require_once './include/nav.php'
+    require_once './include/nav.php';
     ?>
 
         <main>
@@ -119,7 +119,7 @@
         </main>
 
         <?php
-    require_once './include/footer.php'
+    require_once './include/footer.php';
     ?>
 
 
