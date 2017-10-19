@@ -39,12 +39,20 @@ main {
 
 #slide1{
     
-    background-image: url("../images/selfCare/montre1.png");
+    background-image: url("../images/selfCare/goutte1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 500px;
     background-attachment: fixed;
+    
+}
+
+#slide1>{
+    
+    margin-top: 20%;
+    font-size: 36px;
+    
     
 }
 
@@ -52,11 +60,11 @@ main {
 #slide2
 {
     
-    background-image: url("../images/selfCare/Plan%20de%20travail%201.png");
+    background-image: url("../images/selfCare/goutte2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 500px;
     background-attachment: fixed;
    
     
@@ -71,7 +79,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 900px;
+    min-height: 500px;
     background-attachment: fixed;
    
     
