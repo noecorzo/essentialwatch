@@ -12,19 +12,24 @@ catch (PDOException $e) {
     die ('Problème technique'); //Prévenir l'utilisateur du problème
 }
 
-if(isset ($_POST['fname'], $_POST['lname'], $_POST['enterprise'], $_POST['telephone'], $_POST['email'], $_POST['password'])){
-    
 
+    
+//version sans enterprise
+
+if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email'], $_POST['password'], $_POST['enterprise'])){
+    
     $statement = $pdo->prepare('INSERT INTO t_users 
-                                (idUser, firstName, lastName, enterprise,  telephone, email, password) 
+                                (idUser, firstName, lastName, telephone, email, password, nomEnterprise) 
                                 VALUES 
-                                (NULL, :fn, :ln, :ent, :tel, :em, :pass)');
+                                (NULL, :fn, :ln, :tel, :em, :pass, :ent)');
+    
+    
     $statement->bindValue(':fn', $_POST['fname'], PDO::PARAM_STR);
     $statement->bindValue(':ln', $_POST['lname'], PDO::PARAM_STR);
-    $statement->bindValue(':ent', $_POST['enterprise'], PDO::PARAM_STR);
     $statement->bindValue(':tel', $_POST['telephone'], PDO::PARAM_STR);
     $statement->bindValue(':em', $_POST['email'], PDO::PARAM_STR);
     $statement->bindValue(':pass', $_POST['password'], PDO::PARAM_STR);
+    $statement->bindValue(':ent', $_POST['enterprise'], PDO::PARAM_STR);
 
     $statement->execute();
     
@@ -62,7 +67,7 @@ else {
 </head>
 <body>
   <?php
-    require_once './include/nav.php'
+    require_once './include/nav.php';
     ?>
     
     <main>
@@ -70,10 +75,17 @@ else {
    <form name="Login" method="post" id="formulaire" action="user.php">
           <input type="text" name="fname" placeholder="First Name">
           <input type="text" name="lname" placeholder="Last Name">
-          <input type="text" name="enterprise" placeholder="Enterprise">
           <input type="text" name="telephone" placeholder="Phone Number">
           <input type="email" name="email" placeholder="Email">
           <input type="password" name="password" placeholder="Password">
+          
+<!--          <input type="text" name="enterprise" placeholder="Enterprise">-->
+          
+          <select id="selectEnterprise" name="enterprise">
+              <option selected>Enterprise</option>
+              
+              
+          </select>
           
 <!--
           <p>Are you the purchasing manager? <input type="radio" name="pruchasingManager" value="true">T
@@ -85,20 +97,19 @@ else {
 
           
 
-<!--
           <?php
             
             echo $msg;
         ?>
--->
 
     </form>
     
     </main>
     
     <?php
-    require_once './include/footer.php'
+    require_once './include/footer.php';
     ?>
     
 </body>
+<script src="afficheEnterprisesBD.js"></script>
 </html>
