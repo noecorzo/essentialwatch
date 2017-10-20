@@ -29,7 +29,7 @@
     </section>
      
    <main>
-      <h1>Let <span>Essential Watch</span><br> Change Your Life</h1>
+      <h1>How Can <span>Essential Watch</span><br> Change Your Life?</h1>
        <div>
            <h2>How It Works? Hello</h2>
        </div>

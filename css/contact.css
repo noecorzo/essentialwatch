@@ -2,6 +2,16 @@
     src: url(../Typo/Relancer-Regular.otf);
     font-family: relancer;
 }
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 0px;
+    margin: 0;
+}
+
 body{
     width: 100%;
     background-color: white;
