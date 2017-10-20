@@ -41,22 +41,26 @@ main {
     
     background-image: url("../images/selfCare/goutte1.png");
     background-repeat: no-repeat;
-    background-position: center;
+/*    background-position: center;*/
     background-size: cover;
-    min-height: 500px;
-    background-attachment: fixed;
+    min-height: 700px;
+/*    background-attachment: fixed;*/
+/*    border:10px solid red;*/
+  
+  
     
 }
 
-#slide1>{
+#slide1>h1{
     
-    margin-top: 20%;
-    font-size: 36px;
+    margin-top: 10%;
+    font-size: 40px;
     
     
 }
 
 
+/*
 #slide2
 {
     
@@ -69,21 +73,47 @@ main {
    
     
 }
+*/
+
+#slide1>p{
+    
+    margin-top: 7%;
+    font-size: 30px;
+    
+}
+#slide1>h2{
+    
+    margin-top: 5%;
+    font-size: 36px;
+    
+}
+
 
 
 
 #slide3
 {
    
-    background-image: url("../images/selfCare/montre1.png");
+    background-image: url("../images/selfCare/montre2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 700px;
     background-attachment: fixed;
    
     
 }
+
+
+#slide3>h2{
+    
+    margin-top: 20%;
+    font-size: 36px;
+    
+    
+    
+}
+
 
 
 
