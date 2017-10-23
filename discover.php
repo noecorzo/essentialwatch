@@ -29,9 +29,19 @@
     </section>
      
    <main>
+
       <h1>How Can <span>Essential Watch</span><br> Change Your Life?</h1>
+
        <div>
-           <h2>How It Works? Hello</h2>
+           <p><strong>Essential Watch </strong>is more than a smart watch.</p> 
+           
+<!--
+           <p>Do you want to <strong>succed in your personal and professional life?</strong></p>
+           
+           <p>Let's try our three synergies of <strong>essential oils.</strong></p>
+-->
+           <p>Through-out a combination of essential oils,
+            it will help you to <strong>succed in your personal and professional life.</strong><p/>
        </div>
         <div>
             <span>
