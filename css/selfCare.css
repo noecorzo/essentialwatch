@@ -1,9 +1,7 @@
-/*
 @font-face {
     src: url(../Typo/Relancer-Regular.otf);
     font-family: relancer;
 }
-*/
 
 
 /***************************************************/
@@ -29,12 +27,14 @@ main {
 /*    border: 2px solid black;*/
     height: 200px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#mesSlides>h1 {
-    font-size: 46px;
+span{
+    
+  color: #e3ac23;
+  
 }
-
 
 
 #slide1{
@@ -44,23 +44,21 @@ main {
 /*    background-position: center;*/
     background-size: cover;
     min-height: 700px;
-/*    background-attachment: fixed;*/
+    background-attachment: fixed;
 /*    border:10px solid red;*/
   
-  
-    
 }
 
 #slide1>h1{
     
-    margin-top: 10%;
-    font-size: 40px;
-    
-    
+    margin-top: 25%;
+  
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+   
 }
 
 
-/*
 #slide2
 {
     
@@ -73,22 +71,23 @@ main {
    
     
 }
-*/
 
-#slide1>p{
-    
-    margin-top: 7%;
-    font-size: 30px;
-    
-}
-#slide1>h2{
+#slide2>p{
     
     margin-top: 5%;
-    font-size: 36px;
+    margin-left: 20%;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
     
 }
-
-
+#slide2>h2{
+    
+    margin-top: 7%;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
 
 
 #slide3
@@ -98,18 +97,25 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 700px;
+    min-height: 1000px;
     background-attachment: fixed;
    
+    
+}
+
+#slide3>span{
+    
+    font-family: 
+    
     
 }
 
 
 #slide3>h2{
     
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 36px;
-    
+    font-family: 'Open Sans', sans-serif;
     
     
 }
