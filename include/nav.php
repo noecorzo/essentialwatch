@@ -36,8 +36,10 @@
         <button id="buttonLogIn"><i class="fa fa-user fa-2x" aria-hidden="true"></i></button>
 
         <div>
-            <a href="user.php">Sing In</a>
-            <a href="">Close</a>
+            <div><a href="user.php">Create Account</a></div><br>
+            <p><a href="">Log In</a></p>
+            <p><a href="">My overview</a></p>
+            <p><a href="">My order</a></p>
 
         </div>
 

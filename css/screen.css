@@ -1,20 +1,17 @@
 @font-face {
-  src: url(./Typo/Relancer-Regular.otf);
-  font-family: relancer;
-}
+  src: url(./Fonts/regular.otf);
+  font-family: relancer; }
 /**********typo************/
 /*    font-family: 'Montserrat', sans-serif;*/
 /*    font-family: 'Open Sans', sans-serif;*/
 *, *:before, *:after {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 body {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-}
+  font-family: 'Open Sans', sans-serif; }
 
 article {
   top: 0;
@@ -28,22 +25,18 @@ article {
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-  color: #fff;
-}
+  color: #fff; }
 
 h1 {
   color: #e3ac23;
   font-family: relancer;
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 h2 {
-  color: #e3ac23;
-}
+  color: #e3ac23; }
 
 article > div {
-  padding-top: 40vh;
-}
+  padding-top: 40vh; }
 
 #divText {
   width: 80%;
@@ -53,22 +46,18 @@ article > div {
   margin-left: auto;
   margin-right: auto;
   padding-top: 400px;
-  position: relative;
-}
+  position: relative; }
 
 #divText > p {
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 strong {
-  color: #e3ac23;
-}
+  color: #e3ac23; }
 
 .buttonKnowMore {
   background-color: none;
   width: 200px;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .knowMore {
   width: 100%;
@@ -79,26 +68,22 @@ strong {
   top: 600px;
   left: 0;
   margin-top: 0;
-  display: none;
-}
+  display: none; }
 
 .knowMore > p {
   width: 600px;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 .visible {
-  display: block;
-}
+  display: block; }
 
 /* Parallax windows*/
 .paralaxtext {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 100px;
-  color: black;
-}
+  color: black; }
 
 .paralax1 {
   height: 900px;
@@ -110,8 +95,7 @@ strong {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  text-align: center;
-}
+  text-align: center; }
 
 .paralax2 {
   height: 900px;
@@ -123,8 +107,7 @@ strong {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  text-align: center;
-}
+  text-align: center; }
 
 .paralax3 {
   height: 900px;
@@ -136,7 +119,6 @@ strong {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  text-align: center;
-}
+  text-align: center; }
 
 /*# sourceMappingURL=screen.css.map */

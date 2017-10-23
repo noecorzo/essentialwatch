@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 

@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../Typo/Relancer-Regular.otf);
+    src: url(../Fonts/regular.otf);
     font-family: relancer;
 }
 
@@ -44,6 +44,7 @@ header > div > nav > ul {
     margin-top: 0;
     margin-bottom: 0;
     font-family: relancer;
+    letter-spacing: 0.15em;
 }
 
 header > div > nav > ul > li {
@@ -108,17 +109,42 @@ nav > ul > li:hover > .sub-menu {
 
 header > div > div {
     display: none;
-    background-color: rgb(227, 172, 35);
-    border-radius: 5px;
-    z-index: 9999999999;
+    width: 170px;
+    border: 3px solid #e3ac23;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 90px;
+    right: 3.5%;
+    z-index: 9999;
+    border-radius: 10px;
+    text-align: right;
 }
 
-header > div > div > a:link {
+header > div > div > div {
+    background-color: #e3ac23;
+    padding: 5px;
+    text-align: center;
+}
+
+header > div > div > div > a:hover {
     color: black;
 }
 
-header > div > div > a:visited {
+header > div > div > p {
+    padding: 3px;
+}
+
+header > div > div > p > a:link {
     color: black;
+}
+
+header > div > div > p > a:visited {
+    color: black;
+}
+
+header > div > div > p > a:hover {
+    color: #e3ac23;
 }
 
 /***********LINKS*************/
