@@ -72,7 +72,7 @@ else {
     
     <main>
    
-   <form name="Login" method="post" id="formulaire" action="user.php">
+   <form name="Login" method="post" id="formulaire" action="index.php">
           <input type="text" name="fname" placeholder="First Name">
           <input type="text" name="lname" placeholder="Last Name">
           <input type="text" name="telephone" placeholder="Phone Number">
@@ -82,7 +82,7 @@ else {
 <!--          <input type="text" name="enterprise" placeholder="Enterprise">-->
           
           <select id="selectEnterprise" name="enterprise">
-              <option selected>Enterprise</option>
+              <option selected >Enterprise</option>
               
               
           </select>

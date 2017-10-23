@@ -4,7 +4,9 @@
 /**********typo************/
 /*    font-family: 'Montserrat', sans-serif;*/
 /*    font-family: 'Open Sans', sans-serif;*/
-*, *:before, *:after {
+*,
+::after,
+::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0; }

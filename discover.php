@@ -29,7 +29,9 @@
     </section>
      
    <main>
-      <h1>Let <strong>Essential Watch</strong><br> Change Your Life</h1>
+
+      <h1>How Can <span>Essential Watch</span><br> Change Your Life?</h1>
+
        <div>
            <p><strong>Essential Watch </strong>is more than a smart watch.</p> 
            

@@ -9,9 +9,12 @@ $goldenColor: #e3ac23;
 /*    font-family: 'Montserrat', sans-serif;*/
 /*    font-family: 'Open Sans', sans-serif;*/
 
-*, *:before, *:after {
+*,
+::after,
+::before {
     box-sizing: border-box;
     padding: 0;
+    padding-top: 0px;
     margin: 0;
 }
 
@@ -40,6 +43,7 @@ h1 {
     color: $goldenColor;
     font-family: relancer;
     margin-top: 0;
+
 }
 
 h2 {
@@ -173,3 +177,5 @@ strong {
     background-size: cover;
     text-align: center;
 }
+
+

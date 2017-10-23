@@ -26,7 +26,7 @@
     require_once './include/nav.php';
     ?>
 
-        <main>
+        <main id="topPage">
             <article data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;">
 
                 <div data-top=" opacity:1; transform[swing]:scale(1) " data-top-bottom=" opacity:0; " data-anchor-target="article">
@@ -53,6 +53,9 @@
                 <div class="mouse animated fadeInUp" data-top=" opacity:1;  " data-top-bottom=" opacity:0; " data-anchor-target="article"></div>
                 <div class="scroll">
                 </div>
+                
+                
+                
             </article>
 
             <!--       <div class="container">-->
@@ -72,6 +75,7 @@
                     </div>
                 </div>
             </section>
+            
 
 
             <!--
@@ -90,6 +94,7 @@
                     </div>
                 </div>
             </section>
+
 
             <!--
         <div class="container">
@@ -115,7 +120,7 @@
                     </div>
                 </div>
             </section>
-
+       
         </main>
 
         <?php

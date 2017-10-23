@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    
+    <script src="./jQuery/jquery-3.2.1.slim.js"></script>
+    <script src="./js/nav/script.js"></script>
 </head>
 <body>
 <?php
