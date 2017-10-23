@@ -118,6 +118,7 @@ header > div > div {
     z-index: 9999;
     border-radius: 10px;
     text-align: right;
+    display: none;
 }
 
 header > div > div > div {
