@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../Typo/Relancer-Regular.otf);
+    src: url(../fonts/relancer.otf);
     font-family: relancer;
 }
 
@@ -12,12 +12,13 @@
     margin: 0;
 }
 
-body{
+body {
     width: 100%;
     background-color: white;
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-family: relancer;
     font-size: 35px;
     margin-bottom: 2em;
@@ -25,8 +26,9 @@ h1{
     width: 100%;
     text-align: center;
 }
-#formcontact{
-    display:flex;
+
+#formcontact {
+    display: flex;
     flex-flow: column;
     background-color: black;
     width: 60%;
@@ -35,17 +37,19 @@ h1{
     position: relative;
     left: 10em;
     top: -2.5em;
-    
+
 }
-form > div{
+
+form > div {
     display: flex;
     flex-flow: column;
     justify-content: space-around;
     height: 100%;
     width: 50%;
-    
+
 }
-.inputcontact{
+
+.inputcontact {
     border: solid 0.5px #e3ac23;
     border-radius: 5px;
     background-color: dimgrey;
@@ -54,9 +58,10 @@ form > div{
     height: 3.5em;
     font-family: relancer;
     padding-left: 1em;
-    
+
 }
-textarea{
+
+textarea {
     width: 20em;
     height: 50%;
     margin: 2em;
@@ -70,7 +75,8 @@ textarea{
     color: #e3ac23;
     padding: 1em;
 }
-#button{
+
+#button {
     border: solid 0.5px #e3ac23;
     background-color: black;
     font-family: relancer;

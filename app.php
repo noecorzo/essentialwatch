@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="css/app-animate.css">
 
     <!-- WOW Pluggin-->
-    <script src="js/wow.min.js"></script>
+    <script src="./js/app/wow.min.js"></script>
     <script>
         new WOW().init();
 
@@ -44,7 +44,6 @@
     <!-- Lien vers dossier jQuery et notre page JS (pour faire fonctioner le bouton LogIn - Noelia) -->
     <script src="./jQuery/jquery-3.2.1.slim.js"></script>
     <script src="./js/nav/script.js"></script>
-    <script src="./js/app/script.js"></script>
 </head>
 
 
@@ -163,7 +162,7 @@
                 <div class="block">
 
                     <!--PROGRESS-->
-<div class="media wow fadeInDown" data-wow-delay=".5s">
+                    <div class="media wow fadeInDown" data-wow-delay=".5s">
                         <img class="media-object pull-left" src="images/app/progessanim.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Visualize your progress</h4>

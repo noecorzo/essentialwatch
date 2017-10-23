@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../Typo/Relancer-Regular.otf);
+    src: url(../fonts/relancer.otf);
     font-family: relancer;
 }
 
@@ -108,7 +108,7 @@ nav > ul > li:hover > .sub-menu {
 
 header > div > div {
     width: 160px;
-/*    height: 100px;*/
+    /*    height: 100px;*/
     text-align: left;
     position: absolute;
     padding: 10px;
@@ -119,12 +119,12 @@ header > div > div {
     border-radius: 5px;
     z-index: 9999999999;
     background-color: white;
-    
+
 }
 
 header > div > div > div {
     background-color: rgb(227, 172, 35);
-    padding: 5px;   
+    padding: 5px;
 }
 
 header > div > div > p > a {
