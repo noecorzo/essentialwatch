@@ -30,23 +30,27 @@
 
             <div id ="slide1">
                 
-                <h1>Self-care is not an option, it is an essential.
+                <h1>
+                <span>Self-care</span> is not an option, it is an<span> essential
+                </span>
                 </h1>
                 
-                 <h2>Oil essential for self-care</h2>
                 
+
+<!--
                 <p>
 
                     L'huile essentielle, extrait le plus puissant et évolué du règne végétal.<br> La composition en molécules actives est à la fois très riche et complexe,<br> ce qui va déterminer les multiples propriétés et activités de celle-ci sur l'organisme.
 
                 </p>
+-->
 
                 
             </div>
 
-<!--
+
             <div id="slide2">
-                <h2>Oil essential for self-care</h2>
+                <h2>Oil <span>essential</span> for <span>self-care</span></h2>
                  <p>
 
                     L'huile essentielle, extrait le plus puissant et évolué du règne végétal.<br> La composition en molécules actives est à la fois très riche et complexe,<br> ce qui va déterminer les multiples propriétés et activités de celle-ci sur l'organisme.
@@ -54,9 +58,8 @@
                 </p>
                 
             </div>
--->
             <div id="slide3">
-                <h2>The power of nature and high technology, captured in Essential Watch.
+                <h2>The power of nature and high technology, captured in <span>Essential Watch.</span>
                 </h2>
                 
                
