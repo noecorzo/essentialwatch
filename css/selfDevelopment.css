@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../Typo/Relancer-Regular.otf);
+    src: url(../fonts/relancer.otf);
     font-family: relancer;
 }
 
@@ -28,17 +28,19 @@
 */
 
 /********************TABLE*********************/
+
 table {
-    width:100%
+    width: 100%
 }
 
-table, td {
-  border-collapse: collapse;
-    /*    border: 1px solid black;*/   
+table,
+td {
+    border-collapse: collapse;
+    /*    border: 1px solid black;*/
 }
 
 td {
-    text-align: center;  
+    text-align: center;
     width: 50%;
     /*    padding: 5px;*/
 }
@@ -47,63 +49,71 @@ td {
 
 /******************TR1********************/
 
-tr:nth-child(1){ 
+tr:nth-child(1) {
     background-image: url(../images/selfDevelopment/coupDeMain.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;   
+    height: 700px;
 }
 
 /*SELECTIONNE LE H1 DU TR1*/
-tr:nth-child(1), h1{
+
+tr:nth-child(1),
+h1 {
     font-size: 70px;
     color: white;
 }
 
 /******************TR2********************/
+
 /*SELECTIONNE LE TD2 DU TR2*/
 
-tr:nth-child(2) > td:nth-child(2){
+tr:nth-child(2) > td:nth-child(2) {
     background-image: url(../images/selfDevelopment/montre.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;  
+    height: 400px;
 }
 
 /******************TR3********************/
 
 /*SELECTIONNE LE H2 DU TR1*/
-tr:nth-child(3), h2{
+
+tr:nth-child(3),
+h2 {
     font-size: 40px;
     background-color: black;
     height: 100px;
-    color: white;   
-/*    text-transform: uppercase; */
+    color: white;
+    /*    text-transform: uppercase; */
 }
 
 /*SELECTIONNE LE TD DU TR1*/
-tr:nth-child(3) > td{
-    padding:25px ;  
+
+tr:nth-child(3) > td {
+    padding: 25px;
 }
 
 /******************TR4********************/
 
 /*SELECTIONNE LE TD1 DU TR4*/
-tr:nth-child(4) > td:nth-child(1){
+
+tr:nth-child(4) > td:nth-child(1) {
     background-image: url(../images/selfDevelopment/professionally.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;   
+    height: 400px;
 }
 
 /******************TR5********************/
+
 /*SELECTIONNE LE TD2 DU TR5*/
 
-tr:nth-child(5) > td:nth-child(2){
+tr:nth-child(5) > td:nth-child(2) {
     background-image: url(../images/selfDevelopment/personally.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 450px;    
+    height: 450px;
 }
 
 /********************/

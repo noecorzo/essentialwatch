@@ -1,7 +1,6 @@
 @font-face {
-    src: url(../Fonts/regular.otf);
-    font-family: relancer;
-}
+    src: url(../fonts/relancer.otf);
+  font-family: relancer;
 
 /***********FOOTER***************/
 
@@ -9,10 +8,11 @@ footer {
     background-color: black;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
-/*    border-bottom: solid 3px #e3ac23;*/
+    /*    border-bottom: solid 3px #e3ac23;*/
 }
 
 /**********DIV CONTAINER (logo + 3 divs)***********/
+
 footer > div {
     width: 95%;
     margin-left: auto;
@@ -20,24 +20,25 @@ footer > div {
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
-    color: white; 
+    color: white;
     padding-bottom: 15px;
-/*    font-family: 'Montserrat', sans-serif;*/
-    
+    /*    font-family: 'Montserrat', sans-serif;*/
 }
 
 /*********LOGO FOOTER***********/
+
 footer > div > a > img {
     height: 50px;
     padding-top: 0;
 }
 
 /********* 3 DIVS enfants avec contenu************/
+
 footer > div > div {
     width: 200px;
     border-top: solid 3px #e3ac23;
     padding-left: auto;
-    padding-right: auto; 
+    padding-right: auto;
     padding-top: 4px;
 }
 
@@ -47,12 +48,14 @@ footer > div > div > p {
 }
 
 /************DIV enfant 3************/
-footer > div > div:nth-of-type(3) > p:nth-of-type(1){
+
+footer > div > div:nth-of-type(3) > p:nth-of-type(1) {
     text-transform: uppercase;
 }
 
 /************DIV enfant 4************/
-footer > div > div:nth-of-type(4){
+
+footer > div > div:nth-of-type(4) {
     padding-top: 15px;
     display: flex;
     justify-content: space-around;
@@ -63,6 +66,7 @@ footer > div > div:nth-of-type(4) > i:hover {
 }
 
 /************P copyright************/
+
 footer > p {
     width: 100%;
     background-color: #131313;
@@ -74,11 +78,13 @@ footer > p {
 }
 
 /*************SPAN info tlf et email***********/
+
 footer > div > div > p > span {
     color: #e3ac23;
 }
 
 /***********LINKS*************/
+
 a {
     text-decoration: none;
 }
@@ -94,4 +100,3 @@ a:visited {
 a:hover {
     color: #e3ac23;
 }
-
