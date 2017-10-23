@@ -36,11 +36,10 @@
         <button id="buttonLogIn"><i class="fa fa-user fa-2x" aria-hidden="true"></i></button>
         
         <div>
-            <div><a href="user.php">Create Account</a></div>
-            <br>
+            <div><a href="user.php">Create Account</a></div><br>
             <p><a href="">Log In</a></p>
             <p><a href="">My Overview</a></p>
-            <p><a href="">My Orders</a></p>
+            <p><a href="">My Order</a></p>
 
 
         </div>

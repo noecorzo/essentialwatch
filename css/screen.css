@@ -1,5 +1,5 @@
 @font-face {
-  src: url(./Typo/Relancer-Regular.otf);
+  src: url(./Fonts/regular.otf);
   font-family: relancer; }
 /**********typo************/
 /*    font-family: 'Montserrat', sans-serif;*/
@@ -9,7 +9,6 @@
 ::before {
   box-sizing: border-box;
   padding: 0;
-  padding-top: 0px;
   margin: 0; }
 
 body {
