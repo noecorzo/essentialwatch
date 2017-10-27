@@ -26,7 +26,7 @@
         }
     }
     
-    xhr.open('GET', 'traitementBD_enterprises.php');
+//    xhr.open('GET', 'traitementBD_enterprises.php');
     xhr.send(null);
     
 //});

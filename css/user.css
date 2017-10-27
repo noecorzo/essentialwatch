@@ -70,3 +70,14 @@ form > button {
 form > button:hover {
     color: white;
 }
+
+/*********DIV newUser.php******/
+form {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #e3ac23;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;    
+}
