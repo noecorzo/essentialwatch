@@ -29,20 +29,60 @@
     </section>
      
    <main>
-
-      <h1>How Can <span>Essential Watch</span><br> Change Your Life?</h1>
-
-       <div>
-           <p><strong>Essential Watch </strong>is more than a smart watch.</p> 
+<!--      <h1>Let <strong>Essential Watch</strong><br> Change Your Life</h1>-->
+       
+           
            
 <!--
-           <p>Do you want to <strong>succed in your personal and professional life?</strong></p>
+           <p>Do you want to <strong>succed in your personal and professional life?</strong></p> Essential Watch, more than a smart watch
            
            <p>Let's try our three synergies of <strong>essential oils.</strong></p>
 -->
+<!--
            <p>Through-out a combination of essential oils,
             it will help you to <strong>succed in your personal and professional life.</strong><p/>
+-->
+      
+       
+      
+      
+      
+       
+       <section>
+        <h1>Top 10 in personal and professional coaching.</h1>
+       <div>
+          <div>
+              <i class="fa fa-tint fa-4x" aria-hidden="true"></i>
+              <p>Three synergies of essential oils to achieve the best of yourself.
+          </div>
+           <div>
+               <i class="fa fa-line-chart fa-4x" aria-hidden="true"></i>
+               <p>Reach the highest performance rates at work</p>
+           </div>
+           <div>
+               <i class="fa fa-heartbeat fa-4x" aria-hidden="true"></i>
+               <p>Control your stress and your emotions</p>
+           </div>
+           <div>
+               <i class="fa fa-sun-o fa-4x" aria-hidden="true"></i>
+               <p>Manage your energy all day long</p>
+           </div>
+           <div>
+               <i class="fa fa-frown-o fa-4x" aria-hidden="true"></i>
+               <p>Take care of yourself when you are not feeling good</p>
+           </div>
        </div>
+       </section>
+       
+       <section>
+           <div>
+               
+           </div>
+           <div>
+               
+           </div>
+       </section>
+<!--
         <div>
             <span>
                <div></div>
@@ -50,13 +90,19 @@
                 
             </span>
             <section>
+               
                 
             </section>
         </div>
+-->
          
 
        
    </main>
+   
+   
+   
+   
    
    <?php
     require_once './include/footer.php';
