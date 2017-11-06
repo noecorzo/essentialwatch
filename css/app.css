@@ -58,11 +58,10 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid 2px violet;
 }
 
 #service .block {
-    border: solid 2px purple;
+
     width: 25em;
 }
 
@@ -255,6 +254,18 @@ height: auto;*/
 #feature .block .media > .pull-left {
     padding-right: 20px;
     width: 4em;
+}
+
+.featureTools {
+    border: solid 2px red;
+    display: flex;
+    padding: 1em;
+}
+
+.featureTools .block {
+    border: solid 2px green;
+    width: 100%;
+    padding: 1em;
 }
 
 footer {}
