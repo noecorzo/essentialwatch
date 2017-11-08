@@ -27,7 +27,7 @@
 
         <section id="mesSlides">
 
-            <div id ="slide1">
+            <div id="slide1">
                 
                 <h1>
                 <span>Self-care</span> is not an option, <br>it is <span>essential
