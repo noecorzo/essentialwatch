@@ -12,108 +12,210 @@
     margin: 0;
 }
 
-* {
-    font-family: 'Open Sans', sans-serif;
-}
-
-/*******SUBMENU SELF DEVELOPMENT********/
-
-/*
-#submenuSelfDevelopment {
-    display: flex;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;  
-}
-*/
-
-/********************TABLE*********************/
-
-table {
-    width: 100%
-}
-
-table,
-td {
-    border-collapse: collapse;
-    /*    border: 1px solid black;*/
-}
-
-td {
-    text-align: center;
-    width: 50%;
-    /*    padding: 5px;*/
+span{
+    
+    color: #e3ac23;
+    
+    
 }
 
 
 
-/******************TR1********************/
+/******************DIVimgParallax ********************/
 
-tr:nth-child(1) {
-    background-image: url(../images/selfDevelopment/coupDeMain.jpg);
+#imgParallax {
+    background-image: url(../images/selfDevelopment/coach.jpg);
+/*    background-image: url(../images/selfDevelopment/coach5.jpg);*/
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    min-height: 1000px;
+/*    border: solid 2px red;*/
+    
 }
 
-/*SELECTIONNE LE H1 DU TR1*/
 
-tr:nth-child(1),
+
+#imgParallax
 h1 {
-    font-size: 70px;
-    color: white;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    padding-top: 15%;
+    padding-right: 30%;
+    text-align:center;
+    font-size: 56px;
 }
 
-/******************TR2********************/
-
-/*SELECTIONNE LE TD2 DU TR2*/
-
-tr:nth-child(2) > td:nth-child(2) {
-    background-image: url(../images/selfDevelopment/montre.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
+#imgParallax
+span{
+    
+        font-size: 36px;
+        font-family: relancer;
+    
 }
 
-/******************TR3********************/
+/******************DIV EWithYou********************/
 
-/*SELECTIONNE LE H2 DU TR1*/
-
-tr:nth-child(3),
-h2 {
-    font-size: 40px;
-    background-color: black;
+#EWithYou{
     height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
-    /*    text-transform: uppercase; */
+    background-color:black;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    
+   
 }
 
-/*SELECTIONNE LE TD DU TR1*/
 
-tr:nth-child(3) > td {
-    padding: 25px;
+#EWithYou h2{
+    
+     font-size: 34px;
+     text-transform: uppercase;
+    
+    
+    
 }
 
-/******************TR4********************/
+#EWithYou span{
+    
+     font-size: 30px;
+     font-family: relancer;
+    
+    
+}
 
-/*SELECTIONNE LE TD1 DU TR4*/
 
-tr:nth-child(4) > td:nth-child(1) {
-    background-image: url(../images/selfDevelopment/professionally.jpg);
+/******************DIVbackground ********************/
+
+.backgroundOrange{
+    
+    background-image: url(../images/selfDevelopment/montre3.png);
+    background-repeat: no-repeat;
+/*    background-size: cover;*/
+    height: auto;
+    text-align: center;
+/*   border: 1px solid black;*/
+/*    margin-top: 40px;*/
+    margin-bottom: 40px;
+    
+    height: 470px; 
+background-color: #e3ac23;
+/* opacity: 0.5;*/
+}
+
+
+.backgroundOrange p {
+  margin-left: 25%;
+    padding-top: 15%;
+  font-weight: bold;
+  color:  black;
+  font-family: 'Open Sans', sans-serif; 
+    font-size: 26px;
+/*      border: 1px solid black;*/
+    
+}
+
+
+.backgroundOrange a{
+    display:inline-block;
+     background-color: black; 
+     padding: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+
+
+
+
+/******************DIVcontainer********************/
+#container{
+    
+display: flex;
+   flex-wrap: wrap;
+  
+    
+}
+
+#container div{
+    
+    
+/*   border:2px solid red; */
+   width: 50%;
+   height: 500px;
+    
+}
+
+#container div:nth-child(1){
+    
+     background-image: url(../images/selfDevelopment/professionally.png);
+  
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+/*    border:2px solid red;*/
 }
 
-/******************TR5********************/
-
-/*SELECTIONNE LE TD2 DU TR5*/
-
-tr:nth-child(5) > td:nth-child(2) {
-    background-image: url(../images/selfDevelopment/personally.jpg);
+#container div:nth-child(4){
+    
+     background-image: url(../images/selfDevelopment/personally.jpg);
+  
     background-size: cover;
     background-repeat: no-repeat;
-    height: 450px;
+/*    border:2px solid red;*/
 }
 
-/********************/
+
+#container h2{
+    
+    margin-top: 20%;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #e3ac23;
+    margin-left: 30%;
+    
+}
+
+
+#container .personally h2{
+    
+    margin-left: 36%;
+    
+    
+}
+
+
+#container p{
+    
+    text-align: center;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+/*      border:10px solid blue; */
+    
+}
+
+
+
+
+#container a{
+    display: inline-block;
+    background-color: black; 
+    padding: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left: 45%;
+   
+}
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../Typo/Relancer-Regular.otf);
+    src: url(../fonts/relancer.otf);
     font-family: relancer;
 }
 
@@ -17,6 +17,13 @@
 
 main {
     height: auto;
+}
+
+body{
+    
+     font-family: 'Open Sans', sans-serif;
+    
+    
 }
 
 
@@ -37,64 +44,47 @@ span{
   
 }
 
+/****************SLIDE1***************************/
+
 
 #slide1{
     
-    background-image: url("../images/selfCare/goutte1.png");
+    background-image: url("../images/selfCare/Splash3.jpg");
     background-repeat: no-repeat;
-/*    background-position: center;*/
+    background-position: center;
     background-size: cover;
-    min-height: 700px;
+    min-height: 1000px;
     background-attachment: fixed;
 /*    border:10px solid red;*/
   
 }
 
-#slide1>h1{
-    
-    margin-top: 25%;
-  
-    font-size: 46px;
+#slide1 h1{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 45%;
+    font-size: 50px;
     font-family: 'Open Sans', sans-serif;
+    line-height: 130%;
    
 }
 
 
+
+
+#slide1 span{
+    
+    font-size: 50px;
+   
+}
+
+
+
+/****************SLIDE2***************************/
 #slide2
 {
     
-    background-image: url("../images/selfCare/goutte2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 500px;
-    background-attachment: fixed;
-   
-    
-}
-
-#slide2>p{
-    
-    margin-top: 5%;
-    margin-left: 20%;
-    font-size: 28px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    
-}
-#slide2>h2{
-    
-    margin-top: 7%;
-    font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-
-
-#slide3
-{
-   
-    background-image: url("../images/selfCare/montre2.png");
+    background-image: url("../images/selfCare/splash2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,87 +94,220 @@ span{
     
 }
 
-#slide3>span{
+#slide2>h2{
     
-    font-family: 
-    
-    
-}
-
-
-#slide3>h2{
-    
-    margin-top: 10%;
-    font-size: 36px;
+    margin-top: 20%;
+    margin-right: 50%;
+    font-size: 50px;
     font-family: 'Open Sans', sans-serif;
     
-    
 }
 
-
-
-
-/********************SECTION2:feel*******************/
-
-#feel{
+#slide2>p{
     
-    height: 100px;
-    padding: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    
-    
-    
-}
-
-/********************SECTION3:container*******************/
-
-#container{
-    
-    display: flex;
-/*    justify-content: space-between;*/
-    flex-wrap: wrap;
-/*    border: 2px solid green;*/
+    margin-top: 2%;
+    margin-left: 5%;
     font-size: 26px;
-    
-}
-
-#container>div{
-    
-    width: 50%;
-/*    border: 2px solid red;*/
-  padding: 70px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 500px;
+    line-height: 130%;
 }
 
 
-
-#container div:nth-child(1){
-    
-    background-image: url("../images/selfCare/stress.jpg");
+/****************SLIDE3***************************/
+#slide3
+{
+   
+    background-image: url("../images/selfCare/montreSplash.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    height: 400px;
-    
-}
-
-
-
-#container div:nth-child(4){
-    
-    background-image: url("../images/selfCare/D%C3%A9motiv%C3%A9.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+    min-height: 1200px;
+    background-attachment: fixed;
    
     
 }
-#container div:nth-child(5){
+
+
+#slide3 h2{
     
-    background-image: url("../images/selfCare/febrile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+    margin-top: 15%;
+    margin-right: 50%;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    
+    
     
 }
+
+#slide3 span{
+    
+    font-family: relancer;
+    font-size: 43px;
+     
+}
+
+
+
+
+/********************DIVlogos*******************/
+
+
+#logos{
+  background-color: #e3ac23;
+    text-align: center;
+/*    border: 5px solid red;*/
+
+}
+
+.snip1584 * {
+ 
+  box-sizing: border-box;
+  transition: all 0.25s ease;
+}
+
+
+
+
+/*Pointe figure*/
+.snip1584 {
+ 
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 8px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align:center;
+/*   border: 5px solid green; */
+    
+}
+
+
+/*Pointe figcaption*/
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  transition: all 0.25s ease;
+  transition-delay: 0.25s;
+/*  border: 5px solid red;*/
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+  
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h2,
+.snip1584 h3 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h2 {
+  
+  transform: translateY(-100%);
+/*  text-transform: uppercase;*/
+  font-family: relancer; 
+  font-weight: 400;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h3 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  transform: translateY(-100%);
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before
+{
+  top: 10px;
+  transition-delay: 0s;
+}
+.snip1584:hover h2,
+
+.snip1584:hover h3
+ {
+ 
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h2
+ {
+ 
+  transition-delay: 0.2s;
+}
+.snip1584:hover h3
+ {
+ 
+  transition-delay: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

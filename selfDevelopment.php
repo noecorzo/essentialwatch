@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="./css/selfDevelopment.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
-    
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-    
-    <script src="./jQuery/jquery-3.2.1.slim.js"></script>
+    <script src="./jQuery/jquery-3.2.1.min.js"></script>
     <script src="./js/nav/script.js"></script>
+    
     
      
 </head>
@@ -25,26 +24,67 @@
 
       
     <main>
-        <table >
-            <tr>
-                <td colspan="3"><h1>Essential Watch,<br> Your Personal Life Coach</h1></td>
-            </tr>
-            <tr>
-                <td colspan ="2">About E.W</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="3"><h2>How Can Essential Watch Help You?</h2></td>
-            </tr>
-            <tr>
-                <td colspan ="2"></td>
-                <td>Professionally</td>
-            </tr>
-            <tr>
-                <td colspan ="2">Personally</td>
-                <td></td>
-            </tr>
-        </table>
+        
+        
+        <div id ="imgParallax">
+        
+        
+            <h1><span>Essential Watch</span><br> Your Personal Life Coach</h1>
+        
+        </div>
+        
+         <div id ="EWithYou">
+            
+             <h2><span>essential watch</span> with you</h2>
+            
+        </div> 
+        
+        <div class="backgroundOrange">
+            
+                <p>This is some text that is placed in the transparent box.</p>
+                <a href ="">more info</a>
+           
+        </div>
+        
+
+        
+        
+    <div id="container">
+        
+        <div>
+            <!--img-->
+            
+        </div>
+        
+        <div class="professionally">
+                <h2>professionally</h2>
+                <p>  
+               Oportunum est, ut arbitror, explanare nunc causam, quae ad exitium
+                </p>
+                
+                <a href ="">more info</a>
+                
+        </div>  
+            
+        <div class="personally">
+                <h2>personally</h2>
+                <p>  
+               Oportunum est, ut arbitror, explanare nunc causam, quae ad exitium
+                </p>
+                <a href ="">more info</a>
+                
+        </div> 
+        
+        <div>
+            
+             <!--img-->
+        </div>
+        
+        
+        
+    </div>
+        
+      
     </main>
     
     <?php
