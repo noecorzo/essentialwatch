@@ -72,7 +72,7 @@ if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email']
     <link rel="stylesheet" href="./css/newUser.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     
-    <script src="./jQuery/jquery-3.2.1.slim.js"></script>
+    <script src="./jQuery/jquery-3.2.1.min.js"></script>
     <script src="./js/nav/script.js"></script>
 
 </head>

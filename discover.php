@@ -18,7 +18,7 @@
 <!-- police-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 <!--jQuery  -->
-    <script src="./jQuery/jquery-3.2.1.slim.js"></script>
+    <script src="./jQuery/jquery-3.2.1.min.js"></script>
     
 <!--    bxSlider-->
    <script src="./js/discover/bxslider/dist/jquery.bxslider.min.js"></script>
