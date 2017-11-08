@@ -1,0 +1,73 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 0px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    background-image: url(../images/user/contact2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    padding-top: 150px;
+/*    padding-bottom: 100px;*/  
+}
+
+main > form {
+    width: 600px;
+    height: 370px;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #e3ac23;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+form > input {
+    width: 200px;
+    height: 30px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+/*    padding: 10px;*/
+    border-radius: 3px;
+}
+
+form > select {
+    width: 203px;
+    height: 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: grey;
+}
+
+form > button {
+    width: 400px;
+    height: 40px;
+    background-color: #e3ac23;
+    border: 2px solid #e3ac23;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+/*    margin-left: 150px;*/
+/*    margin-top: 50px;*/
+    
+}
+
+form > button:hover {
+    color: white;
+}

@@ -6,7 +6,7 @@
                 <li><a href="index.php">Discover</a>
                     <ul class="sub-menu">
                         <li><a href="discover.php">Essential Watch</a></li>
-                        <li><a>Our Technology</a></li>
+                        <li><a href='#ourTechnology'>Our Technology</a></li>
                         <li><a>Scientific References</a></li>
                         <li><a>Gallery</a></li>
                     </ul>
@@ -37,7 +37,7 @@
         
         <div>
             <div><a href="user.php">Create Account</a></div><br>
-            <p><a href="">Log In</a></p>
+            <p><a href="logIn.php">Log In</a></p>
             <p><a href="">My Overview</a></p>
             <p><a href="">My Order</a></p>
 

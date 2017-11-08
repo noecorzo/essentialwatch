@@ -12,61 +12,16 @@ catch (PDOException $e) {
     die ('Problème technique'); //Prévenir l'utilisateur du problème
 }
 
-
 // Liste des enterprises
 $sql_enterprises = $pdo->query('SELECT idEnterprise, nomEnterprise FROM t_enterprise');
 $sql_enterprises->setFetchMode(PDO::FETCH_ASSOC);  
 $data_enterprises = $sql_enterprises->fetchAll(); 
-
 
 // Liste des enterprises pour la validation
 $enterprises_id_list = [];
 
 foreach ($data_enterprises as $enterprise) {
     $enterprises_id_list[] = $enterprise['idEnterprise'];
-}
-
-
-
-
-
-if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email'], $_POST['password'], $_POST['enterprise'])){
-
-    
-    if(is_string($_POST['fname']) && $_POST['lname'] != '' && $_POST['telephone'] != '' && $_POST['email'] != '' && $_POST['password'] != '' && in_array($_POST['enterprise'], $enterprises_id_list)){
-    
-        $statement = $pdo->prepare('INSERT INTO t_users 
-                                    (idUser, firstName, lastName, telephone, email, password, idEnterprise) 
-                                    VALUES 
-                                    (NULL, :fn, :ln, :tel, :em, :pass, :ent)');
-
-
-        $statement->bindValue(':fn', $_POST['fname'], PDO::PARAM_STR);
-        $statement->bindValue(':ln', $_POST['lname'], PDO::PARAM_STR);
-        $statement->bindValue(':tel', $_POST['telephone'], PDO::PARAM_STR);
-        $statement->bindValue(':em', $_POST['email'], PDO::PARAM_STR);
-        $statement->bindValue(':pass', $_POST['password'], PDO::PARAM_STR);
-        $statement->bindValue(':ent', $_POST['enterprise'], PDO::PARAM_STR);
-
-        $statement->execute();
-
-        if($statement->errorInfo()[0]==="00000"){
-            $msg = 'Nouveau perso inséré dans la DB...';
-        }
-
-        else {
-            $msg = 'Erreur technique';
-        }
-    }
-    else{
-        $msg = 'Veuillez bien remplir le formulaire';
-    }
-}
-    
-    
-
-else {
-    $msg = 'On n\'a rien reçu du formulaire';   
 }
 
 ?>
@@ -94,48 +49,30 @@ else {
     ?>
     
     <main>
-   
-   <form name="Login" method="post" id="formulaire" action="newUser.php">
-         
+       <form name="Login" method="post" id="formulaire" action="newUser.php">
           <input type="text" name="fname" placeholder="First Name">
           <input type="text" name="lname" placeholder="Last Name">
           <input type="text" name="telephone" placeholder="Phone Number">
           <input type="email" name="email" placeholder="Email">
-          <input type="password" name="password" placeholder="Password">
-          
-<!--          <input type="text" name="enterprise" placeholder="Enterprise">-->
-          
+          <input type="password" name="password" placeholder="Password">          
           <select id="selectEnterprise" name="enterprise">
               <option selected >Enterprise</option>
-              <?php
-                    /*for ($i = 0; $i < count($data_enterprises); $i++){
-                        echo '<option value="' . $data_enterprises[$i]["idEnterprise"] . '">' .  $data_enterprises[$i]['nomEnterprise'] . '</option>';
-                    };      */             
-                    foreach ($data_enterprises as $row){
-                        echo '<option value="' . $row["idEnterprise"] . '">' .  $row['nomEnterprise'] . '</option>';
-                    };
+              <?php             
+                foreach ($data_enterprises as $row){
+                    echo '<option value="' . $row["idEnterprise"] . '">' .  $row['nomEnterprise'] . '</option>';
+                };
             ?>
           </select>
-          
+
+            <button>Get Started</button>
+
+        </form>
+        
 <!--
-          <p>Are you the purchasing manager? <input type="radio" name="pruchasingManager" value="true">T
-          <input type="radio" name="pruchasingManager" value="false"></p>
+        <?php
+            echo '<p>' . $msg . '</p>';
+            ?>
 -->
-          
-          <button>Get Started</button>
-          
-
-          
-
-<!--
-          <?php
-            
-            echo $msg;
-        ?>
--->
-
-    </form>
-    
     </main>
     
     <?php
@@ -143,5 +80,4 @@ else {
     ?>
     
 </body>
-<!--<script src="afficheEnterprisesBD.js"></script>-->
 </html>

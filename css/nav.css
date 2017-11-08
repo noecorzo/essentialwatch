@@ -165,8 +165,10 @@ a:visited {
     color: black;
 }
 
-a:hover {
+ul > li > a:hover {
     color: #e3ac23;
+    border-bottom: 3px solid #e3ac23;
+    padding-bottom: 8px;
 }
 
 .sub-menu > li > a:hover {

@@ -1,6 +1,8 @@
 <footer>
  <div>
-      <a href="index.php"><img src="./images/logo/logo-FIN.png" alt="Logo Essential Watch"></a>
+     <div>
+         <a href="index.php"><img src="./images/logo/logo-FIN.png" alt="Logo Essential Watch"></a>
+     </div>
       <div>
           <p><a href="">About us</a></p>
           <p><a href="">Scientific References</a></p>
