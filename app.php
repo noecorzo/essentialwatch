@@ -67,9 +67,8 @@
                     <div class="block wow fadeInRight" data-wow-delay="1s">
 
                         <!-- App icon + link -->
-                        <a class="logo" href="#">
-                                <img id="app" src="./images/app/appIcon.png" alt="essential app">
-                            </a>
+
+                        <img id="app" src="./images/app/appIcon.png" alt="essential app">
 
                         <h2>Essential App, the only app you need</h2>
 
