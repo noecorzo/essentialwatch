@@ -4,17 +4,32 @@
     <meta charset="UTF-8">
     <title>Essential Watch Discover</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+<!--     normalize-->
      <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/discover.css">
+<!--style bxslider-->
+<link rel="stylesheet" href="./js/discover/bxslider/dist/jquery.bxslider.min.css">
+<!--style-->
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/discover.css">
+<!--font-awesome-->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+<!-- police-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-    
+<!--jQuery  -->
     <script src="./jQuery/jquery-3.2.1.slim.js"></script>
-    <script src="./js/nav/script.js"></script>
     
+<!--    bxSlider-->
+   <script src="./js/discover/bxslider/dist/jquery.bxslider.min.js"></script>
+   
+   <!--script-->
+    <script src="./js/nav/script.js"></script>
+    <script src="./js/discover/script.js"></script>
+    
+    
+    
+      
     
         
 </head>
@@ -22,82 +37,78 @@
   <?php
     require_once './include/nav.php';
     ?>
-    
+<!--    SECTION 1 - SLIDER -->
     <section>
-       
-        
+         <ul class="slider">
+             <li><img id="img1" src="./images/discover/mecanismeMontre3.jpg"></li>
+             <li><img id="img2" src="./images/discover/img1.jpg"></li>
+             <li><img id="img3" src="./images/discover/imgMontres.jpg"></li>
+         </ul>   
     </section>
      
    <main>
-<!--      <h1>Let <strong>Essential Watch</strong><br> Change Your Life</h1>-->
-       
-           
-           
-<!--
-           <p>Do you want to <strong>succed in your personal and professional life?</strong></p> Essential Watch, more than a smart watch
-           
-           <p>Let's try our three synergies of <strong>essential oils.</strong></p>
--->
-<!--
-           <p>Through-out a combination of essential oils,
-            it will help you to <strong>succed in your personal and professional life.</strong><p/>
--->
-      
-       
-      
-      
-      
-       
+<!--      SECTION 2 : titre + icons avec texte-->
        <section>
-        <h1>Top 10 in personal and professional coaching.</h1>
-       <div>
-          <div>
-              <i class="fa fa-tint fa-4x" aria-hidden="true"></i>
-              <p>Three synergies of essential oils to achieve the best of yourself.
-          </div>
+            <h1>An <strong>essential</strong> in personal and professional development</h1> <h2>Combining <strong>nature and high technology</strong></h2>
            <div>
-               <i class="fa fa-line-chart fa-4x" aria-hidden="true"></i>
-               <p>Reach the highest performance rates at work</p>
-           </div>
-           <div>
-               <i class="fa fa-heartbeat fa-4x" aria-hidden="true"></i>
-               <p>Control your stress and your emotions</p>
-           </div>
-           <div>
-               <i class="fa fa-sun-o fa-4x" aria-hidden="true"></i>
-               <p>Manage your energy all day long</p>
-           </div>
-           <div>
-               <i class="fa fa-frown-o fa-4x" aria-hidden="true"></i>
-               <p>Take care of yourself when you are not feeling good</p>
-           </div>
+               <div>
+                   <i class="fa fa-line-chart fa-4x" aria-hidden="true"></i>
+                   <p>Reach the highest performance rates at work</p>
+               </div>
+               <div>
+                   <i class="fa fa-heartbeat fa-4x" aria-hidden="true"></i>
+                   <p>Control your stress and your emotions</p>
+               </div>
+               <div>
+                   <i class="fa fa-sun-o fa-4x" aria-hidden="true"></i>
+                   <p>Manage your energy all day long</p>
+               </div>
+               <div>
+                   <i class="fa fa-frown-o fa-4x" aria-hidden="true"></i>
+                   <p>Take care of yourself when you are not feeling good</p>
+               </div>
        </div>
        </section>
        
-       <section>
-           <div>
-               
+<!--SECTION 3 : Our Technology-->
+       
+       <section id="ourTechnology">          
+           <div>   
            </div>
            <div>
-               
+                <h3>Our &nbsp; Technology</h3>
+                <i class="fa fa-tint fa-3x" aria-hidden="true"></i>
+                <p>Three reservoirs.</p>
+                <p> Three synergies of essential oils.</p>
+                <p> Plenty of small filaments to difuse their properties into your body.</p>
+                <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
            </div>
        </section>
-<!--
-        <div>
-            <span>
-               <div></div>
-               <div>3 combinations to achieve the best of yourself</div>
-                
-            </span>
-            <section>
-               
-                
-            </section>
-        </div>
--->
-         
-
        
+<!--       SECTION 4 : How to connect-->
+       
+       <section>
+           <div>
+                <h3>How &nbsp; to &nbsp; connect</h3>
+                <i class="fa fa-usb fa-3x" aria-hidden="true"></i>
+                <p>Put on your Essential Watch into your wrist.</p>
+                <p>Choose the diffusion mode better suits you: manually or automatically.</p>
+                <p>Let Essential Watch change your life.</p>
+                <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>  
+           </div>
+           <div>   
+           </div>
+       </section>
+       
+<!--       SECTION 5 : Scientific studies-->
+       
+       <h2>Based on <strong>scientific studies</strong></h2>
+       <section>
+          
+           <div>
+               
+           </div>  
+       </section>   
    </main>
    
    

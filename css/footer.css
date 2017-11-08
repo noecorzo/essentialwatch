@@ -12,6 +12,7 @@ footer {
     /*    border-bottom: solid 3px #e3ac23;*/
 }
 
+/************** VERSION DESKTOP **************/
 /**********DIV CONTAINER (logo + 3 divs)***********/
 
 footer > div {
@@ -26,17 +27,24 @@ footer > div {
     /*    font-family: 'Montserrat', sans-serif;*/
 }
 
-/*********LOGO FOOTER***********/
+/********* 5 DIVS enfants avec contenu************/
 
-footer > div > a > img {
+/*********DIV 1 : LOGO FOOTER***********/
+footer > div > div:nth-of-type(1){
+    width:auto;
+    padding-top: 0;
+    border-top: none;
+}
+
+footer > div > div > a > img {
     height: 50px;
     padding-top: 0;
 }
 
-/********* 3 DIVS enfants avec contenu************/
+/************ DIVs 2, 3, 4 et 5 ************/
 
 footer > div > div {
-    width: 200px;
+    width: 195px;
     border-top: solid 3px #e3ac23;
     padding-left: auto;
     padding-right: auto;
@@ -48,21 +56,21 @@ footer > div > div > p {
     padding-bottom: 3px;
 }
 
-/************DIV enfant 3************/
+/************DIV enfant 4************/
 
-footer > div > div:nth-of-type(3) > p:nth-of-type(1) {
+footer > div > div:nth-of-type(4) > p:nth-of-type(1) {
     text-transform: uppercase;
 }
 
-/************DIV enfant 4************/
+/************DIV enfant 5************/
 
-footer > div > div:nth-of-type(4) {
+footer > div > div:nth-of-type(5) {
     padding-top: 15px;
     display: flex;
     justify-content: space-around;
 }
 
-footer > div > div:nth-of-type(4) > i:hover {
+footer > div > div:nth-of-type(5) > i:hover {
     color: #e3ac23;
 }
 
@@ -101,3 +109,110 @@ a:visited {
 a:hover {
     color: #e3ac23;
 }
+
+/************** VERSION TABLETTE **************/
+
+@media (max-width:1024px){
+    
+        /**********DIV CONTAINER (logo + 3 divs)***********/
+
+    footer > div {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    /********* 5 DIVS enfants avec contenu************/
+    footer > div > div:nth-of-type(1){
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+    footer > div > div {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: none;
+        padding-top: 0;
+    }
+
+    footer > div > div:nth-of-type(2){
+        order: 2;
+        border-left: 1px solid #e3ac23;
+    }
+    
+    footer > div > div:nth-of-type(3){
+        order: 4;
+        border-left: 1px solid #e3ac23;
+    }
+
+    /************DIV enfant 4************/
+    
+    footer > div > div:nth-of-type(4){
+        order: 1;
+        border-right: 1px solid #e3ac23;
+    }
+
+    /************DIV enfant 5************/
+
+    footer > div > div:nth-of-type(5) {
+        justify-content: center;
+        order: 2;
+        border-right: 1px solid #e3ac23;
+    }
+    
+    footer > div > div:nth-of-type(5) > i {
+        padding: 5px;
+    }  
+}
+
+/************** VERSION MOBILE **************/
+
+@media (max-width:720px) {
+    
+        /**********DIV CONTAINER (logo + 3 divs)***********/
+
+    footer > div {
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    /********* 5 DIVS enfants avec contenu************/
+    
+    footer > div > div {
+        width: 100%; 
+    }
+
+    footer > div > div:nth-of-type(2){
+        order: 1;
+        border-left: none;
+        margin-top: 10px;
+    }
+    
+    footer > div > div:nth-of-type(3){
+        order: 2;
+        border-left: none;
+        margin-bottom: 30px;
+    }
+
+    /************DIV enfant 4************/
+    
+    footer > div > div:nth-of-type(4){
+        order: 3;
+        border-right: none;
+    }
+
+    /************DIV enfant 5************/
+
+    footer > div > div:nth-of-type(5) {
+        justify-content: center;
+        order: 4;
+        border-right: none;
+    }
+    
+    footer > div > div:nth-of-type(5) > i {
+        padding: 5px;
+    }  
+}
+
+
