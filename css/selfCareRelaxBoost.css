@@ -1,0 +1,99 @@
+@font-face {
+    src: url(../fonts/relancer.otf);
+    font-family: relancer;
+}
+
+
+/***************************************************/
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 0px;
+    margin: 0;
+}
+
+main {
+    height: auto;
+}
+span{
+    
+  color: #e3ac23;
+  
+}
+
+
+/********************SECTION3:container*******************/
+
+#container{
+    
+    display: flex;
+    flex-wrap: wrap;
+/*    border: 2px solid green;*/
+    font-size: 26px;
+    
+    
+}
+
+
+
+#container>div{
+    
+    width: 50%;
+/*    border: 2px solid red;*/
+  padding: 70px;
+   
+   
+}
+
+
+#container li{
+    
+    list-style-type: none;
+    
+}
+
+/**************DIV1******************************/
+
+#container div:nth-child(1){
+    
+    background-image: url("../images/selfCare/stress3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+/******************DIV2*************************/
+
+
+
+
+/******************DIV3*************************/
+
+
+
+
+/******************DIV4**************************/
+#container div:nth-child(4){
+    
+    background-image: url("../images/selfCare/demotive2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+   
+ /*****************DIV5**************************/   
+}
+#container div:nth-child(5){
+    
+    background-image: url("../images/selfCare/febrile2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+
+/*******************DIV6**************************/
