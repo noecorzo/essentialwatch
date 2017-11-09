@@ -27,10 +27,10 @@
 
             <section id="mesSlides">
 
-                <div id="slide1">
-
-                    <h1>
-                        <span>Self-care</span> is not an option, <br>it is <span>essential
+            <div id="slide1">
+                
+                <h1>
+                <span>Self-care</span> is not an option, <br>it is <span>essential
                 </span></h1>
 
                 </div>
