@@ -1,4 +1,8 @@
 <?php
+ob_start();
+require_once('./session_auth.php');
+
+$msg = '';
 
 require_once('./config/config.php');
 
@@ -12,20 +16,33 @@ catch (PDOException $e) {
     die ('Problème technique'); 
 }
 
-$sql = "SELECT email, password FROM t_users  WHERE email=:email";
+if(isset ($_POST['email'], $_POST['password'])){
+    $sql = "SELECT firstName, email, password FROM t_users  WHERE email=:email";
 
-$resultat = $pdo->prepare ($sql);
-$resultat->bindValue (":email", $_POST['email']);
-$resultat->execute();
-$tableau = $resultat->fetchAll (PDO::FETCH_ASSOC);
+    $resultat = $pdo->prepare ($sql);
+    $resultat->bindValue (":email", $_POST['email']);
+    $resultat->execute();
+    $tableau = $resultat->fetchAll (PDO::FETCH_ASSOC);
 
-if (password_verify ($_POST['password'], $tableau[0]['password'])){
-	echo "Login correct!";
+    if (password_verify ($_POST['password'], $tableau[0]['password'])){
+        session_start();
+        $_SESSION['lastAccess'] = time();
+        $_SESSION['userName'] = $tableau[0]['firstName'];
+        
+        header("Location: ./session_login.php"); 
+        die();
+        
+        
+        $msg = "Thank you " . $_SESSION['userName'] . ". You are now connected!";
+
+    }
+    else {
+        $msg = "Password incorrect";
+    }
     
 }
-else {
-	echo "Password incorrect";
-}
+
+
 
 ?>
 
@@ -51,12 +68,17 @@ else {
     ?>
     
     <main>
-       <form name="Login" method="post" id="formulaireLogIn" action="logIn.php">
+       <form name="Login" method="post" id="formulaireLogIn" action="session_login.php">
           <input type="email" name="email" placeholder="Email">
           <input type="password" name="password" placeholder="Password">          
             <button>Get Started</button>
+            
+            <?php
+                echo '<p>' . $msg . '</p>';
+            ?>
 
         </form>
+        
     </main>
     
     <?php
@@ -65,3 +87,6 @@ else {
     
 </body>
 </html>
+<?php
+    ob_flush();
+?>

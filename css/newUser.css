@@ -40,6 +40,7 @@ main > div > div{
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
     position: relative;
     top: 100px;
@@ -54,4 +55,37 @@ main > div > div > i {
 main > div > div > i:hover{
     color: #e3ac23;
     
+}
+
+/************** VERSION MOBILE **************/
+
+@media (max-width:720px){
+    main {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px; 
+/*        background-image: none;*/
+/*        background-color: white;*/
+    }
+
+    /*********FORM******/
+    main > div {
+        width: 85%;
+        height: auto; 
+    }
+    
+    main > div > p{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    main > div > div {
+        top: 30px;
+    }
+    
+    main > div > div > i {
+    padding: 5px;
+}
+
 }
