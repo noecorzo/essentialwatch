@@ -46,7 +46,7 @@ require_once('./session_auth.php');
     </script>
 
     <!-- Lien vers dossier jQuery et notre page JS (pour faire fonctioner le bouton LogIn - Noelia) -->
-    <script src="./jQuery/jquery-3.2.1.slim.js"></script>
+    <script src="./jQuery/jquery-3.2.1.min.js"></script>
     <script src="./js/nav/script.js"></script>
 </head>
 

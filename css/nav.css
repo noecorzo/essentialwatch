@@ -84,19 +84,25 @@ nav > ul > li:hover > .sub-menu {
     list-style: none;
 }
 
+.sub-menu > li > a:visited,
+.sub-menu > li > a:link {
+    color: black;
+}
+
 /******BUTTON LOG IN******/
 
 #buttonLogIn {
+    border-image: url(../images/logo/man-user.png);
     width: 60px;
-    height: 40px;
-    background-color: black;
-    border: none;
-    color: white;
+    height: 2vw;
+    /*background-color: black;
+border: none;
+color: white;*/
 }
 
-#buttonLogIn:hover {
+/*#buttonLogIn:hover {
     color: #e3ac23;
-}
+}*/
 
 /**************.VISIBLE (form)***************/
 

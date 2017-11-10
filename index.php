@@ -16,14 +16,14 @@ require_once('./session_auth.php');
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
-<!--    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
+    <!--    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 
     <script src="./jQuery/jquery-3.2.1.min.js"></script>
 
     <script src="./js/nav/script.js"></script>
-        
+
 
 </head>
 
@@ -59,9 +59,9 @@ require_once('./session_auth.php');
                 <div class="mouse animated fadeInUp" data-top=" opacity:1;  " data-top-bottom=" opacity:0; " data-anchor-target="article"></div>
                 <div class="scroll">
                 </div>
-                
-                
-                
+
+
+
             </article>
 
             <!--       <div class="container">-->
@@ -81,7 +81,7 @@ require_once('./session_auth.php');
                     </div>
                 </div>
             </section>
-            
+
 
 
             <!--
@@ -126,7 +126,7 @@ require_once('./session_auth.php');
                     </div>
                 </div>
             </section>
-       
+
         </main>
 
         <?php
