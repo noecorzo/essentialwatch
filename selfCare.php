@@ -44,16 +44,7 @@ require_once('./session_auth.php');
 -->
 
 
-                </div>
-
-
             <div id="slide2">
-               
-                <h2>Oil <span>essential</span> for <span>self-care</span></h2>
-                 <p>
-
-
-                <div id="slide2">
                     <h2>Oil <span>essential</span> for <span>self-care</span></h2>
                     <p>
 
@@ -69,34 +60,6 @@ require_once('./session_auth.php');
 
             </section>
 
-
-
-            <div id="logos">
-                <figure class="snip1584"><img src="./images/selfCare/lotus-position3.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span></h2>
-                        <h3>relaxes you</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-                <figure class="snip1584"><img src="./images/selfCare/boost.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span></h2>
-                        <h3>boosts you</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-                <figure class="snip1584"><img src="./images/selfCare/dna.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span></h2>
-                        <h3>boosts your immunity</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-            </div>
-
-
-        </section>
 
         
              
