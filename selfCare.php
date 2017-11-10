@@ -27,6 +27,7 @@
 
         <section id="mesSlides">
 
+<!--
             <div id ="slide1">
                 
                 <h1>
@@ -34,9 +35,11 @@
                 </span></h1>
                
             </div>
+-->
 
 
             <div id="slide2">
+               
                 <h2>Oil <span>essential</span> for <span>self-care</span></h2>
                  <p>
 
@@ -54,27 +57,27 @@
 
         
              
-     <div id = "logos">       
-      <figure class="snip1584"><img src="./images/selfCare/stress3.png"/>
-			<figcaption>
-				<h2><span>Essential Watch</span></h2>
-				<h3>relaxes you</h3>
-			</figcaption><a href="./selfCareRelaxBoost.php"></a>
-		</figure>
+        <div id = "logos">       
+              <figure class="snip1584"><img src="./images/selfCare/stress3.png"/>
+			    <figcaption>
+				    <h2><span>Essential Watch</span><br> relaxes you</h2>
+				    <h3>More info</h3>
+			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+		    </figure>
 
-		<figure class="snip1584"><img src="./images/selfCare/demotive2.png"/>
-			<figcaption>
-				<h2><span>Essential Watch</span></h2>
-				<h3>boosts you</h3>
-			</figcaption><a href="./selfCareRelaxBoost.php"></a>
-		</figure>
+		      <figure class="snip1584"><img src="./images/selfCare/demotive2.png"/>
+			    <figcaption>
+				    <h2><span>Essential Watch</span><br>boosts you</h2>
+				    <h3>More info</h3>
+			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+		    </figure>
 		
-		<figure class="snip1584"><img src="./images/selfCare/febrile2.png"/>
-			<figcaption>
-				<h2><span>Essential Watch</span></h2>
-				<h3>boosts your immunity</h3>
-			</figcaption><a href="./selfCareRelaxBoost.php"></a>
-		</figure>       
+		    <figure class="snip1584"><img src="./images/selfCare/febrile2.png"/><p>
+			    <figcaption>
+				    <h2><span>Essential Watch</span><br> boosts your immunity</h2>
+				    <h3>More info</h3>
+			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+		    </figure>       
              
         </div>      
              
