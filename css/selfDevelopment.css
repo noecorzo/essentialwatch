@@ -19,6 +19,15 @@ span {
 
 }
 
+body{
+    
+     font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+
+
 
 
 /******************DIVimgParallax ********************/
@@ -41,8 +50,9 @@ span {
     margin: 0;
     padding-top: 15%;
     padding-right: 30%;
-    text-align: center;
-    font-size: 56px;
+    text-align:center;
+    font-size: 50px;
+
 }
 
 #imgParallax span {
@@ -68,12 +78,11 @@ span {
 }
 
 
-#EWithYou h2 {
 
-    font-size: 34px;
-    text-transform: uppercase;
-
-
+#EWithYou h2{
+    
+     font-size: 32px;
+     text-transform: uppercase;
 
 }
 
@@ -116,11 +125,13 @@ span {
 }
 
 
-.backgroundOrange a {
-    display: inline-block;
-    background-color: black;
-    padding: 4px;
-    font-size: 18px;
+
+.backgroundOrange a{
+    display:inline-block;
+     background-color: black; 
+     padding: 4px;
+    font-size: 16px;
+
     text-transform: uppercase;
     margin-top: 5%;
     margin-left: 25%;
@@ -203,7 +214,7 @@ span {
     display: inline-block;
     background-color: black;
     padding: 4px;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     margin-top: 5%;
     margin-left: 45%;

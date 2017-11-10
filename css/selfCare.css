@@ -35,7 +35,7 @@ body{
 /*    border: 2px solid black;*/
     height: 200px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 span{
@@ -47,6 +47,7 @@ span{
 /****************SLIDE1***************************/
 
 
+/*
 #slide1{
     
     background-image: url("../images/selfCare/Splash3.jpg");
@@ -55,16 +56,16 @@ span{
     background-size: cover;
     min-height: 1000px;
     background-attachment: fixed;
-/*    border:10px solid red;*/
+    border:10px solid red;
   
 }
+*/
 
 #slide1 h1{
     display: inline-block;
     margin-top: 10%;
     margin-left: 45%;
     font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
     line-height: 130%;
    
 }
@@ -96,10 +97,10 @@ span{
 
 #slide2>h2{
     
-    margin-top: 20%;
+    margin-top: 10%;
     margin-right: 50%;
     font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
+   
     
 }
 
@@ -108,7 +109,6 @@ span{
     margin-top: 2%;
     margin-left: 5%;
     font-size: 26px;
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     width: 500px;
     line-height: 130%;
@@ -135,7 +135,7 @@ span{
     margin-top: 15%;
     margin-right: 50%;
     font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
+ 
     
     
     
@@ -157,7 +157,12 @@ span{
 #logos{
   background-color: #e3ac23;
     text-align: center;
+    height: 600px;
 /*    border: 5px solid red;*/
+ 
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
 
 }
 
@@ -168,12 +173,20 @@ span{
 }
 
 
+#logos span{
+    
+     font-family: relancer;
+    
+}
+
+
 
 
 /*Pointe figure*/
 .snip1584 {
  
   position: relative;
+ 
   display: inline-block;
   overflow: hidden;
   margin: 10px 8px;
@@ -184,13 +197,15 @@ span{
   font-size: 16px;
   text-align:center;
 /*   border: 5px solid green; */
-    
+/*    background-color: #e3ac23;*/
 }
+
 
 
 /*Pointe figcaption*/
 .snip1584:before {
   position: absolute;
+
   top: 10px;
   bottom: 10px;
   left: 10px;
@@ -234,9 +249,12 @@ span{
   font-weight: 400;
   transition-delay: 0.05s;
   margin-bottom: 5px;
+   font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
 }
 .snip1584 h3 {
   font-weight: normal;
+font-size: 16px;
   background-color: #ae895d;
   padding: 3px 10px;
   transform: translateY(-100%);
@@ -276,17 +294,225 @@ span{
 
 
 
+/*********version tablette les écrans de largeur inférieure à 1024 pixels *************/
+@media screen and (max-width:1024px){
+    
+  #slide2
+{
+    
+   
+    min-height: 600px;
+  
+   
+    
+}
+
+  #slide2>h2{
+    
+    margin-top: 5%;
+    margin-left: 1%;
+    font-size: 30px;
+   text-align: center;
+      display: block;
+      width: 400px;
+    
+}
+    
+    
+    
+    
+    
+    #slide2>p{
+    
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 24px;
+     text-align: center;
+    width: 400px;
+    line-height: 130%;
+    
+}
+  
+    
+#slide3{
+        
+        
+       min-height: 500px;  
+        
+        
+    }  
+    
+    
+   
+  
+#slide3 h2{
+    
+    margin-top: 10%;
+    margin-right: 30%;
+    font-size: 40px;
+    display: block;
+    width: 400px;
+ 
+    
+    
+    
+}
+
+#slide3 span{
+    
+    font-family: relancer;
+    font-size: 36px;
+     
+}
+  
+   
+    
+}
 
 
 
 
+/******version mobile  écran dont la résolution en largeur est comprise entre 200 et 1024 pixels :***********/
 
 
 
+@media screen and (min-width: 200px) and (max-width: 1024px){
+    
+ #mesSlides>div {
+/*    padding: 50px;*/
+    color: black;
+/*    border: 2px solid black;*/
+    height: 200px;
+    text-align: center;
+    
+}
+ 
+     
+ #slide2
+{
+    
+    background-image: url("../images/selfCare/splash2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250%;
+    min-height: 400px;
+    background-attachment: fixed;
+    border: 5px solid red;
+    
+}
+
+#slide2>h2{
+    
+    margin-top: 10%;
+    margin-right: 70px;
+    font-size: 24px;
+   text-align:left;
+    
+}
+
+#slide2>p{
+    
+    margin-top: 2%;
+/*    margin-left: 2%;*/
+    
+    font-size: 18px;
+    text-align:left;
+    width: 250px;
+    line-height: 130%;
+/*    border: 5px solid red;*/
+    
+}
+    
+    
+#slide3
+{
+   
+    background-image: url("../images/selfCare/montreSplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250%;
+    min-height: 400px;
+    background-attachment: fixed;
+   border: 5px solid blue;
+    
+}
 
 
+#slide3 h2{
+    
+/*    margin-top: 15%;*/
+    margin-right: 50%;
+    font-size: 40px;
+ 
+    
+    
+    
+}
+
+#slide3 span{
+    
+    font-family: relancer;
+    font-size: 43px;
+     
+}
 
 
+    
+
+    
+/*Pointe figure*/   
+
+#logos{
+  background-color: #e3ac23;
+text-align: center;
+height: 700px;
+/*border: 5px solid red;*/
+padding-top: 5%;
+ 
+
+}   
+   
+.snip1584 {
+ 
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 8px;
+  min-width: 200px;
+  max-width: 300px;
+  width: 50%;
+  color: #ffffff;
+/*  font-size: 16px;*/
+  text-align:center;
+/*   border: 5px solid green; */
+   
+}
+
+    
+.snip1584 h2 {
+ 
+    font-size: 15px; 
+}
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
 
 
 
