@@ -1,3 +1,7 @@
+<?php
+ob_start();
+require_once('./session_auth.php');
+?>
 <!DOCTYPE html>
 <html class="no-js">
 
@@ -42,7 +46,7 @@
     </script>
 
     <!-- Lien vers dossier jQuery et notre page JS (pour faire fonctioner le bouton LogIn - Noelia) -->
-    <script src="./jQuery/jquery-3.2.1.slim.js"></script>
+    <script src="./jQuery/jquery-3.2.1.min.js"></script>
     <script src="./js/nav/script.js"></script>
 </head>
 
@@ -67,9 +71,8 @@
                     <div class="block wow fadeInRight" data-wow-delay="1s">
 
                         <!-- App icon + link -->
-                        <a class="logo" href="#">
-                                <img id="app" src="./images/app/appIcon.png" alt="essential app">
-                            </a>
+
+                        <img id="app" src="./images/app/appIcon.png" alt="essential app">
 
                         <h2>Essential App, the only app you need</h2>
 
@@ -233,3 +236,6 @@
 </body>
 
 </html>
+<?php
+    ob_flush();
+?>

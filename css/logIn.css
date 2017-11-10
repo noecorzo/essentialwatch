@@ -44,15 +44,6 @@ form > input {
     border-radius: 3px;
 }
 
-form > select {
-    width: 203px;
-    height: 33px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    color: grey;
-}
-
 form > button {
     width: 400px;
     height: 40px;
@@ -70,4 +61,32 @@ form > button {
 
 form > button:hover {
     color: white;
+}
+
+/************** VERSION MOBILE **************/
+
+@media (max-width:720px){
+    main {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;  
+    }
+    
+    main > form {
+        width: 85%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    form > input {
+        width: 80%;
+        height: 35px;
+    }
+
+    form > button {
+        width: 80%;
+        height: 40px;
+    }
+    
 }

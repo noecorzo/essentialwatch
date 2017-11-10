@@ -12,11 +12,11 @@
     margin: 0;
 }
 
-span{
-    
+span {
+
     color: #e3ac23;
-    
-    
+
+
 }
 
 body{
@@ -34,19 +34,17 @@ body{
 
 #imgParallax {
     background-image: url(../images/selfDevelopment/coach.jpg);
-/*    background-image: url(../images/selfDevelopment/coach5.jpg);*/
+    /*    background-image: url(../images/selfDevelopment/coach5.jpg);*/
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 1000px;
-/*    border: solid 2px red;*/
-    
+    /*    border: solid 2px red;*/
 }
 
 
 
-#imgParallax
-h1 {
+#imgParallax h1 {
     font-size: 50px;
     color: black;
     margin: 0;
@@ -54,79 +52,78 @@ h1 {
     padding-right: 30%;
     text-align:center;
     font-size: 50px;
+
 }
 
-#imgParallax
-span{
-    
-        font-size: 36px;
-        font-family: relancer;
-    
+#imgParallax span {
+
+    font-size: 36px;
+    font-family: relancer;
+
 }
 
 /******************DIV EWithYou********************/
 
-#EWithYou{
+#EWithYou {
     height: 100px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-    background-color:black;  
+    background-color: black;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
-    
-   
+
+
 }
+
 
 
 #EWithYou h2{
     
      font-size: 32px;
      text-transform: uppercase;
-    
-    
-    
+
 }
 
-#EWithYou span{
-    
-     font-size: 30px;
-     font-family: relancer;
-    
-    
+#EWithYou span {
+
+    font-size: 30px;
+    font-family: relancer;
+
+
 }
 
 
 /******************DIVbackground ********************/
 
-.backgroundOrange{
-    
+.backgroundOrange {
+
     background-image: url(../images/selfDevelopment/montre3.png);
     background-repeat: no-repeat;
-/*    background-size: cover;*/
+    /*    background-size: cover;*/
     height: auto;
     text-align: center;
-/*   border: 1px solid black;*/
-/*    margin-top: 40px;*/
+    /*   border: 1px solid black;*/
+    /*    margin-top: 40px;*/
     margin-bottom: 40px;
-    
-    height: 470px; 
-background-color: #e3ac23;
-/* opacity: 0.5;*/
+
+    height: 470px;
+    background-color: #e3ac23;
+    /* opacity: 0.5;*/
 }
 
 
 .backgroundOrange p {
-  margin-left: 25%;
+    margin-left: 25%;
     padding-top: 15%;
-  font-weight: bold;
-  color:  black;
-  font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
     font-size: 26px;
-/*      border: 1px solid black;*/
-    
+    /*      border: 1px solid black;*/
 }
+
 
 
 .backgroundOrange a{
@@ -134,6 +131,7 @@ background-color: #e3ac23;
      background-color: black; 
      padding: 4px;
     font-size: 16px;
+
     text-transform: uppercase;
     margin-top: 5%;
     margin-left: 25%;
@@ -144,87 +142,81 @@ background-color: #e3ac23;
 
 
 /******************DIVcontainer********************/
-#container{
-    
-display: flex;
-   flex-wrap: wrap;
-  
-    
+
+#container {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
-#container div{
-    
-    
-/*   border:2px solid red; */
-   width: 50%;
-   height: 500px;
-    
+#container div {
+
+
+    /*   border:2px solid red; */
+    width: 50%;
+    height: 500px;
+
 }
 
-#container div:nth-child(1){
-    
-     background-image: url(../images/selfDevelopment/professionally.png);
-  
-    background-size: cover;
+#container div:nth-child(1) {
+    background-image: url(../images/selfDevelopment/professionally_web.png);
+    background-size: 60%;
     background-repeat: no-repeat;
-/*    border:2px solid red;*/
+    /* border: 2px solid red;*/
+    background-position: center;
 }
 
-#container div:nth-child(4){
-    
-     background-image: url(../images/selfDevelopment/personally.jpg);
-  
-    background-size: cover;
+#container div:nth-child(4) {
+
+    background-image: url(../images/selfDevelopment/personally_web.png);
+
+    background-size: 60%;
     background-repeat: no-repeat;
-/*    border:2px solid red;*/
+    /*    border:2px solid red;*/
+    background-position: center;
 }
 
 
-#container h2{
-    
+#container h2 {
+
     margin-top: 20%;
     font-size: 28px;
     text-transform: uppercase;
     color: #e3ac23;
     margin-left: 30%;
-    
+
 }
 
 
-#container .personally h2{
-    
+#container .personally h2 {
+
     margin-left: 36%;
-    
-    
+
+
 }
 
 
-#container p{
-    
+#container p {
+
     text-align: center;
     font-size: 30px;
     margin-left: 60px;
     margin-right: 60px;
-/*      border:10px solid blue; */
-    
+    /*      border:10px solid blue; */
 }
 
 
 
 
-#container a{
+#container a {
     display: inline-block;
-    background-color: black; 
+    background-color: black;
     padding: 4px;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5%;
     margin-left: 45%;
-   
+
 }
-
-
-
-
-
-
