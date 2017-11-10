@@ -11,6 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/************** VERSION DESKTOP **************/
 main {
     background-image: url(../images/user/contact2.jpg);
     background-repeat: no-repeat;
@@ -73,41 +74,34 @@ form > button:hover {
     color: white;
 }
 
-/*********DIV message******/
-.visible {
-    display: block;
-}
+/************** VERSION MOBILE **************/
+@media (max-width:720px){
+    main {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px; 
+/*        background-image: none;*/
+/*        background-color: white;*/
+    }
 
-.invisible {
-    display: none;
-}
+    /*********FORM******/
+    form {
+        width: 85%;
+        height: auto; 
+    }
 
-main > div {
-    width: 600px;
-    height: 370px;
-    display: none;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid #e3ac23;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    text-align: center;
-}
+    form > input {
+        width: 80%;
+        height: 35px;
+    }
 
-main > div > div{
-    width: 100%;
-    text-align: center;
-    position: relative;
-    top: 180px;
-}
+    form > select {
+        width: 80%;
+        height: 37px;
+    }
 
-main > div > div > i {
-    padding: 15px;
-}
-
-main > div > div > i:hover{
-    color: #e3ac23;
+    form > button {
+        width: 80%;
+    }
     
 }

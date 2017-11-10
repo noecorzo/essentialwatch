@@ -1,4 +1,6 @@
 <?php
+ob_start();
+require_once('./session_auth.php');
 
 require_once('./config/config.php');
 
@@ -81,3 +83,6 @@ foreach ($data_enterprises as $enterprise) {
     
 </body>
 </html>
+<?php
+    ob_flush();
+?>
