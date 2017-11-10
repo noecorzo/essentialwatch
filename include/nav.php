@@ -1,4 +1,5 @@
-<header>
+
+   <header>
     <div>
         <a href="index.php"><img src="./images/logo/logo-FIN.png" alt="Logo Essential Watch"></a>
         <nav>
@@ -32,14 +33,25 @@
                 </li>
             </ul>
         </nav>
+        
+        <?php
+        
+           if (isset($_SESSION['userName'])){
+                $user = $_SESSION['userName'];
+               echo '<p>Hello ' . $user . '</p>';  
+               
+            } 
+        
+        ?>
 
         <button id="buttonLogIn"><i class="fa fa-user fa-2x" aria-hidden="true"></i></button>
         
         <div>
             <div><a href="user.php">Create Account</a></div><br>
-            <p><a href="logIn.php">Log In</a></p>
+            <p><a href="session_login.php">Log In</a></p>
             <p><a href="">My Overview</a></p>
             <p><a href="">My Order</a></p>
+            <p><a href="session_logout.php">Close Session</a></p>
 
 
         </div>
@@ -48,5 +60,7 @@
     </div>
     
 </header>
+
+
 
 

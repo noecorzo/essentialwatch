@@ -1,4 +1,7 @@
 <?php
+ob_start();
+require_once('./session_auth.php');
+
 
 require_once('./config/config.php');
 
@@ -12,7 +15,6 @@ catch (PDOException $e) {
     die ('Problème technique'); //Prévenir l'utilisateur du problème
 }
 
-// Liste des enterprises
 $sql_enterprises = $pdo->query('SELECT idEnterprise, nomEnterprise FROM t_enterprise');
 $sql_enterprises->setFetchMode(PDO::FETCH_ASSOC);  
 $data_enterprises = $sql_enterprises->fetchAll(); 
@@ -100,3 +102,6 @@ if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email']
     
 </body>
 </html>
+<?php
+    ob_flush();
+?>

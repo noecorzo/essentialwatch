@@ -1,3 +1,7 @@
+<?php
+ob_start();
+require_once('./session_auth.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -124,3 +128,6 @@
     
 </body>
 </html>
+<?php
+    ob_flush();
+?>
