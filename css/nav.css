@@ -2,189 +2,409 @@
     src: url(../fonts/relancer.otf);
     font-family: relancer;
 }
+@media screen and (min-device-width:956px){
+    header {
+        width: 100%;
+        background-color: black;
+        border-top: solid 3px #e3ac23;
+    }
 
-header {
-    width: 100%;
-    background-color: black;
-    border-top: solid 3px #e3ac23;
+    header > div {
+        width: 95%;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /********HAMBURGER*******/
+        .hamburger{
+            display: none;
+        }
+        .hamburgerClose{
+            display: none;
+        }
+    /********LOGO*******/
+
+    header > div > a > img {
+        height: 50px;
+        padding-top: 5px;
+    }
+
+    /*******NAV***********/
+
+    header > div > nav {
+        width: 90%;
+        height: 100%;
+        z-index: 10;
+    }
+
+    header > div > nav > ul {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: relancer;
+        letter-spacing: 0.15em;
+    }
+
+    header > div > nav > ul > li {
+        height: 100%;
+        padding-top: 27px;
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    header > div > nav > ul > li > a {
+        width: 100%;
+        height: 100%;
+    }
+
+    /********SUBMENU ************/
+
+    nav > ul > li:hover > .sub-menu {
+        display: flex;
+    }
+
+    .sub-menu {
+        width: 100%;
+        height: 45px;
+        padding-left: 200px;
+        padding-right: 200px;
+        display: none;
+        justify-content: space-between;
+        background-color: white;
+        position: fixed;
+        z-index: 999999;
+        top: 73px;
+        left: 0;
+    }
+
+    .sub-menu > li {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        list-style: none;
+    }
+
+    .sub-menu > li > a:visited,
+    .sub-menu > li > a:link {
+        color: black;
+    }
+
+    /******BUTTON LOG IN******/
+
+    #buttonLogIn {
+        border-image: url(../images/logo/man-user.png);
+        width: 60px;
+        height: 2vw;
+        /*background-color: black;
+    border: none;
+    color: white;*/
+    }
+
+    /*#buttonLogIn:hover {
+        color: #e3ac23;
+    }*/
+
+    /**************.VISIBLE (form)***************/
+
+    .visible {
+        display: block;
+    }
+
+    /************** USERNAME **************/
+    header > div > p {
+        width: 150px;
+        text-align: right;
+        color: #e3ac23;
+        font-weight: bolder; 
+        align-self: center;
+    }
+
+    /***********LogIN/Close*********/
+
+    header > div > div {
+        width: 170px;
+        border: 3px solid #e3ac23;
+        background-color: white;
+        padding: 10px;
+        position: absolute;
+        top: 90px;
+        right: 3.5%;
+        z-index: 9999;
+        border-radius: 10px;
+        text-align: right;
+        display: none;
+    }
+
+    header > div > div > div {
+        background-color: #e3ac23;
+        padding: 5px;
+        text-align: center;
+    }
+
+    header > div > div > div > a:hover {
+        color: black;
+    }
+
+    header > div > div > p {
+        padding: 3px;
+    }
+
+    header > div > div > p > a:link {
+        color: black;
+    }
+
+    header > div > div > p > a:visited {
+        color: black;
+    }
+
+    header > div > div > p > a:hover {
+        color: #e3ac23;
+    }
+
+    /***********LINKS*************/
+
+    a {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+    .sub-menu > li > a:visited {
+        color: black;
+    }
+
+    ul > li > a:hover {
+        color: #e3ac23;
+        border-bottom: 3px solid #e3ac23;
+        padding-bottom: 8px;
+    }
+
+    .sub-menu > li > a:hover {
+        color: #e3ac23;
+    }
 }
 
-header > div {
-    width: 95%;
-    height: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/*******************MEDIA************************/
+@media screen and (max-device-width:955px){
+    header {
+        width: 100%;
+        background-color: black;
+        border-top: solid 3px #e3ac23;
+    }
+    header > div {
+        width: 95%;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content:space-between;
+    }
+    /***********HAMBURGER*************/
+    .hamburger{
+      display: block;
+      background:black;
+      line-height:45px;
+      padding:0px 15px 0px 15px;
+      color:#e3ac23;
+      border:none;
+      font-size:1.5em;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:10000000000000;
+    }
+    .hamburgerClose{
+      display: block;
+      background:black;
+      line-height:45px;
+      padding:0px 15px 0px 15px;
+      color:#e3ac23;
+      border:none;
+      font-size:1.5em;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:10000000000000;
 
-/********LOGO*******/
+    }
+    /********LOGO*******/
 
-header > div > a > img {
-    height: 50px;
-    padding-top: 5px;
-}
+    header > div > a > img {
+        height: 50px;
+        padding-top: 5px;
+        z-index:10000000000000;
+    }
 
-/*******NAV***********/
+    /*******NAV***********/
+    .menu{
+        display: none;
+        z-index:1000000; 
+        font-weight:bold; 
+        font-size:1em; 
+        width:100%;       
+        position:absolute; 
+        top: 4em;
+        left: 0;
+        padding-left: 1em;
+        background-color: black;
+    }
+    .menu ul {
+        font-family: relancer;
+        margin: 0; 
+        padding: 0; 
+        list-style-type: none; 
+        list-style-image: none;
+    }
+    .menu li {
+        display: block;   
+        padding:15px 0 15px 0;
+    }
+    .menu li::selection{
+        display: block;    
+        background:black; 
+        padding:15px 0 15px 0; 
+        border-bottom:#e3ac23 1px solid;
+        }
+    .menu ul li a { 
+        text-decoration:none;  
+        margin: 0px; 
+        color:white;
+        }
+    .menu ul li a::selection {  
+        color:#e3ac23; 
+        text-decoration:none;
+        }
+    .menu a{
+        text-decoration:none; 
+        color:#666;
+        }
+    .menu a::selection{
+        text-decoration:none; 
+        color:#e3ac23;
+        }
+    /********SUBMENU ************/
 
-header > div > nav {
-    width: 90%;
-    height: 100%;
-    z-index: 10;
-}
+    nav > ul > li:hover > .sub-menu {
+        display: flex;
+        flex-flow: column;
+    }
 
-header > div > nav > ul {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: relancer;
-    letter-spacing: 0.15em;
-}
+    .sub-menu {
+        width: 50%;
+        height: 45px;
+        display: none;
+        background-color: black;
+        position: fixed;
+        z-index: 999999;
+        top: 73px;
+        right: 0;
+    }
 
-header > div > nav > ul > li {
-    height: 100%;
-    padding-top: 27px;
-    list-style: none;
-    text-transform: uppercase;
-}
+    .sub-menu > li {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        list-style: none;
+    }
 
-header > div > nav > ul > li > a {
-    width: 100%;
-    height: 100%;
-}
+    /******BUTTON LOG IN******/
 
-/********SUBMENU ************/
+    #buttonLogIn {
+        width: 60px;
+        height: 40px;
+        background-color: black;
+        border: none;
+        color: white;
+        padding-top: 1em;
+        
+    }
 
-nav > ul > li:hover > .sub-menu {
-    display: flex;
-}
+    #buttonLogIn:hover {
+        color: #e3ac23;
+    }
 
-.sub-menu {
-    width: 100%;
-    height: 45px;
-    padding-left: 200px;
-    padding-right: 200px;
-    display: none;
-    justify-content: space-between;
-    background-color: white;
-    position: fixed;
-    z-index: 999999;
-    top: 73px;
-    left: 0;
-}
+    /**************.VISIBLE (form)***************/
 
-.sub-menu > li {
-    padding-top: 12px;
-    padding-bottom: 10px;
-    list-style: none;
-}
+    .visible {
+        display: block;
+    }
 
-.sub-menu > li > a:visited,
-.sub-menu > li > a:link {
-    color: black;
-}
+    /***********LogIN/Close*********/
 
-/******BUTTON LOG IN******/
+    header > div > div {
+        width: 170px;
+        border: 3px solid #e3ac23;
+        background-color: white;
+        padding: 20px;
+        position: absolute;
+        top: 90px;
+        right: 3.5%;
+        z-index: 9999;
+        border-radius: 10px;
+        text-align: right;
+        display: none;
+    }
 
-#buttonLogIn {
-    border-image: url(../images/logo/man-user.png);
-    width: 60px;
-    height: 2vw;
-    /*background-color: black;
-border: none;
-color: white;*/
-}
+    header > div > div > div {
+        background-color: #e3ac23;
+        padding: 5px;
+        text-align: center;
+    }
 
-/*#buttonLogIn:hover {
-    color: #e3ac23;
-}*/
+    header > div > div > div > a:hover {
+        color: black;
+    }
 
-/**************.VISIBLE (form)***************/
+    header > div > div > p {
+        padding: 3px;
+    }
 
-.visible {
-    display: block;
-}
+    header > div > div > p > a:link {
+        color: black;
+    }
 
-/************** USERNAME **************/
-header > div > p {
-    width: 150px;
-    text-align: right;
-    color: #e3ac23;
-    font-weight: bolder; 
-    align-self: center;
-}
+    header > div > div > p > a:visited {
+        color: black;
+    }
 
-/***********LogIN/Close*********/
+    header > div > div > p > a:hover {
+        color: #e3ac23;
+    }
 
-header > div > div {
-    width: 170px;
-    border: 3px solid #e3ac23;
-    background-color: white;
-    padding: 10px;
-    position: absolute;
-    top: 90px;
-    right: 3.5%;
-    z-index: 9999;
-    border-radius: 10px;
-    text-align: right;
-    display: none;
-}
+    /***********LINKS*************/
+    a {
+        text-decoration: none;
+    }
 
-header > div > div > div {
-    background-color: #e3ac23;
-    padding: 5px;
-    text-align: center;
-}
+    a:link {
+        color: white;
+    }
 
-header > div > div > div > a:hover {
-    color: black;
-}
+    a:visited {
+        color: white;
+    }
 
-header > div > div > p {
-    padding: 3px;
-}
+    .sub-menu > li > a:visited {
+        color: #e3ac23;
+    }
 
-header > div > div > p > a:link {
-    color: black;
-}
+    ul > li > a:hover {
+        color: #e3ac23;
+        border-bottom: 3px solid #e3ac23;
+        padding-bottom: 8px;
+    }
 
-header > div > div > p > a:visited {
-    color: black;
-}
-
-header > div > div > p > a:hover {
-    color: #e3ac23;
-}
-
-/***********LINKS*************/
-
-a {
-    text-decoration: none;
-}
-
-a:link {
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-.sub-menu > li > a:visited {
-    color: black;
-}
-
-ul > li > a:hover {
-    color: #e3ac23;
-    border-bottom: 3px solid #e3ac23;
-    padding-bottom: 8px;
-}
-
-.sub-menu > li > a:hover {
-    color: #e3ac23;
-}
+    .sub-menu > li > a:hover {
+        color: #e3ac23;
+    }

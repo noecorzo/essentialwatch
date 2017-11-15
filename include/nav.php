@@ -1,8 +1,10 @@
 
    <header>
     <div>
+       <button class="hamburger">&#9776;</button>
+       <button class="hamburgerClose">&#9776;</button>
         <a href="index.php"><img src="./images/logo/logo-FIN.png" alt="Logo Essential Watch"></a>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="index.php">Discover</a>
                     <ul class="sub-menu">
