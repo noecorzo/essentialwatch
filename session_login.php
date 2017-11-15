@@ -29,15 +29,16 @@ if(isset ($_POST['email'], $_POST['password'])){
         $_SESSION['lastAccess'] = time();
         $_SESSION['userName'] = $tableau[0]['firstName'];
         
-        header("Location: ./session_login.php"); 
+        header("Location: ./index.php"); 
         die();
         
         
         $msg = "Thank you " . $_SESSION['userName'] . ". You are now connected!";
+    
 
     }
     else {
-        $msg = "Password incorrect";
+        $msg = "Sorry. The email or the password are incorrect. Try again!";
     }
     
 }
@@ -73,10 +74,6 @@ if(isset ($_POST['email'], $_POST['password'])){
           <input type="password" name="password" placeholder="Password">          
             <button>Get Started</button>
             
-            <?php
-                echo '<p>' . $msg . '</p>';
-            ?>
-
         </form>
         
     </main>
