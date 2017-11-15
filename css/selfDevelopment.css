@@ -102,21 +102,19 @@ body{
     background-image: url(../images/selfDevelopment/montre3.png);
     background-repeat: no-repeat;
     /*    background-size: cover;*/
-    height: auto;
+/*    height: auto;*/
     text-align: center;
     /*   border: 1px solid black;*/
-    /*    margin-top: 40px;*/
     margin-bottom: 40px;
-
-    height: 470px;
+   height: 420px;
     background-color: #e3ac23;
-    /* opacity: 0.5;*/
+    
 }
 
 
 .backgroundOrange p {
     margin-left: 25%;
-    padding-top: 15%;
+    padding-top: 10%;
     font-weight: bold;
     color: black;
     font-family: 'Open Sans', sans-serif;

@@ -42,7 +42,10 @@
                 $user = $_SESSION['userName'];
                echo '<p>Hello ' . $user . '</p>';  
                
-            } 
+            } else {
+                echo '<p>Identify</p>';
+                
+           }
         
         ?>
 

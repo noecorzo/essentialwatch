@@ -11,7 +11,7 @@
 ::before {
     box-sizing: border-box;
     padding: 0;
-    padding-top: 0px;
+/*    padding-top: 0px;*/
     margin: 0;
 }
 
@@ -29,12 +29,13 @@ body{
 
 /******************SECTION1: mesSlides*******************/
 
-#mesSlides>div {
-    padding: 50px;
+#mesSlides div {
+
     color: black;
 /*    border: 2px solid black;*/
-    height: 200px;
+   padding: 0;
     text-align: center;
+   
     
 }
 
@@ -44,492 +45,231 @@ span{
   
 }
 
+
 /****************SLIDE1***************************/
-
-
-/*
-#slide1{
+#slide1
+{
     
-    background-image: url("../images/selfCare/Splash3.jpg");
+    background-image: url("../images/selfCare/splash2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 100vw;
     background-attachment: fixed;
-    border:10px solid red;
-  
-}
-*/
-
-#slide1 h1{
-    display: inline-block;
-    margin-top: 10%;
-    margin-left: 45%;
-    font-size: 50px;
-    line-height: 130%;
    
-}
-
-
-
-
-#slide1 span{
     
-    font-size: 50px;
-   
 }
 
+#slide1>h2{
+    
+    padding-top: 12vw;
+    padding-right: 45vw;
+    font-size: 4vw;
+   
+    
+}
+
+#slide1>p{
+    
+    margin-top: 3vw;
+    margin-left: 5vw;
+    font-size: 2vw;
+    text-align: center;
+    width: 40vw;
+/*    line-height: 50vw;*/
+}
 
 
 /****************SLIDE2***************************/
 #slide2
 {
-    
-    background-image: url("../images/selfCare/splash2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 1000px;
-    background-attachment: fixed;
-   
-    
-}
-
-#slide2>h2{
-    
-    margin-top: 10%;
-    margin-right: 50%;
-    font-size: 50px;
-   
-    
-}
-
-#slide2>p{
-    
-    margin-top: 2%;
-    margin-left: 5%;
-    font-size: 26px;
-    text-align: center;
-    width: 500px;
-    line-height: 130%;
-}
-
-
-/****************SLIDE3***************************/
-#slide3
-{
    
     background-image: url("../images/selfCare/montreSplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 1200px;
+    min-height: 100vw;
     background-attachment: fixed;
    
     
 }
 
 
-#slide3 h2{
+#slide2 h2{
     
-    margin-top: 15%;
-    margin-right: 50%;
-    font-size: 40px;
- 
+    padding-top: 30vw;
+    padding-left: 5vw;
+    font-size: 3.5vw;
+    width: 40vw;
     
     
     
 }
 
-#slide3 span{
+#slide2 span{
     
     font-family: relancer;
-    font-size: 43px;
+    font-size: 4vw;
      
 }
 
 
 
 
-/********************DIVlogos*******************/
+/********************DIVsectionPicto*******************/
 
 
-#logos{
-  background-color: #e3ac23;
-    text-align: center;
-    height: 600px;
+#sectionPicto{
+  background-color: #e3ac23;  
+/*    height: 600px;*/
+    width: 100%;
 /*    border: 5px solid red;*/
- 
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content:center;
+
+}
+
+
+figure > img{
+    width: 300px;    
+}
+
+.picto>figcaption{
+    display: none;
+}
+
+.btnKnowMore{
+    width: 115px;
+    padding: 10px;
+    border: 3px solid #e3ac23;
+    background-color: white;
+    border-radius: 5px;
+    color: #e3ac23;
+    margin-top: 70px;
+    font-size: 0.85em;
+}
+
+.btnKnowMore:hover{
+    border: 3px solid #e3ac23;
+    background-color: #e3ac23;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width:980px){
     
-
-}
-
-.snip1584 * {
- 
-  box-sizing: border-box;
-  transition: all 0.25s ease;
-}
-
-
-#logos span{
-    
-     font-family: relancer;
-    
-}
-
-
-
-
-/*Pointe figure*/
-.snip1584 {
- 
-  position: relative;
- 
-  display: inline-block;
-  overflow: hidden;
-  margin: 10px 8px;
-  min-width: 230px;
-  max-width: 315px;
-  width: 100%;
-  color: #ffffff;
-  font-size: 16px;
-  text-align:center;
-/*   border: 5px solid green; */
-/*    background-color: #e3ac23;*/
-}
-
-
-
-/*Pointe figcaption*/
-.snip1584:before {
-  position: absolute;
-
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  top: 100%;
-  content: '';
-  background-color: rgba(51, 51, 51, 0.9);
-  transition: all 0.25s ease;
-  transition-delay: 0.25s;
-/*  border: 5px solid red;*/
-}
-.snip1584 img {
-  vertical-align: top;
-  max-width: 100%;
-  backface-visibility: hidden;
-  
-}
-.snip1584 figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.snip1584 h2,
-.snip1584 h3 {
-  margin: 0;
-  opacity: 0;
-  letter-spacing: 1px;
-}
-.snip1584 h2 {
-  
-  transform: translateY(-100%);
-/*  text-transform: uppercase;*/
-  font-family: relancer; 
-  font-weight: 400;
-  transition-delay: 0.05s;
-  margin-bottom: 5px;
-   font-family: 'Open Sans', sans-serif;
-    font-size: 20px; 
-}
-.snip1584 h3 {
-  font-weight: normal;
-font-size: 16px;
-  background-color: #ae895d;
-  padding: 3px 10px;
-  transform: translateY(-100%);
-  transition-delay: 0s;
-}
-.snip1584 a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-.snip1584:hover:before
-{
-  top: 10px;
-  transition-delay: 0s;
-}
-.snip1584:hover h2,
-
-.snip1584:hover h3
- {
- 
-  transform: translateY(0);
-  opacity: 1;
-}
-.snip1584:hover h2
- {
- 
-  transition-delay: 0.2s;
-}
-.snip1584:hover h3
- {
- 
-  transition-delay: 0.3s;
-}
-
-
-
-/*********version tablette les écrans de largeur inférieure à 1024 pixels *************/
-@media screen and (max-width:1024px){
-    
-  #slide2
+#slide1
 {
     
-   
-    min-height: 600px;
-  
-   
+    background-image: url("../images/selfCare/splash2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 150vw;
+    background-attachment: fixed;
     
-}
-
-  #slide2>h2{
-    
-    margin-top: 5%;
-    margin-left: 1%;
-    font-size: 30px;
-   text-align: center;
-      display: block;
-      width: 400px;
     
 }
     
-    
-    
-    
-    
-    #slide2>p{
-    
-    margin-top: 2%;
-    margin-left: 2%;
-    font-size: 24px;
-     text-align: center;
-    width: 400px;
-    line-height: 130%;
-    
-}
-  
-    
-#slide3{
-        
-        
-       min-height: 500px;  
-        
-        
-    }  
-    
-    
-   
-  
-#slide3 h2{
-    
-    margin-top: 10%;
-    margin-right: 30%;
-    font-size: 40px;
-    display: block;
-    width: 400px;
  
+#slide1 p{
     
+    margin-top: 5vw;
+    margin-left: 5vw;
+    font-size: 5vw;
     
-    
-}
-
-#slide3 span{
-    
-    font-family: relancer;
-    font-size: 36px;
-     
-}
-  
-   
-    
-}
-
-
-
-
-/******version mobile  écran dont la résolution en largeur est comprise entre 200 et 1024 pixels :***********/
-
-
-
-@media screen and (min-width: 200px) and (max-width: 1024px){
-    
- #mesSlides>div {
-/*    padding: 50px;*/
-    color: black;
-/*    border: 2px solid black;*/
-    height: 200px;
     text-align: center;
+    width: 45vw;
+   font-weight: bolder;
+/*    line-height: 50vw;*/
+}    
     
-}
- 
-     
+#slide1 h2{
+    
+    padding-top: 15vw;
+    padding-right: 45vw;
+    font-size: 7vw;
+   
+    
+} 
+    
+    
  #slide2
 {
-    
-    background-image: url("../images/selfCare/splash2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 250%;
-    min-height: 400px;
-    background-attachment: fixed;
-    border: 5px solid red;
-    
-}
-
-#slide2>h2{
-    
-    margin-top: 10%;
-    margin-right: 70px;
-    font-size: 24px;
-   text-align:left;
-    
-}
-
-#slide2>p{
-    
-    margin-top: 2%;
-/*    margin-left: 2%;*/
-    
-    font-size: 18px;
-    text-align:left;
-    width: 250px;
-    line-height: 130%;
-/*    border: 5px solid red;*/
-    
-}
-    
-    
-#slide3
-{
    
     background-image: url("../images/selfCare/montreSplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 250%;
-    min-height: 400px;
+    background-size: cover;
+    min-height: 150vw;
     background-attachment: fixed;
-   border: 5px solid blue;
+   
+    
+}
+    
+    
+    
+    
+ #slide2 h2{
+    
+    padding-top: 30vw;
+    padding-left: 5vw;
+    font-size: 7vw;
+    width: 40vw;
+    
+    
     
 }
 
-
-#slide3 h2{
-    
-/*    margin-top: 15%;*/
-    margin-right: 50%;
-    font-size: 40px;
- 
-    
-    
-    
-}
-
-#slide3 span{
+#slide2 span{
     
     font-family: relancer;
-    font-size: 43px;
+    font-size: 6.5vw;
      
 }
 
-
-    
-
-    
-/*Pointe figure*/   
-
-#logos{
-  background-color: #e3ac23;
-text-align: center;
-height: 700px;
-/*border: 5px solid red;*/
-padding-top: 5%;
- 
-
-}   
    
-.snip1584 {
- 
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  margin: 10px 8px;
-  min-width: 200px;
-  max-width: 300px;
-  width: 50%;
-  color: #ffffff;
-/*  font-size: 16px;*/
-  text-align:center;
-/*   border: 5px solid green; */
-   
-}
-
     
-.snip1584 h2 {
- 
-    font-size: 15px; 
-}
+    
+   
   
     
     
+   
+    
+    
+#logos{
+ 
+    height: 800px;
+
+       
+} 
+   
+    
+ .snip1584 {
+ 
+ 
+  width: 0%;
+  
+}
+
     
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
