@@ -53,7 +53,9 @@ require_once('./session_auth.php');
    <main>
 <!--      SECTION 2 : titre + icons avec texte-->
        <section>
-            <h1>An <strong>essential</strong> in personal and professional development</h1> <h2>Combining <strong>nature and high technology</strong></h2>
+           <div>
+                <h1>An <strong>essential</strong> in personal and professional development</h1> <h2>Combining <strong>nature and high technology</strong></h2>
+           </div>
            <div>
                <div>
                    <i class="fa fa-line-chart fa-4x" aria-hidden="true"></i>
@@ -74,14 +76,15 @@ require_once('./session_auth.php');
        </div>
        </section>
        
-<!--SECTION 3 : Our Technology-->
+       <div><h2>How does it work?</h2></div>
        
-       <section id="ourTechnology">          
+<!--SECTION 3 : Our Technology-->
+       <section>          
            <div>   
            </div>
            <div>
-                <h3>Our &nbsp; Technology</h3>
-                <i class="fa fa-tint fa-3x" aria-hidden="true"></i>
+                <h3>Our Technology</h3>
+<!--                <i class="fa fa-tint fa-3x" aria-hidden="true"></i>-->
                 <p>Three reservoirs.</p>
                 <p> Three synergies of essential oils.</p>
                 <p> Plenty of small filaments to difuse their properties into your body.</p>
@@ -93,8 +96,8 @@ require_once('./session_auth.php');
        
        <section>
            <div>
-                <h3>How &nbsp; to &nbsp; connect</h3>
-                <i class="fa fa-usb fa-3x" aria-hidden="true"></i>
+                <h3>How to connect</h3>
+<!--                <i class="fa fa-usb fa-3x" aria-hidden="true"></i>-->
                 <p>Put on your Essential Watch into your wrist.</p>
                 <p>Choose the diffusion mode better suits you: manually or automatically.</p>
                 <p>Let Essential Watch change your life.</p>
@@ -106,7 +109,7 @@ require_once('./session_auth.php');
        
 <!--       SECTION 5 : Scientific studies-->
        
-       <h2>Based on <strong>scientific studies</strong></h2>
+       <div><h2>Based on <strong>scientific studies</strong></h2></div>
        <section>
           
            <div>

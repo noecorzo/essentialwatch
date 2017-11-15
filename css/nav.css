@@ -35,7 +35,9 @@ header > div > nav {
 }
 
 header > div > nav > ul {
-    width: 90%;
+    width: 75%;
+    position: relative;
+    left: 10px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -93,16 +95,14 @@ nav > ul > li:hover > .sub-menu {
 
 #buttonLogIn {
     border-image: url(../images/logo/man-user.png);
-    width: 60px;
     height: 2vw;
-    /*background-color: black;
-border: none;
-color: white;*/
 }
 
-/*#buttonLogIn:hover {
+/*
+#buttonLogIn:hover {
     color: #e3ac23;
-}*/
+}
+*/
 
 /**************.VISIBLE (form)***************/
 
@@ -128,7 +128,7 @@ header > div > div {
     padding: 10px;
     position: absolute;
     top: 90px;
-    right: 3.5%;
+    right: 2.5%;
     z-index: 9999;
     border-radius: 10px;
     text-align: right;
