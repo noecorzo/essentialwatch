@@ -55,25 +55,34 @@
 
 
             <div id="logos">
-                <figure class="snip1584"><img src="./images/selfCare/lotus-position3.svg" />
+                <figure class="picto">
+                    <img src="./images/selfCare/zen-petit.svg" />
+
                     <figcaption>
                         <h2><span>Essential Watch</span></h2>
                         <h3>relaxes you</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+
+                    </figcaption>
+
+                    <a href="./selfCareRelaxBoost.php"></a>
                 </figure>
 
-                <figure class="snip1584"><img src="./images/selfCare/boost.svg" />
+                <figure class="picto">
+                    <img src="./images/selfCare/boost-petit.svg" />
                     <figcaption>
                         <h2><span>Essential Watch</span></h2>
                         <h3>boosts you</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+                    </figcaption>
+                    <a href="./selfCareRelaxBoost.php"></a>
                 </figure>
 
-                <figure class="snip1584"><img src="./images/selfCare/dna.svg" />
+                <figure class="picto">
+                    <img src="./images/selfCare/dna.svg" />
                     <figcaption>
                         <h2><span>Essential Watch</span></h2>
-                        <h3>boosts your immunity</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+                        <h3>reinforce your immunity</h3>
+                    </figcaption>
+                    <a href="./selfCareRelaxBoost.php"></a>
                 </figure>
 
             </div>
@@ -93,6 +102,90 @@
 
 
 </body>
+<script>
+    //    Figure
+    var picto = document.getElementsByTagName("figure");
+
+    //    Figcaption
+    var figcaption = document.getElementsByTagName("figcaption")
+
+
+    //    Boucle
+    for (var i = 0; i < figcaption.length; i++) {
+        figcaption[i].setAttribute("id", i);
+    }
+
+    for (var i = 0; i < picto.length; i++) {
+
+        picto[i].setAttribute("id", i);
+
+        picto[i].addEventListener("mouseover", function(e) {
+
+            for (var i = 0; i < picto.length; i++) {
+                //                var picto = document.getElementsByTagName("figure");
+                console.log(this.id);
+                console.log(figcaption.id);
+
+                if (this.id == figcaption.id) {
+                    figcaption.style.display = "block";
+                    console.log(figcaption.id);
+                }
+
+            }
+
+        });
+    }
+
+
+
+    //    console.log(picto[0].id);
+    //    console.log(figcaption);
+
+
+
+    //    function afficheFigcaption(e) {
+    //        if(picto.id == figcaption.id){
+    //           figcaption.style.display="block";
+    //            
+    //        } else{
+    //            console.log('non');
+    //        }
+    //    }
+    //    
+    //    afficheFigcaption();
+
+    //    var picto = document.getElementsByClassName("picto");
+    //    var figcaption = document.getElementsByTagName("figcaption");
+    //    
+    //    for(var i=0; i<picto.length; i++){
+    //        
+    //        picto[i].addEventListener("mouseover",function(e){
+    //            
+    //            for (var i=0; i<picto.length; i++){
+    //           figcaption[i].style.display="block";  
+    //                
+    //            }
+    //                
+    //            });
+    //            
+    //           
+    //    
+    ////            for(var i=0; i<figcaption.length; i++){
+    ////                figcaption[i].classList.toggle("visible");
+    ////                console.log("bonjour");
+    ////            }
+    //   
+    //    
+    ////        });
+    //    
+    //        
+    //        
+    //        
+    //        
+    // };
+    //
+
+</script>
 
 
 

@@ -104,7 +104,7 @@
 
             <div class="serviceTools">
                 <div class="block wow fadeInLeft" data-wow-delay=".7s">
-                    <img src="./images/app/calendar.svg" alt="">
+                    <img src="./images/app/calendar-design.svg" alt="">
                     <h3>Day by day</h3>
                     <!--Day after day-->
                     <!--From day to day-->
@@ -115,7 +115,7 @@
                 </div>
 
                 <div class="block wow fadeInLeft" data-wow-delay=".8s">
-                    <img src="./images/app/clock.svg" alt="">
+                    <img src="./images/app/clock-design.svg" alt="">
                     <h3>Timeline &amp; Milestone</h3>
                     <p>
                         Lorem Ipsum is simply dummy text
@@ -123,7 +123,7 @@
                 </div>
 
                 <div class="block wow fadeInLeft" data-wow-delay="1.1s">
-                    <img src="./images/app/partners.svg" alt="">
+                    <img src="./images/app/partners-design.svg" alt="">
                     <h3>Partners</h3>
                     <p>
                         Increase your partners' satisfaction by answering their needs.
@@ -162,7 +162,7 @@
 
                     <!--PROGRESS-->
                     <div class="media wow fadeInDown" data-wow-delay=".5s">
-                        <img class="media-object pull-left" src="./images/app/progessanim.svg" alt="Image">
+                        <img class="media-object pull-left" src="./images/app/progress-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Visualize your progress</h4>
                             <p>Start from now, you can easily manage your time and it has reminder to let you know every time.</p>
@@ -171,7 +171,7 @@
 
                     <!--KNOW YOU-->
                     <div class="media wow fadeInDown" data-wow-delay=".8s">
-                        <img class="media-object pull-left" src="./images/app/knowYou.svg" alt="Image">
+                        <img class="media-object pull-left" src="./images/app/knowYou-Design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Get to know you</h4>
                             <p>Identify your best and worst feelings to take control of stress.</p>
@@ -180,7 +180,7 @@
 
                     <!--HEART RATE-->
                     <div class="media wow fadeInDown" data-wow-delay="1.1s">
-                        <img class="media-object pull-left" src="./images/app/heart.svg" alt="Image">
+                        <img class="media-object pull-left" src="./images/app/heart-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Heart Rate</h4>
                             <p>Analyze your heart activity to know more about your natural boost, relax or stressful moments (of your day).</p>
@@ -195,7 +195,7 @@
                 <div class="block">
                     <!--NOTIFICATIONS-->
                     <div class="media wow fadeInDown" data-wow-delay="1.4s">
-                        <img class="media-object pull-left" src="./images/app/notifications.svg" alt="Image">
+                        <img class="media-object pull-left" src="./images/app/notifications-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Notifications</h4>
                             <p>Get notifications to do some relaxing or energizing exercices.</p>

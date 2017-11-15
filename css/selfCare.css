@@ -19,92 +19,90 @@ main {
     height: auto;
 }
 
-body{
-    
-     font-family: 'Open Sans', sans-serif;
-    
-    
+body {
+
+    font-family: 'Open Sans', sans-serif;
+
+
 }
 
 
 /******************SECTION1: mesSlides*******************/
 
-#mesSlides>div {
+#mesSlides > div {
     padding: 50px;
     color: black;
-/*    border: 2px solid black;*/
+    /*    border: 2px solid black;*/
     height: 200px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
-span{
-    
-  color: #e3ac23;
-  
+span {
+
+    color: #e3ac23;
+
 }
 
 /****************SLIDE1***************************/
 
+#slide1 {
 
-#slide1{
-    
     background-image: url("../images/selfCare/Splash3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 1000px;
     background-attachment: fixed;
-/*    border:10px solid red;*/
-  
+    /*    border:10px solid red;*/
 }
 
-#slide1 h1{
+#slide1 h1 {
     display: inline-block;
     margin-top: 10%;
     margin-left: 45%;
     font-size: 50px;
     font-family: 'Open Sans', sans-serif;
     line-height: 130%;
-   
+
 }
 
 
 
 
-#slide1 span{
-    
+#slide1 span {
+
     font-size: 50px;
-   
+
 }
 
 
 
 /****************SLIDE2***************************/
-#slide2
-{
-    
+
+#slide2 {
+
     background-image: url("../images/selfCare/splash2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 1000px;
     background-attachment: fixed;
-   
-    
+
+
 }
 
-#slide2>h2{
-    
+#slide2 > h2 {
+
     margin-top: 20%;
     margin-right: 50%;
     font-size: 50px;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
-#slide2>p{
-    
+#slide2 > p {
+
     margin-top: 2%;
     margin-left: 5%;
     font-size: 26px;
@@ -116,36 +114,36 @@ span{
 
 
 /****************SLIDE3***************************/
-#slide3
-{
-   
+
+#slide3 {
+
     background-image: url("../images/selfCare/montreSplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 1200px;
     background-attachment: fixed;
-   
-    
+
+
 }
 
 
-#slide3 h2{
-    
+#slide3 h2 {
+
     margin-top: 15%;
     margin-right: 50%;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
-    
-    
-    
+
+
+
 }
 
-#slide3 span{
-    
+#slide3 span {
+
     font-family: relancer;
     font-size: 43px;
-     
+
 }
 
 
@@ -153,161 +151,23 @@ span{
 
 /********************DIVlogos*******************/
 
-
-#logos{
-  background-color: #e3ac23;
+#logos {
+    background-color: #e3ac23;
     text-align: center;
-/*    border: 5px solid red;*/
-
-}
-
-.snip1584 * {
- 
-  box-sizing: border-box;
-  transition: all 0.25s ease;
+    /*    border: 5px solid red;*/
+    display: flex;
+    justify-content: center;
 }
 
 
-
-
-/*Pointe figure*/
-.snip1584 {
- 
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  margin: 10px 8px;
-  min-width: 230px;
-  max-width: 315px;
-  width: 100%;
-  color: #ffffff;
-  font-size: 16px;
-  text-align:center;
-/*   border: 5px solid green; */
-    
+.picto > img {
+    width: 200px;
 }
 
-
-/*Pointe figcaption*/
-.snip1584:before {
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  top: 100%;
-  content: '';
-  background-color: rgba(51, 51, 51, 0.9);
-  transition: all 0.25s ease;
-  transition-delay: 0.25s;
-/*  border: 5px solid red;*/
-}
-.snip1584 img {
-  vertical-align: top;
-  max-width: 100%;
-  backface-visibility: hidden;
-  
-}
-.snip1584 figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.snip1584 h2,
-.snip1584 h3 {
-  margin: 0;
-  opacity: 0;
-  letter-spacing: 1px;
-}
-.snip1584 h2 {
-  
-  transform: translateY(-100%);
-/*  text-transform: uppercase;*/
-  font-family: relancer; 
-  font-weight: 400;
-  transition-delay: 0.05s;
-  margin-bottom: 5px;
-}
-.snip1584 h3 {
-  font-weight: normal;
-  background-color: #ae895d;
-  padding: 3px 10px;
-  transform: translateY(-100%);
-  transition-delay: 0s;
-}
-.snip1584 a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-.snip1584:hover:before
-{
-  top: 10px;
-  transition-delay: 0s;
-}
-.snip1584:hover h2,
-
-.snip1584:hover h3
- {
- 
-  transform: translateY(0);
-  opacity: 1;
-}
-.snip1584:hover h2
- {
- 
-  transition-delay: 0.2s;
-}
-.snip1584:hover h3
- {
- 
-  transition-delay: 0.3s;
+.picto > figcaption {
+    display: none
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.visible {
+    display: block;
+}
