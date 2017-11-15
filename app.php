@@ -1,3 +1,7 @@
+<?php
+ob_start();
+require_once('./session_auth.php');
+?>
 <!DOCTYPE html>
 <html class="no-js">
 
@@ -232,3 +236,6 @@
 </body>
 
 </html>
+<?php
+    ob_flush();
+?>

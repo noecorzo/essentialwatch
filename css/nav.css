@@ -31,25 +31,26 @@ header > div > a > img {
 header > div > nav {
     width: 90%;
     height: 100%;
+    z-index: 10;
 }
 
 header > div > nav > ul {
-    width: 70%;
+    width: 75%;
+    position: relative;
+    left: 10px;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
     font-family: relancer;
     letter-spacing: 0.15em;
 }
 
 header > div > nav > ul > li {
-    padding-bottom: 15px;
-    padding-top: 30px;
+    height: 100%;
+    padding-top: 27px;
     list-style: none;
     text-transform: uppercase;
 }
@@ -94,21 +95,28 @@ nav > ul > li:hover > .sub-menu {
 
 #buttonLogIn {
     border-image: url(../images/logo/man-user.png);
-    width: 60px;
     height: 2vw;
-    /*background-color: black;
-border: none;
-color: white;*/
 }
 
-/*#buttonLogIn:hover {
+/*
+#buttonLogIn:hover {
     color: #e3ac23;
-}*/
+}
+*/
 
 /**************.VISIBLE (form)***************/
 
 .visible {
     display: block;
+}
+
+/************** USERNAME **************/
+header > div > p {
+    width: 150px;
+    text-align: right;
+    color: #e3ac23;
+    font-weight: bolder; 
+    align-self: center;
 }
 
 /***********LogIN/Close*********/
@@ -120,7 +128,7 @@ header > div > div {
     padding: 10px;
     position: absolute;
     top: 90px;
-    right: 3.5%;
+    right: 2.5%;
     z-index: 9999;
     border-radius: 10px;
     text-align: right;

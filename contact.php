@@ -1,3 +1,7 @@
+<?php
+ob_start();
+require_once('./session_auth.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,3 +102,6 @@ Thank you for contacting us. We will be in touch with you very soon.
     ?>
 </body>
 </html>
+<?php
+    ob_flush();
+?>
