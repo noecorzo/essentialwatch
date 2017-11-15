@@ -7,6 +7,11 @@ require_once('./session_auth.php');
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
     <title>Essential Watch Self-development</title>
     <link rel="stylesheet" href="./css/normalize.css">
 
@@ -31,29 +36,7 @@ require_once('./session_auth.php');
 
             <section id="mesSlides">
 
-
-<!--
-            <div id ="slide1">
-
-                
-                <h1>
-                <span>Self-care</span> is not an option, <br>it is <span>essential
-                </span></h1>
-              
-            </div>
--->
-
-
-                </div>
-
-
-            <div id="slide2">
-               
-                <h2>Oil <span>essential</span> for <span>self-care</span></h2>
-                 <p>
-
-
-                <div id="slide2">
+                <div id="slide1">
                     <h2>Oil <span>essential</span> for <span>self-care</span></h2>
                     <p>
 
@@ -62,60 +45,34 @@ require_once('./session_auth.php');
                     </p>
 
                 </div>
-                <div id="slide3">
-                    <h2>The power of nature and high technology,<br> captured in <span>Essential Watch.</span>
+                <div id="slide2">
+                    <h2>The power of nature and high technology, captured in<br> <span>Essential Watch.</span>
                     </h2>
                 </div>
 
             </section>
 
-
-
-            <div id="logos">
-                <figure class="snip1584"><img src="./images/selfCare/lotus-position3.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span></h2>
-                        <h3>relaxes you</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-                <figure class="snip1584"><img src="./images/selfCare/boost.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span></h2>
-                        <h3>boosts you</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-                <figure class="snip1584"><img src="./images/selfCare/dna.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span></h2>
-                        <h3>boosts your immunity</h3>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-            </div>
-
-
-        </section>
-
-        
-             
-        <div id = "logos">       
-              <figure class="snip1584"><img src="./images/selfCare/stress3.png"/>
-			    <figcaption>
+         
+            
+        <div id="sectionPicto"> 
+            
+            <figure class="picto"><img src="./images/selfCare/zen-petit-fdBlanc-jaune.svg"/>
+                <figcaption>
 				    <h2><span>Essential Watch</span><br> relaxes you</h2>
 				    <h3>More info</h3>
 			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
 		    </figure>
+            
+            
 
-		      <figure class="snip1584"><img src="./images/selfCare/demotive2.png"/>
+		      <figure class="picto"><img src="./images/selfCare/boost-petit-fdBlanc-jaune.svg"/>
 			    <figcaption>
 				    <h2><span>Essential Watch</span><br>boosts you</h2>
 				    <h3>More info</h3>
 			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
 		    </figure>
 		
-		    <figure class="snip1584"><img src="./images/selfCare/febrile2.png"/><p>
+		    <figure class="picto"><img src="./images/selfCare/febrile2.png"/>
 			    <figcaption>
 				    <h2><span>Essential Watch</span><br> boosts your immunity</h2>
 				    <h3>More info</h3>
@@ -140,6 +97,8 @@ require_once('./session_auth.php');
 
 
 </body>
+
+
 
 
 
