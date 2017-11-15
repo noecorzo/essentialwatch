@@ -3,7 +3,7 @@
 ::before {
     box-sizing: border-box;
     padding: 0;
-    padding-top: 0px;
+    padding-top: 0;
     margin: 0;
 }
 
@@ -44,7 +44,7 @@ body > section > ul > li > img {
 
 /************ h1 ************/
 h1 {
-   font-size: 3em;
+   font-size: 2.5em;
     margin-top: 0;
     width: 100%;
     margin-bottom: 5px;
@@ -57,20 +57,31 @@ h2{
     width: 100%;
     text-align: center;
     font-weight: lighter;
+/*    color: #707b82;*/
 }
 
-strong {
-    color: #e3ac23;
+/************* strong enfant h1  et h2 (section1) **********/
+section:nth-of-type(1) strong {
+    color: white;
 }
 
-main > section:nth-of-type(1) > div {
-    width: 85%;
+main > section:nth-of-type(1) > div:nth-of-type(1){
+    background-color: #e3ac23;
+    color: black;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(2) {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #e3ac23;
 }
 
 main > section:nth-of-type(1) > div > div {
@@ -80,14 +91,40 @@ main > section:nth-of-type(1) > div > div {
 
 main > section:nth-of-type(1) > div > div > i {
     color: #e3ac23;
-    padding-bottom: 10px;
+    background-color: white;
+    padding-top: 13px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;    
 }
 
+main > section:nth-of-type(1) > div > div > p {
+    padding-top: 20px;
+    font-size: 1.5em;
+    width: 100%;
+    
+}
+
+/*********** HOW DOES IT WORK? ***********/
+main > div{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main > div > h2{
+    color: white;
+    font-size: 3em;
+}
 /************ SECTION 3 : Our Technology ****************/
 main > section:nth-of-type(2){
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
 }
 
@@ -98,15 +135,14 @@ main > section:nth-of-type(2) > div{
 }
 
 h3 {
-    width:20px;
-    word-wrap: break-word;
+    width:100%;
     text-align:center;
-    line-height:25px;
+/*    line-height:25px;*/
     text-transform: uppercase;
-    position: absolute;
-    right: 7.5%;
     font-size: 1.5em;
     color: #e3ac23;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 main > section:nth-of-type(2) > div:nth-of-type(1){
@@ -122,22 +158,26 @@ main > section:nth-of-type(2) > div:nth-of-type(2){
     padding-top: 40px;
 }
 
+/*
 main > section:nth-of-type(2) > div:nth-of-type(2) > i{
     color: #e3ac23;
     padding-bottom: 10px;
 }
+*/
 
 main > section:nth-of-type(2) > div:nth-of-type(2) > p{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+/*
 main > section:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(3){
     border-bottom: 3px dotted #e3ac23;
     width: 95%;
     padding-left: 0;
     padding-bottom: 50px;
 }
+*/
 
 /**************** btnKnowMore***************/
 .btnKnowMore{
@@ -162,7 +202,7 @@ main > section:nth-of-type(3){
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 60px;
 }
 
@@ -195,10 +235,12 @@ main > section:nth-of-type(3) > div:nth-of-type(1) > p{
     padding-bottom: 10px;
 }
 
+/*
 main > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3){
     border-bottom: 3px dotted #e3ac23;
     padding-bottom: 50px;
 }
+*/
 
 main > section:nth-of-type(3) > div:nth-of-type(2){
     background-image: url(../images/discover/montreDiffuseur.jpg);
@@ -209,6 +251,12 @@ main > section:nth-of-type(3) > div:nth-of-type(2){
 }
 
 /***************** SECTION 5 : Scientific studies ************/
+
+/*********** Strong section5 ***************/
+main > div > h2 > strong {
+    color: #e3ac23;
+}
+
 main > section:nth-of-type(4){
     width: 100%;
     height: 600px;
@@ -217,7 +265,7 @@ main > section:nth-of-type(4){
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 50px;
-    margin-top: 50px;
+/*    margin-top: 50px;*/
 }
 
 main > section:nth-of-type(4) > div{

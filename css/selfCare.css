@@ -120,8 +120,7 @@ span{
 
 
 #sectionPicto{
-  background-color: #e3ac23;
-  
+  background-color: #e3ac23;  
 /*    height: 600px;*/
     width: 100%;
 /*    border: 5px solid red;*/
@@ -129,19 +128,33 @@ span{
     padding-bottom: 25px;
     display: flex;
     justify-content:center;
+
 }
 
 
 figure > img{
-    
-    width: 300px;
-
-    
+    width: 300px;    
 }
 
 .picto>figcaption{
-    
     display: none;
+}
+
+.btnKnowMore{
+    width: 115px;
+    padding: 10px;
+    border: 3px solid #e3ac23;
+    background-color: white;
+    border-radius: 5px;
+    color: #e3ac23;
+    margin-top: 70px;
+    font-size: 0.85em;
+}
+
+.btnKnowMore:hover{
+    border: 3px solid #e3ac23;
+    background-color: #e3ac23;
+    color: white;
 }
 
 

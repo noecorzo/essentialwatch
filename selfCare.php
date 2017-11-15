@@ -36,7 +36,20 @@ require_once('./session_auth.php');
 
             <section id="mesSlides">
 
-                <div id="slide1">
+<!--
+            <div id ="slide1">
+
+                
+                <h1>
+                <span>Self-care</span> is not an option, <br>it is <span>essential
+                </span></h1>
+              
+            </div>
+-->
+
+
+            <div id="slide2">
+
                     <h2>Oil <span>essential</span> for <span>self-care</span></h2>
                     <p>
 
@@ -51,15 +64,14 @@ require_once('./session_auth.php');
                 </div>
 
             </section>
+      
+             
+        <div id="sectionPicto">       
+              <figure class="picto"><img src="./images/selfCare/zen-petit-fdBlanc-jaune.svg"/>
+			    <figcaption>
 
-         
-            
-        <div id="sectionPicto"> 
-            
-            <figure class="picto"><img src="./images/selfCare/zen-petit-fdBlanc-jaune.svg"/>
-                <figcaption>
 				    <h2><span>Essential Watch</span><br> relaxes you</h2>
-				    <h3>More info</h3>
+				    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
 			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
 		    </figure>
             
@@ -68,14 +80,14 @@ require_once('./session_auth.php');
 		      <figure class="picto"><img src="./images/selfCare/boost-petit-fdBlanc-jaune.svg"/>
 			    <figcaption>
 				    <h2><span>Essential Watch</span><br>boosts you</h2>
-				    <h3>More info</h3>
+				    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
 			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
 		    </figure>
 		
 		    <figure class="picto"><img src="./images/selfCare/febrile2.png"/>
 			    <figcaption>
 				    <h2><span>Essential Watch</span><br> boosts your immunity</h2>
-				    <h3>More info</h3>
+				    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
 			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
 		    </figure>       
              
@@ -93,14 +105,9 @@ require_once('./session_auth.php');
     require_once './include/footer.php'
     ?>
 
-            <script src="./js/scriptSelfCare/script.js"></script>
-
 
 </body>
-
-
-
-
+<script src="./js/scriptSelfCare/script.js"></script>
 
 </html>
 <?php
