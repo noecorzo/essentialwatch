@@ -8,10 +8,10 @@ require_once('./session_auth.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    
+
+
     <title>Essential Watch Self-development</title>
     <link rel="stylesheet" href="./css/normalize.css">
 
@@ -36,19 +36,9 @@ require_once('./session_auth.php');
 
             <section id="mesSlides">
 
-<!--
-            <div id ="slide1">
-
-                
-                <h1>
-                <span>Self-care</span> is not an option, <br>it is <span>essential
-                </span></h1>
-              
-            </div>
--->
 
 
-            <div id="slide2">
+                <div id="slide1">
 
                     <h2>Oil <span>essential</span> for <span>self-care</span></h2>
                     <p>
@@ -65,41 +55,41 @@ require_once('./session_auth.php');
 
             </section>
 
-      
-             
-        <div id="sectionPicto">       
-              <figure class="picto"><img src="./images/selfCare/zen-petit-fdBlanc-jaune.svg"/>
-			    <figcaption>
 
-				    <h2><span>Essential Watch</span><br> relaxes you</h2>
-				    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
-			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-		    </figure>
-            
-            
 
-		      <figure class="picto"><img src="./images/selfCare/boost-petit-fdBlanc-jaune.svg"/>
-			    <figcaption>
-				    <h2><span>Essential Watch</span><br>boosts you</h2>
-				    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
-			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-		    </figure>
-		
-		    <figure class="picto"><img src="./images/selfCare/febrile2.png"/>
-			    <figcaption>
-				    <h2><span>Essential Watch</span><br> boosts your immunity</h2>
-				    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
-			    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-		    </figure>       
-             
-        </div>      
-             
-             
-          
+            <div id="sectionPicto">
+                <figure class="picto"><img src="./images/selfCare/zen.svg" />
+                    <figcaption>
 
-    </main>
-    
-    
+                        <h2><span>Essential Watch</span><br> relaxes you</h2>
+                        <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+                </figure>
+
+
+
+                <figure class="picto"><img src="./images/selfCare/boost.svg" />
+                    <figcaption>
+                        <h2><span>Essential Watch</span><br>boosts you</h2>
+                        <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+                </figure>
+
+                <figure class="picto"><img src="./images/selfCare/imune.svg" />
+                    <figcaption>
+                        <h2><span>Essential Watch</span><br> boosts your immunity</h2>
+                        <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
+                </figure>
+
+            </div>
+
+
+
+
+        </main>
+
+
 
 
 
