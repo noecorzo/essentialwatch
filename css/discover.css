@@ -12,16 +12,38 @@ body {
 }
 
 /********** SECTION 1 - SLIDER ***********/
+/*
+#parallax{
+    min-height: 800px;
+    background-image: url(../images/discover/montre3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+
+.bx-wrapper img {
+/*    max-width: 100%;*/
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body > section > ul > li > img {
-    width: 100%;
+/*    width: 100%;*/
 }
 
 #img1 #img2 #img3{
     height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
 }
 
 .bx-wrapper {
     border: none;
+/*    margin-bottom: 0;*/
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
@@ -31,7 +53,7 @@ body > section > ul > li > img {
 }
 
 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
-    bottom: 30px;
+/*    bottom: 30px;*/
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
@@ -48,7 +70,7 @@ h1 {
     margin-top: 0;
     width: 100%;
     margin-bottom: 5px;
-    text-align: center;
+    text-align: center;    
 }
 
 /************* h2 **********/
@@ -57,31 +79,37 @@ h2{
     width: 100%;
     text-align: center;
     font-weight: lighter;
-/*    color: #707b82;*/
 }
 
 /************* strong enfant h1  et h2 (section1) **********/
 section:nth-of-type(1) strong {
-    color: white;
+    color: #e3ac23;
+}
+
+/*************** SECTION 1 ***************/
+main > section:nth-of-type(1){
+    background-color: #e3ac23;
+    margin-bottom: 50px;
+    
 }
 
 main > section:nth-of-type(1) > div:nth-of-type(1){
-    background-color: #e3ac23;
     color: black;
     margin-top: 0;
     padding-top: 30px;
     padding-bottom: 30px;
+    color: white;
+    background-color: black;
 }
 
 main > section:nth-of-type(1) > div:nth-of-type(2) {
-    width: 100%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #e3ac23;
 }
 
 main > section:nth-of-type(1) > div > div {
@@ -89,13 +117,10 @@ main > section:nth-of-type(1) > div > div {
     text-align: center;
 }
 
-main > section:nth-of-type(1) > div > div > i {
-    color: #e3ac23;
-    background-color: white;
-    padding-top: 13px;
+main > section:nth-of-type(1) > div > div > img {
+/*    padding-top: 13px;*/
     border-radius: 50%;
-    width: 90px;
-    height: 90px;    
+    width: 5em;
 }
 
 main > section:nth-of-type(1) > div > div > p {

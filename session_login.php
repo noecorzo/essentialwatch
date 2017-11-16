@@ -74,6 +74,11 @@ if(isset ($_POST['email'], $_POST['password'])){
           <input type="password" name="password" placeholder="Password">          
             <button>Get Started</button>
             
+            <?php
+                echo '<p>' . $msg . '</p>';
+           
+           ?>
+            
         </form>
         
     </main>

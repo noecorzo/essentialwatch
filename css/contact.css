@@ -2,6 +2,20 @@
     src: url(../Typo/Relancer-Regular.otf);
     font-family: relancer;
 }
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 @media screen and (min-device-width:956px){
     #video_background { 
         position: absolute; 
