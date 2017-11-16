@@ -19,30 +19,32 @@ main {
     height: auto;
 }
 
-body{
-    
-     font-family: 'Open Sans', sans-serif;
-    
-    
+body {
+
+    font-family: 'Open Sans', sans-serif;
+
+
 }
 
 
 /******************SECTION1: mesSlides*******************/
+
 
 #mesSlides div {
 
     color: black;
 /*    border: 2px solid black;*/
    padding: 0;
+
     text-align: center;
    
     
 }
 
-span{
-    
-  color: #e3ac23;
-  
+span {
+
+    color: #e3ac23;
+
 }
 
 
@@ -50,14 +52,15 @@ span{
 #slide1
 {
     
+
     background-image: url("../images/selfCare/splash2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 100vw;
     background-attachment: fixed;
-   
-    
+
+
 }
 
 #slide1>h2{
@@ -74,27 +77,31 @@ span{
     margin-top: 3vw;
     margin-left: 5vw;
     font-size: 2vw;
+
     text-align: center;
     width: 40vw;
 /*    line-height: 50vw;*/
 }
 
 
-/****************SLIDE2***************************/
+****************SLIDE2***************************/
 #slide2
 {
    
+
     background-image: url("../images/selfCare/montreSplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 100vw;
     background-attachment: fixed;
-   
-    
+
+
 }
 
 
+
+=======
 #slide2 h2{
     
     padding-top: 30vw;
@@ -111,12 +118,14 @@ span{
     font-family: relancer;
     font-size: 4vw;
      
+
 }
 
 
 
 
 /********************DIVsectionPicto*******************/
+
 
 
 #sectionPicto{
@@ -270,10 +279,3 @@ figure > img{
     
     
 }
-
-
-
-
-
-
-

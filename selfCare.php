@@ -64,6 +64,7 @@ require_once('./session_auth.php');
                 </div>
 
             </section>
+
       
              
         <div id="sectionPicto">       
@@ -101,13 +102,16 @@ require_once('./session_auth.php');
     
 
 
+
         <?php
     require_once './include/footer.php'
     ?>
 
 
 </body>
+
 <script src="./js/scriptSelfCare/script.js"></script>
+
 
 </html>
 <?php
