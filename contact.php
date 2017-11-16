@@ -1,4 +1,6 @@
 <?php
+ob_start();
+require_once('./session_auth.php');
 require_once('./config/config.php');
 // Use Data Source Name appropriate (DSN) to DB type
 try {
@@ -14,9 +16,10 @@ try {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width,
 initial-scale=1.0"/>
-    <title>Contact</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -77,7 +80,11 @@ if(isset($_POST['first_name'],$_POST['last_name'],$_POST['email'],$_POST['messag
      <button id="button">Submit</button>
 </form>
 <?php
-    require_once './include/footer.php'
+    require_once './include/footer.php';
 ?>
 </body>
 </html>
+
+<?php
+    ob_flush();
+?>
