@@ -137,11 +137,13 @@ padding-bottom: 5em;*/
 
 #header .block .logo {
     display: inline-block;
+
 }
 
 #header .block h2 {
     margin: 20px 0 20px 0;
     color: black;
+    line-height: 1;
 }
 
 
