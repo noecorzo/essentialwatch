@@ -27,9 +27,7 @@ var figcaption = document.getElementsByTagName("figcaption");
             }   
         })
         
-        picto[i].addEventListener("mouseout", function(e){
-            console.log("bonjour");
-            
+        picto[i].addEventListener("mouseout", function(e){            
             for(var i=0; i<figcaption.length; i++){
             figcaption[i].style.display="none";
             }    
