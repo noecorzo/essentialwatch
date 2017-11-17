@@ -56,7 +56,7 @@ if(isset($_POST['first_name'],$_POST['last_name'],$_POST['email'],$_POST['messag
    
     //var_dump($sql_contact->errorInfo());
     if($MessageEnvoye){
-        echo '<p id="sucess"> We Will be in touch with you very Soon. Thank You for contacting Essential Watch</p>';
+        echo '<p id="sucess"> We will be in touch with you very Soon. Thank You for contacting Essential Watch</p>';
             
     }else{
         echo '<p id="fail"> Please, try again to send us you\'re message. Essential Watch</p>';
@@ -69,7 +69,7 @@ if(isset($_POST['first_name'],$_POST['last_name'],$_POST['email'],$_POST['messag
 <source src="./images/contact/cq5dam.video.mp4" type="video/webm"> 
 <source src="./images/contact/cq5dam.video.mp4" type="video/mp4"> Video not supported </video>
 
-    <h1>Contact Us</h1>
+
 <form id="formcontact" name="formulaire" method="POST" action="<?php echo basename($_SERVER['PHP_SELF']); ?>">  
     <div>
         <input class="inputcontact" type="text" id="first_name" name="first_name" placeholder="First Name">
