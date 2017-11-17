@@ -28,8 +28,6 @@ body{
 
 
 
-
-
 /******************DIVimgParallax ********************/
 
 #imgParallax {
@@ -95,7 +93,7 @@ body{
 }
 
 
-/******************DIVbackground ********************/
+/******************DIVbackgroundOrange ********************/
 
 .backgroundOrange {
 
@@ -124,18 +122,23 @@ body{
 
 
 
-.backgroundOrange a{
-    display:inline-block;
-     background-color: black; 
-     padding: 4px;
-    font-size: 16px;
-
-    text-transform: uppercase;
-    margin-top: 5%;
-    margin-left: 25%;
+.btnKnowMore{
+    width: 115px;
+    padding: 10px;
+    border: 3px solid #e3ac23;
+    background-color: white;
+    border-radius: 5px;
+    color: #e3ac23;
+    margin-top: 70px;
+     margin-left: 25%;
+    font-size: 0.85em;
 }
 
-
+.btnKnowMore:hover{
+    border: 3px solid white;
+    background-color: #e3ac23;
+    color: white;
+}
 
 
 
@@ -145,7 +148,13 @@ body{
 
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+/*    border: 5px solid red;*/
+    margin-bottom: 5em;
 
+    
 
 }
 
@@ -154,28 +163,10 @@ body{
 
     /*   border:2px solid red; */
     width: 50%;
-    height: 500px;
+/*    height: ;*/
+/*    border: 2px dotted #e3ac23;*/
 
 }
-
-#container div:nth-child(1) {
-    background-image: url(../images/selfDevelopment/professionally_web.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    /* border: 2px solid red;*/
-    background-position: center;
-}
-
-#container div:nth-child(4) {
-
-    background-image: url(../images/selfDevelopment/personally_web.png);
-
-    background-size: 60%;
-    background-repeat: no-repeat;
-    /*    border:2px solid red;*/
-    background-position: center;
-}
-
 
 #container h2 {
 
@@ -206,15 +197,51 @@ body{
 }
 
 
-
-
-#container a {
-    display: inline-block;
-    background-color: black;
-    padding: 4px;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-top: 5%;
-    margin-left: 45%;
-
+#container .btnKnowMore{
+    width: 115px;
+    padding: 10px;
+    border: 3px solid #e3ac23;
+    background-color: white;
+    border-radius: 5px;
+    color: #e3ac23;
+    margin-top: 70px;
+     margin-left: 40%;
+    font-size: 0.85em;
 }
+
+#container .btnKnowMore:hover{
+    border: 3px solid #e3ac23;
+    background-color: #e3ac23;
+    color: white;
+}
+
+
+
+/******DIVprofessionnally*/
+
+#container div:nth-child(1) {
+    background-image: url(../images/selfDevelopment/selfdev.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    /* border: 2px solid red;*/
+    background-position: center;
+}
+
+/******DIVpersonally*/
+
+
+
+#container div:nth-child(4) {
+
+    background-image: url(../images/selfDevelopment/personally_web.png);
+
+    background-size: 60%;
+    background-repeat: no-repeat;
+    /*    border:2px solid red;*/
+    background-position: center;
+    
+}
+
+
+
+

@@ -46,7 +46,9 @@ require_once('./session_auth.php');
         <div class="backgroundOrange">
             
                 <p>This is some text that is placed in the transparent box.</p>
-                <a href ="">more info</a>
+                <a href="">
+                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                 </a>
            
         </div>
         
@@ -66,7 +68,9 @@ require_once('./session_auth.php');
                Oportunum est, ut arbitror, explanare nunc causam, quae ad exitium
                 </p>
                 
-                <a href ="">more info</a>
+                <a href="">
+                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                 </a>
                 
         </div>  
             
@@ -75,7 +79,9 @@ require_once('./session_auth.php');
                 <p>  
                Oportunum est, ut arbitror, explanare nunc causam, quae ad exitium
                 </p>
-                <a href ="">more info</a>
+                 <a href="">
+                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                 </a>
                 
         </div> 
         

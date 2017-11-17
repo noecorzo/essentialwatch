@@ -115,13 +115,48 @@ span{
 
 
 
+/**/
+
+
+#EWithYou {
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+
+
+}
+
+
+
+#EWithYou h2{
+    
+     font-size: 32px;
+     text-transform: uppercase;
+
+}
+
+#EWithYou span {
+
+    font-size: 30px;
+    font-family: relancer;
+
+
+}
+
+
+
 
 /********************DIVsectionPicto*******************/
 
 
 #sectionPicto{
   background-color: #e3ac23;  
-/*    height: 600px;*/
+    height: 445px;
     width: 100%;
 /*    border: 5px solid red;*/
     padding-top: 25px;
@@ -236,13 +271,6 @@ figure > img{
      
 }
 
-   
-    
-    
-   
-  
-    
-    
    
     
     
