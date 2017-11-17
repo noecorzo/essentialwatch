@@ -1,5 +1,5 @@
 var picto = document.getElementsByTagName("figure");
-    var figcaption = document.getElementsByTagName("figcaption");
+var figcaption = document.getElementsByTagName("figcaption");
     
     for (var i=0; i<figcaption.length; i++){
         figcaption[i].setAttribute("id", i);
@@ -10,7 +10,8 @@ var picto = document.getElementsByTagName("figure");
         picto[i].addEventListener("mouseover", function(e){
             for(var i=0; i<picto.length; i++){
                 picto[i].style.position="relative";
-                if(this.id == figcaption[i].id){
+                
+                if(this.id == figcaption[i].id){ 
                    figcaption[i].style.display="block"; 
                    figcaption[i].style.position="absolute"; 
                    figcaption[i].style.width="280px"; 
@@ -26,9 +27,7 @@ var picto = document.getElementsByTagName("figure");
             }   
         })
         
-        picto[i].addEventListener("mouseout", function(e){
-            console.log("bonjour");
-            
+        picto[i].addEventListener("mouseout", function(e){            
             for(var i=0; i<figcaption.length; i++){
             figcaption[i].style.display="none";
             }    

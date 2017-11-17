@@ -8,10 +8,10 @@ require_once('./session_auth.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    
+
+
     <title>Essential Watch Self-development</title>
     <link rel="stylesheet" href="./css/normalize.css">
 
@@ -35,25 +35,20 @@ require_once('./session_auth.php');
         <main>
 
         <section id="mesSlides">
-
-
-
-
-            <div id="slide1">
-
-                    <h2>Oil <span>essential</span> for <span>self-care</span></h2>
+                <div id="slide1">
+                    <h2>Essential oil for <span>self-care</span></h2>
                     <p>
 
-                        The essential oil, the most powerful and evolved extract of a vegetal. <br> The composition in active molecules is both very rich and complex, which will determine the multiple properties and activities of it on the body.
+                        The <span>essential oil</span> is the most powerful and developed extract of a vegetal. <br><br>                         
+                        Ellaborated with active molecules both very rich and complex, it will transmite many benefits to your body.
 
                     </p>
-
             </div>
             <div id="slide2">
                     <h2>The power of nature and high technology, captured in<br> <span>Essential Watch.</span>
-                    </h2>
-            </div>
 
+                </div>
+                
         </section>
         
         <div id ="EWithYou">
@@ -73,9 +68,6 @@ require_once('./session_auth.php');
 				    </a>
 			    </figcaption>
 		    </figure>
-            
-            
-
 		    <figure class="picto"><img src="./images/selfCare/boost.svg"/>
 			    <figcaption>
 			        <h2><span>Essential Watch</span><br>boosts you</h2>
@@ -96,22 +88,18 @@ require_once('./session_auth.php');
 		    </figure>       
              
         </div>      
-             
-             
-          
-
+            
     </main>
-    
-    
-
-
+   
         <?php
     require_once './include/footer.php'
     ?>
 
 
 </body>
+
 <script src="./js/scriptSelfCare/script.js"></script>
+
 
 </html>
 <?php

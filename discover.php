@@ -17,6 +17,7 @@ require_once('./session_auth.php');
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/discover.css">
+    <link rel="stylesheet" href="./css/responsive-discover.css">
 <!--font-awesome-->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
 <!-- police-->
@@ -30,23 +31,20 @@ require_once('./session_auth.php');
    <!--script-->
     <script src="./js/nav/script.js"></script>
     <script src="./js/discover/script.js"></script>
-    
-    
-    
-      
-    
-        
+       
 </head>
 <body>
   <?php
     require_once './include/nav.php';
     ?>
 <!--    SECTION 1 - SLIDER -->
-    <section>
+    <section id="parallax">
          <ul class="slider">
-             <li><img id="img1" src="./images/discover/mecanismeMontre3.jpg"></li>
+             <li><img id="img1" src="./images/discover/montre3.png"></li>
+<!--
              <li><img id="img2" src="./images/discover/img1.jpg"></li>
              <li><img id="img3" src="./images/discover/imgMontres.jpg"></li>
+-->
          </ul>   
     </section>
      
@@ -58,25 +56,25 @@ require_once('./session_auth.php');
            </div>
            <div>
                <div>
-                   <i class="fa fa-line-chart fa-4x" aria-hidden="true"></i>
+                   <img src="./images/discover/progress-design-white.svg" alt="progress">
                    <p>Reach the highest performance rates at work</p>
                </div>
                <div>
-                   <i class="fa fa-heartbeat fa-4x" aria-hidden="true"></i>
+                   <img src="./images/discover/heart-design-white.svg" alt="heart">
                    <p>Control your stress and your emotions</p>
                </div>
                <div>
-                   <i class="fa fa-sun-o fa-4x" aria-hidden="true"></i>
+                   <img src="./images/discover/clock-desing-white.svg" alt="clock">
                    <p>Manage your energy all day long</p>
                </div>
                <div>
-                   <i class="fa fa-frown-o fa-4x" aria-hidden="true"></i>
+                   <img src="./images/discover/drop-design-white.svg" alt="drop">
                    <p>Take care of yourself when you are not feeling good</p>
                </div>
        </div>
        </section>
        
-       <div><h2>How does it work?</h2></div>
+<!--       <div><h2>How does it work?</h2></div>-->
        
 <!--SECTION 3 : Our Technology-->
        <section>          
