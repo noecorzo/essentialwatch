@@ -117,6 +117,41 @@ span {
 
 
 
+/**/
+
+
+#EWithYou {
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+
+
+}
+
+
+
+#EWithYou h2{
+    
+     font-size: 32px;
+     text-transform: uppercase;
+
+}
+
+#EWithYou span {
+
+    font-size: 30px;
+    font-family: relancer;
+
+
+}
+
+
+
 
 /********************DIVsectionPicto*******************/
 
@@ -168,15 +203,12 @@ figure > img {
 @media only screen and (max-device-width:980px) {
 
     #slide1 {
-
         background-image: url("../images/selfCare/splash2.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         min-height: 150vw;
         background-attachment: fixed;
-
-
     }
 
 
@@ -234,38 +266,5 @@ figure > img {
         font-size: 6.5vw;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-    #logos {
-
-        height: 800px;
-
-
-    }
-
-
-    .snip1584 {
-
-
-        width: 0%;
-
-    }
-
-
-
-
-
-
-
-
 
 }

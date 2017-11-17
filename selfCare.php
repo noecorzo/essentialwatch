@@ -34,12 +34,8 @@ require_once('./session_auth.php');
     ?>
         <main>
 
-            <section id="mesSlides">
-
-
-
+        <section id="mesSlides">
                 <div id="slide1">
-
                     <h2>Essential oil for <span>self-care</span></h2>
                     <p>
 
@@ -47,53 +43,54 @@ require_once('./session_auth.php');
                         Ellaborated with active molecules both very rich and complex, it will transmite many benefits to your body.
 
                     </p>
-
-                </div>
-                <div id="slide2">
-                    <h2>The power of nature and high technology, assembled in<br> <span>Essential Watch.</span>
-                    </h2>
-                </div>
-
-            </section>
-
-
-
-            <div id="sectionPicto">
-                <figure class="picto"><img src="./images/selfCare/zen.svg" />
-                    <figcaption>
-
-                        <h2><span>Essential Watch</span><br> relaxes you</h2>
-                        <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-
-
-                <figure class="picto"><img src="./images/selfCare/boost.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span><br>boosts you</h2>
-                        <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
-                <figure class="picto"><img src="./images/selfCare/imune.svg" />
-                    <figcaption>
-                        <h2><span>Essential Watch</span><br> boosts your immunity</h2>
-                        <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
-                    </figcaption><a href="./selfCareRelaxBoost.php"></a>
-                </figure>
-
             </div>
+            <div id="slide2">
+                    <h2>The power of nature and high technology, captured in<br> <span>Essential Watch.</span>
 
-
-
-
-        </main>
-
-
-
-
-
+                </div>
+                
+        </section>
+        
+        <div id ="EWithYou">
+            <h2></h2>
+            
+        </div>
+      
+             
+        <div id="sectionPicto">       
+            <figure class="picto">
+                <img src="./images/selfCare/zen.svg"/>
+			    <figcaption>
+                    <h2><span>Essential Watch</span><br> relaxes you</h2>
+				    <a href="./selfCareRelaxBoost.php">
+				          <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more
+				          </button>
+				    </a>
+			    </figcaption>
+		    </figure>
+		    <figure class="picto"><img src="./images/selfCare/boost.svg"/>
+			    <figcaption>
+			        <h2><span>Essential Watch</span><br>boosts you</h2>
+				    <a href="./selfCareRelaxBoost.php"> 
+				        <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+				    </a>
+			    </figcaption>
+			   
+		    </figure>
+		
+		    <figure class="picto"><img src="./images/selfCare/imune.svg"/>
+			    <figcaption>
+				    <h2><span>Essential Watch</span><br> boosts your immunity</h2>
+				   <a href="./selfCareRelaxBoost.php"> 
+				       <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+				    </a>
+			    </figcaption>
+		    </figure>       
+             
+        </div>      
+            
+    </main>
+   
         <?php
     require_once './include/footer.php'
     ?>

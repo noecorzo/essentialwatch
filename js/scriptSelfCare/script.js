@@ -14,12 +14,12 @@ var figcaption = document.getElementsByTagName("figcaption");
                 if(this.id == figcaption[i].id){ 
                    figcaption[i].style.display="block"; 
                    figcaption[i].style.position="absolute"; 
-                   figcaption[i].style.width="290px"; 
-                   figcaption[i].style.height="290px"; 
+                   figcaption[i].style.width="280px"; 
+                   figcaption[i].style.height="280px"; 
                    figcaption[i].style.background="rgba(51, 51, 51, 0.9)"; 
                    figcaption[i].style.color="white"; 
-                   figcaption[i].style.top="5px"; 
-                   figcaption[i].style.left="5px"; 
+                   figcaption[i].style.top="10px"; 
+                   figcaption[i].style.left="10px"; 
                    figcaption[i].style.textAlign="center"; 
                    figcaption[i].style.paddingTop="100px";  
                    figcaption[i].style.transition="all 2s ease";   
