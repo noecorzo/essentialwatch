@@ -52,12 +52,13 @@ require_once('./session_auth.php');
 <!--      SECTION 2 : titre + icons avec texte-->
        <section>
            <div>
-                <h1>An <strong>essential</strong> in personal and professional development</h1> <h2>Combining <strong>nature and high technology</strong></h2>
+                <h1>An <strong>essential</strong> in personal and professional development</h1>
+                <h2>Combining <strong>nature and high technology</strong></h2>
            </div>
            <div>
                <div>
                    <img src="./images/discover/progress-design-white.svg" alt="progress">
-                   <p>Reach the highest performance rates at work</p>
+                   <p>Reach the highest performance rates</p>
                </div>
                <div>
                    <img src="./images/discover/heart-design-white.svg" alt="heart">
@@ -69,7 +70,7 @@ require_once('./session_auth.php');
                </div>
                <div>
                    <img src="./images/discover/drop-design-white.svg" alt="drop">
-                   <p>Take care of yourself when you are not feeling good</p>
+                   <p>Take care of yourself when you feel the need</p>
                </div>
        </div>
        </section>
@@ -111,6 +112,34 @@ require_once('./session_auth.php');
        <section>
           
            <div>
+              <figure>
+                  <img src="./images/discover/pubmed-orange.png">
+                  <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae non magnam nobis dolores veritatis!</p>
+                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i><a href="https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0025082/" target="_blank"> Read more</a></button>
+                  </figcaption>
+              </figure>
+              <figure>
+                  <img src="./images/discover/doterra-orange.png">
+                  <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae non magnam nobis dolores veritatis!</p>
+                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i><a href="https://www.doterra.com/US/en/using-essential-oils" target="_blank"> Read more</a></button>
+                  </figcaption>
+              </figure>
+                 <figure>
+                  <img src="./images/discover/achs-orange.png">
+                  <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae non magnam nobis dolores veritatis!</p>
+                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i><a href="http://info.achs.edu/blog/depression-and-anxiety-can-essential-oils-help" target="_blank"> Read more</a></button>
+                  </figcaption>
+              </figure>
+              <figure>
+                  <img src="./images/discover/chopracenter-orange.png">
+                  <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quae non magnam nobis dolores veritatis!</p>
+                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i><a href="https://www.chopra.com/articles/4-aromatherapy-recipes-to-boost-your-immune-system#sm.001w5yftcb97fky115v2f9ql01th5" target="_blank"> Read more</a></button>
+                  </figcaption>
+              </figure>
                
            </div>  
        </section>   
