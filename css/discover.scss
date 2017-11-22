@@ -1,0 +1,339 @@
+$goldenColor: #e3ac23;
+$padding: 30px;
+$margin: 50px;
+$fontSizeTitres: 2.5em;
+$alignCenter: center;
+$width100: 100%;
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/********** BLOCK 1 (section 1) - SLIDER ***********/
+
+.bx-viewport{
+    height: 660px;
+}
+
+.bx-wrapper {
+    border: none;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: center;
+    width: $width100;   
+}
+
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+    bottom: -35px;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    display: none;
+}
+
+/************* MAIN ****************/
+/************* BLOCK 2 : titre + SECTION 1 du main (icons + texte) ****************/
+
+/************ h1 ************/
+h1 {
+   font-size: $fontSizeTitres;
+    margin-top: 0;
+    width: $width100;
+    margin-bottom: 5px;
+    text-align: $alignCenter;
+}
+
+/************* h2 **********/
+h2{
+    font-size: $fontSizeTitres;
+    width: $width100;
+    text-align: $alignCenter;
+    font-weight: lighter;
+}
+
+/************* strong enfant h1  et h2 (section1) **********/
+section:nth-of-type(1) strong {
+    color: $goldenColor;
+}
+
+/*************** SECTION 1 du main (icons + texte) ***************/
+main > section:nth-of-type(1){
+    background-color: $goldenColor;
+    margin-bottom: $margin;   
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(1){
+    color: black;
+    margin-top: 0;
+    padding-top: $padding;
+    padding-bottom: $padding;
+    color: white;
+    background-color: black;
+}
+
+main > section:nth-of-type(1) > div:nth-of-type(2) {
+    width: $width100 - 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: $padding * 2;
+    padding-bottom: $padding * 2;
+}
+
+main > section:nth-of-type(1) > div > div {
+    width: 250px;
+    text-align: $alignCenter;
+}
+
+main > section:nth-of-type(1) > div > div > img {
+    width: 5em;
+    border-radius: 50%;
+}
+
+main > section:nth-of-type(1) > div > div > p {
+    padding-top: $padding;
+    font-size: 1.4em;
+    width: $width100;   
+}
+
+/****************** BLOCK 3 ****************/
+main > div{
+    background-color: black;
+    width: $width100;
+    text-align: $alignCenter;
+    padding-top: $padding;
+    padding-bottom: $padding;
+}
+
+
+/************ SECTION 2 du main : Our Technology ****************/
+main > section:nth-of-type(2){
+    width: $width100 - 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $padding;
+    margin-bottom: $padding;
+    display: flex;
+}
+
+main > section:nth-of-type(2) > div{
+    width: $width100 / 2;
+    margin: 10px;
+    height: 450px;
+}
+
+h3 {
+    width: width100;
+    text-align: $alignCenter;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: $goldenColor;
+    margin-top: $padding;
+    margin-bottom: $padding;
+}
+
+main > section:nth-of-type(2) > div:nth-of-type(1){
+    background-image: url(../images/discover/montreReservoirs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+main > section:nth-of-type(2) > div:nth-of-type(2){
+    text-align: $alignCenter;
+    padding: 0;
+    padding-top: $padding;
+}
+
+main > section:nth-of-type(2) > div:nth-of-type(2) > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/**************** btnKnowMore***************/
+.btnKnowMore{
+    width: 150px;
+    padding: 10px;
+    border: 3px solid $goldenColor;
+    background-color: white;
+    border-radius: 5px;
+    color: $goldenColor;
+    margin-top: $margin;
+}
+
+.btnKnowMore:hover{
+    border: 3px solid $goldenColor;
+    background-color: $goldenColor;
+    color: white;
+}
+
+/***************** SECTION 3 du main : How to connect ************/
+main > section:nth-of-type(3){
+    width: $width100 - 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: $margin - 30px;
+    margin-bottom: $margin + 10px;
+}
+
+main > section:nth-of-type(3) > div{
+    width: $width100 / 2;
+    margin: 10px;
+    height: 430px;
+}
+
+main > section:nth-of-type(3) > div > h3 {
+    left: 7.5%; 
+}
+
+main > section:nth-of-type(3) > div:nth-of-type(1){
+    text-align: center;
+    padding: 0;
+    padding-top: $padding;
+}
+
+main > section:nth-of-type(3) > div:nth-of-type(1) > i{
+    transform: rotate(270deg);
+    color: $goldenColor;
+    padding-bottom: $padding;
+}
+
+main > section:nth-of-type(3) > div:nth-of-type(1) > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+main > section:nth-of-type(3) > div:nth-of-type(2){
+    background-image: url(../images/discover/montreDiffuseur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/***************** SECTION 4 du main : Scientific studies ************/
+main > div > h2{
+    color: white;
+    font-size: $fontSizeTitres;
+}
+
+/*********** strong ***************/
+main > div > h2 > strong {
+    color: $goldenColor;
+}
+
+main > section:nth-of-type(4){
+    width: $width100;
+    height: auto;
+    background-image: url(../images/discover/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: $padding * 2;
+    padding-bottom: $padding * 2;
+}
+
+main > section:nth-of-type(4) > div{
+    width: $width100 - 15%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: $padding * 2;
+    padding-bottom: $padding * 2;
+    
+}
+
+figure{
+    width: 256px;
+    text-align: $alignCenter;
+    border: 3px solid $goldenColor;
+    border-top: none;
+    margin: 0;
+}
+
+figure > img{
+    width: 250px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+figcaption{
+    width: $width100;
+    padding-top: $padding / 2;
+    padding-bottom: $padding;
+    line-height: 20px;
+    margin-top: 0;
+    border-top: none;
+}
+
+figcaption > p{
+    width: $width100 - 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+figcaption > .btnKnowMore {
+    border: 3px solid white;
+    margin-top: $padding;
+    color: $goldenColor;   
+}
+
+
+figcaption a:link{
+    color: black;
+}
+
+figcaption a:visited{
+    color: black;
+    text-decoration: underline;
+    
+}
+
+figcaption > ul > li > a:hover{
+    color: $goldenColor;
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
