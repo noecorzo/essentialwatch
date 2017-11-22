@@ -46,18 +46,18 @@ if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email']
         $statement->execute();
 
         if($statement->errorInfo()[0]==="00000"){
-            $msg = 'Nouveau personne insere dans la DB';
+            $msg = 'Thank you for your inscription. We will keep you updated with the latest news about Essential Watch.';
         }
 
         else {
-            $msg = 'Erreur technique';
+            $msg = 'Something went wrong. Try again, please.';
         }
     }else{
-        $msg = 'Veuillez bien remplir le formulaire';
+        $msg = 'Fill in all your personal details, please.';
     }
     
 }else {
-    $msg = 'On n\'a rien reçu du formulaire';   
+    $msg = 'We have not received any information. Try again, please.';   
 }
 
 ?>
@@ -85,14 +85,16 @@ if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email']
     ?>
     
     <main>
+       <div></div>
         <div> 
-            <p>Thank you for your inscription.</p><br> 
-            <p>We will keep you updated with the latest news about Essential Watch.</p>
+            <?php
+                echo '<p>' . $msg . '</p>';
+            ?>
             <div>
-             <p>Visit us!</p><br>
-              <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-             <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-             <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                 <p>Visit us!</p><br>
+                  <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                 <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                 <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
             </div>
         </div>
     </main>

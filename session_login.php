@@ -57,7 +57,7 @@ if(isset ($_POST['email'], $_POST['password'])){
       <div></div>
        <form name="Login" method="post" id="formulaireLogIn" action="session_login.php">
          <h2>Log In</h2>
-         <p>Don't you have an account? <a href="user.php">Create it now</a>,<br> it takes less than one minute.</p>
+         <p>Don't have an account? <a href="user.php">Create it now</a>,<br> it takes less than one minute.</p>
           <input type="email" name="email" placeholder="Email">
           <input type="password" name="password" placeholder="Password">          
             <button>Get Started</button>  

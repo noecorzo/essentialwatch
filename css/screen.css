@@ -1,153 +1,127 @@
 @font-face {
-
-    src: url(./fonts/relancer.otf);
-    font-family: relancer;
-}
-
+  src: url(./Fonts/regular.otf);
+  font-family: relancer; }
 /**********typo************/
-
 /*    font-family: 'Montserrat', sans-serif;*/
-
 /*    font-family: 'Open Sans', sans-serif;*/
-
 *,
 ::after,
 ::before {
-
-    box-sizing: border-box;
-    padding: 0;
-    padding-top: 0px;
-    margin: 0;
-}
-
+  box-sizing: border-box;
+  padding: 0;
+  padding-top: 0px;
+  margin: 0; }
 
 body {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
 
 article {
-    top: 0;
-    margin: 0;
-    height: 900px;
-    background: url(../images/home/montre.png) 50% 0 no-repeat fixed;
-    margin: 0 auto;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
+  top: 0;
+  margin: 0;
+  height: 900px;
+  background: url(../images/home/montre.png) 50% 0 no-repeat fixed;
+  margin: 0 auto;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
 
 h1 {
-    color: #e3ac23;
-    font-family: relancer;
-    margin-top: 0;
-}
+  color: #e3ac23;
+  font-family: relancer;
+  margin-top: 0; }
 
 h2 {
-    color: #e3ac23;
-}
+  color: #e3ac23; }
 
 article > div {
-    padding-top: 40vh;
-}
+  padding-top: 40vh; }
 
 #divText {
-    width: 80%;
-    height: 500px;
-    text-align: center;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 400px;
-    position: relative;
-}
+  width: 80%;
+  height: 500px;
+  text-align: center;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 400px;
+  position: relative; }
 
 #divText > p {
-    padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 strong {
-    color: #e3ac23;
-}
+  color: #e3ac23; }
 
 .buttonKnowMore {
-    background-color: none;
-    width: 200px;
-    border-radius: 5px;
-}
+  background-color: none;
+  width: 200px;
+  border-radius: 5px; }
 
 .knowMore {
-    width: 100%;
-    height: 300px;
-    background-color: grey;
-    padding-top: 50px;
-    position: absolute;
-    top: 600px;
-    left: 0;
-    margin-top: 0;
-    display: none;
-}
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+  padding-top: 50px;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  margin-top: 0;
+  display: none; }
 
 .knowMore > p {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .visible {
-    display: block;
-}
+  display: block; }
 
 /* Parallax windows*/
-
 .paralaxtext {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 100px;
-    color: black;
-}
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 100px;
+  color: black; }
 
 .paralax1 {
-    height: 900px;
-    background: url(../images/home/boost.jpg) 50% 0 no-repeat fixed;
-    margin: 0 auto;
-    padding: 50px 0;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-}
+  height: 900px;
+  background: url(../images/home/boost.jpg) 50% 0 no-repeat fixed;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
 
 .paralax2 {
-    height: 900px;
-    background: url(../images/home/zen.jpg) 50% 0 no-repeat fixed;
-    margin: 0 auto;
-    padding: 50px 0;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-}
+  height: 900px;
+  background: url(../images/home/zen.jpg) 50% 0 no-repeat fixed;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
 
 .paralax3 {
-    height: 900px;
-    background: url(../images/home/viequot.jpg) 50% 0 no-repeat fixed;
-    margin: 0 auto;
-    padding: 50px 0;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-}
+  height: 900px;
+  background: url(../images/home/viequot.jpg) 50% 0 no-repeat fixed;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
 
 /*# sourceMappingURL=screen.css.map */
