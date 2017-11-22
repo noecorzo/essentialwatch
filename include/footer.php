@@ -24,5 +24,5 @@
          <i class="fa fa-instagram" aria-hidden="true"></i>
       </div>
   </div>
-  <p>&copy; 2017 Essential Watch - WEB06 Interface 3</p>  
+  <p>&copy; 2017 Essential Watch - Interface3 </p> <p>Created by: A. Achbouk, N. Corzo, A. Ghijs, M. Violi</p>  
 </footer>

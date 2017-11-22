@@ -1,17 +1,15 @@
 <?php
 ob_start();
 require_once('./session_auth.php');
-
 require_once('./config/config.php');
 
 try {
-    $pdo = new PDO(MYSQL_DSN, DB_USER, DB_PWD);
-    
+    $pdo = new PDO(MYSQL_DSN, DB_USER, DB_PWD);    
 }
 catch (PDOException $e) {
-    echo $e->getMessage(); // A mettre ABSOLUMENT en commentaire en ligne
-    $pdo = null; // fermer la connexion vers la DB 
-    die ('Problème technique'); //Prévenir l'utilisateur du problème
+    echo $e->getMessage(); 
+    $pdo = null;  
+    die ('Problème technique'); 
 }
 
 // Liste des enterprises
@@ -25,10 +23,7 @@ $enterprises_id_list = [];
 foreach ($data_enterprises as $enterprise) {
     $enterprises_id_list[] = $enterprise['idEnterprise'];
 }
-
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +35,6 @@ foreach ($data_enterprises as $enterprise) {
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/user.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
-    
     <script src="./jQuery/jquery-3.2.1.min.js"></script>
     <script src="./js/nav/script.js"></script>
 
@@ -51,7 +45,9 @@ foreach ($data_enterprises as $enterprise) {
     ?>
     
     <main>
+      <div></div>
        <form name="Login" method="post" id="formulaire" action="newUser.php">
+          <h2>Create your account</h2>
           <input type="text" name="fname" placeholder="First Name">
           <input type="text" name="lname" placeholder="Last Name">
           <input type="text" name="telephone" placeholder="Phone Number">
@@ -65,22 +61,13 @@ foreach ($data_enterprises as $enterprise) {
                 };
             ?>
           </select>
-
             <button>Get Started</button>
-
         </form>
-        
-<!--
-        <?php
-            echo '<p>' . $msg . '</p>';
-            ?>
--->
     </main>
     
     <?php
     require_once './include/footer.php';
-    ?>
-    
+    ?>   
 </body>
 </html>
 <?php

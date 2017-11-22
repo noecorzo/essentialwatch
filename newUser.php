@@ -9,10 +9,11 @@ try {
     $pdo = new PDO(MYSQL_DSN, DB_USER, DB_PWD);
     
 }
+
 catch (PDOException $e) {
-    echo $e->getMessage(); // A mettre ABSOLUMENT en commentaire en ligne
-    $pdo = null; // fermer la connexion vers la DB 
-    die ('Problème technique'); //Prévenir l'utilisateur du problème
+    echo $e->getMessage(); 
+    $pdo = null; 
+    die ('Problème technique'); 
 }
 
 $sql_enterprises = $pdo->query('SELECT idEnterprise, nomEnterprise FROM t_enterprise');

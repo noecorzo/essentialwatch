@@ -165,27 +165,31 @@ ul > li > a:hover {
     
     /***********HAMBURGER*************/
     .hamburger{
+        width: 50px;
+       height: 50px;
       display: block;
       background:black;
-      line-height:45px;
-      padding:0px 15px 0px 15px;
+/*      line-height:45px;*/
+      padding:0;
       color:#e3ac23;
       border:none;
       font-size:1.5em;
       font-weight:bold;
       cursor:pointer;
       outline:none;
-      z-index:10000000000000;        
+      z-index:10000000000000;
     }
     
     .hamburgerClose{
+        width: 50px;
+        height: 50px;
       display: block;
       background:black;
-      line-height:45px;
-      padding:0px 15px 0px 15px;
+/*      line-height:45px;*/
+      padding:0;
       color:#e3ac23;
       border:none;
-      font-size:1.5em;
+      font-size:1.3em;
       font-weight:bold;
       cursor:pointer;
       outline:none;
@@ -199,7 +203,7 @@ ul > li > a:hover {
         top: 70px;
         left: 0;
         background-color: rgba(0, 0, 0, 0.9);
-        width: 150%;
+        width: 100%;
         z-index: 9;
         padding-left: 4%;
         height: auto;

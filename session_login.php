@@ -1,20 +1,18 @@
 <?php
 ob_start();
 require_once('./session_auth.php');
-
-$msg = '';
-
 require_once('./config/config.php');
 
 try {
-    $pdo = new PDO(MYSQL_DSN, DB_USER, DB_PWD);
-    
+    $pdo = new PDO(MYSQL_DSN, DB_USER, DB_PWD);   
 }
 catch (PDOException $e) {
     echo $e->getMessage(); 
     $pdo = null;  
     die ('Problème technique'); 
 }
+
+$msg = '';
 
 if(isset ($_POST['email'], $_POST['password'])){
     $sql = "SELECT firstName, email, password FROM t_users  WHERE email=:email";
@@ -31,23 +29,11 @@ if(isset ($_POST['email'], $_POST['password'])){
         
         header("Location: ./index.php"); 
         die();
-        
-        
-        $msg = "Thank you " . $_SESSION['userName'] . ". You are now connected!";
-    
-
-    }
-    else {
+    } else {
         $msg = "Sorry. The email or the password are incorrect. Try again!";
-    }
-    
+    }    
 }
-
-
-
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,29 +50,25 @@ if(isset ($_POST['email'], $_POST['password'])){
     <script src="./js/nav/script.js"></script>
 </head>
 <body>
-  <?php
-    require_once './include/nav.php';
+    <?php
+        require_once './include/nav.php';
     ?>
-    
     <main>
+      <div></div>
        <form name="Login" method="post" id="formulaireLogIn" action="session_login.php">
+         <h2>Log In</h2>
+         <p>Don't you have an account? <a href="user.php">Create it now</a>,<br> it takes less than one minute.</p>
           <input type="email" name="email" placeholder="Email">
           <input type="password" name="password" placeholder="Password">          
-            <button>Get Started</button>
-            
+            <button>Get Started</button>  
             <?php
                 echo '<p>' . $msg . '</p>';
-           
-           ?>
-            
-        </form>
-        
-    </main>
-    
+           ?>      
+        </form>    
+    </main> 
     <?php
     require_once './include/footer.php';
-    ?>
-    
+    ?>   
 </body>
 </html>
 <?php

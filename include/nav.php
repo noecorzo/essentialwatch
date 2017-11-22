@@ -2,7 +2,8 @@
    <header>
     <div>
        <button class="hamburger">&#9776;</button>
-       <button class="hamburgerClose">&#9776;</button>
+       <button class="hamburgerClose">&#9587;</button>
+<!--       <button class="hamburgerClose">&#9776;</button>-->
         <a href="index.php"><img src="./images/logo/logo-FIN.png" alt="Logo Essential Watch"></a>
         <nav class="menu">
             <ul>

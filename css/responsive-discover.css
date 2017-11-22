@@ -1,216 +1,217 @@
-@media (max-width:1150px){
+/*********** TABLETTE **************/
+@media (max-width:1250px){
 
-/************* MAIN ****************/
+    /************* MAIN ****************/
 
-/************* SECTION 2 : titre + icons avec texte ****************/
-/************ h1 ************/
-h1 {
-   font-size: 1.5em;
-    width: 80%; 
-    margin-left: auto;
-    margin-right: auto;
+    /************* SECTION 2 : titre + icons avec texte ****************/
+    /************ h1 ************/
+    h1 {
+       font-size: 1.6em;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /************* h2 **********/
+    h2{
+        font-size: 1.4em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    /*************** SECTION 1 ***************/
+    main > section:nth-of-type(1){
+        margin-bottom: 50px;
+    }
+
+    main > section:nth-of-type(1) > div:nth-of-type(2) {
+        width: 90%;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        padding-top: 30px;
+    /*    border: 3px solid green;*/
+    }
+
+    main > section:nth-of-type(1) > div > div {
+        width: 45%;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+
+    main > section:nth-of-type(1) > div > div > img {
+        width: 4em;
+    }
+
+    main > section:nth-of-type(1) > div > div > p {
+        font-size: 1.2em;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /************ SECTION 3 : Our Technology ****************/
+    main > section:nth-of-type(2){
+        width: 90%;
+    }
+
+    main > section:nth-of-type(2) > div{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+/*        border: 3px solid green;*/
+    }
+
+    main > section:nth-of-type(2) > div:nth-of-type(1){
+        background-size: cover;
+    } 
+
+    main > section:nth-of-type(2) > div:nth-of-type(2) > p{
+        font-size: 1em;
+    }
+
+    /***************** SECTION 4 : How to connect ************/
+    main > section:nth-of-type(3){
+        width: 90%;
+    }
+
+    main > section:nth-of-type(3) > div{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+/*        border: 3px solid green;*/
+    }
+
+    main > section:nth-of-type(3) > div:nth-of-type(1) > p{
+        font-size: 1em;
+    }
+
+    main > section:nth-of-type(3) > div:nth-of-type(2){
+        background-size: cover;
+    }
+
+    /********* SECTION 5 : Scientific studies ******/
+
+    main > section:nth-of-type(4){
+        width: 100%;
+        height: auto;
+        background-position: center;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    main > section:nth-of-type(4) > div{
+        width: 90%;
+        height: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 50px;
+    }
+
+    figure{
+        width: 306px;
+        margin-bottom: 30px;
+    }
+
+    figure > img{
+        width: auto;
+    }
+
 }
 
-/************* h2 **********/
-h2{
-    font-size: 1.5em;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+/*********** MOBILE **************/
+@media (max-width:650px){
 
-/*************** SECTION 1 ***************/
-main > section:nth-of-type(1){
-    background-color: #e3ac23;
-    margin-bottom: 50px;
+    /************* MAIN ****************/
+
+    /*************** SECTION 1 ***************/
+    main > section:nth-of-type(1) > div > div {
+        width: 100%;
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+
+    /************ SECTION 3 : Our Technology ****************/
+    main > section:nth-of-type(2){
+        flex-wrap: wrap;
+        margin-top: 0;
+        padding-top: 0;
+    }
     
-}
+    h3{
+        margin-top: 0;
+    }
 
-main > section:nth-of-type(1) > div:nth-of-type(2) {
-    width: 90%;
-    flex-wrap: wrap;
-    padding-bottom: 0;
-    padding-top: 30px;
-/*    border: 3px solid green;*/
-}
+    main > section:nth-of-type(2) > div{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
 
-main > section:nth-of-type(1) > div > div {
-    width: 45%;
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
+    main > section:nth-of-type(2) > div:nth-of-type(1){
+        order: 2;
+    } 
+    
+    main > section:nth-of-type(2) > div:nth-of-type(2){
+        order: 1;
+        padding: 0;
+        height: auto;
+        margin-top: 0;
+    }
+    
+    .btnKnowMore{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
 
-main > section:nth-of-type(1) > div > div > img {
-    width: 4em;
-}
+    /***************** SECTION 4 : How to connect ************/
+    main > section:nth-of-type(3){
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
 
-main > section:nth-of-type(1) > div > div > p {
-    font-size: 1.2em;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    main > section:nth-of-type(3) > div{
+        width: 100%;
+        height: auto;
+    }
+    
+    main > section:nth-of-type(3) > div:nth-of-type(1){
+        padding-top: 0;
+    }
+    
+    main > section:nth-of-type(3) > div:nth-of-type(2){
+        height: 450px;
+    }
 
-/************ SECTION 3 : Our Technology ****************/
-main > section:nth-of-type(2){
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    border: 3px solid blue;
-}
+    /********* SECTION 5 : Scientific studies ******/
 
-main > section:nth-of-type(2) > div{
-    width: 50%;
-    padding: 10px;
-    height: 450px;
-}
+    main > section:nth-of-type(4){
+        width: 100%;
+        height: auto;
+        background-position: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 
-h3 {
-    width:100%;
-    text-align:center;
-/*    line-height:25px;*/
-    text-transform: uppercase;
-    font-size: 1.5em;
-    color: #e3ac23;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
+    main > section:nth-of-type(4) > div{
+        width: 90%;
+        height: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 50px;
+    }
 
-main > section:nth-of-type(2) > div:nth-of-type(1){
-    background-image: url(../images/discover/montreReservoirs.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} 
+    figure{
+        width: 306px;
+        margin-bottom: 30px;
+    }
 
-main > section:nth-of-type(2) > div:nth-of-type(2){
-    text-align: center;
-    padding: 0;
-    padding-top: 40px;
-}
+    figure > img{
+        width: 100%;
+    }
 
-/*
-main > section:nth-of-type(2) > div:nth-of-type(2) > i{
-    color: #e3ac23;
-    padding-bottom: 10px;
-}
-*/
-
-main > section:nth-of-type(2) > div:nth-of-type(2) > p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/*
-main > section:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(3){
-    border-bottom: 3px dotted #e3ac23;
-    width: 95%;
-    padding-left: 0;
-    padding-bottom: 50px;
-}
-*/
-
-/**************** btnKnowMore***************/
-.btnKnowMore{
-    width: 150px;
-    padding: 10px;
-    border: 3px solid #e3ac23;
-    background-color: white;
-    border-radius: 5px;
-    color: #e3ac23;
-    margin-top: 70px;
-}
-
-.btnKnowMore:hover{
-    border: 3px solid #e3ac23;
-    background-color: #e3ac23;
-    color: white;
-}
-
-/***************** SECTION 4 : How to connect ************/
-main > section:nth-of-type(3){
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 60px;
-}
-
-main > section:nth-of-type(3) > div{
-    width: 50%;
-    padding: 10px;
-    height: 430px;
-}
-
-main > section:nth-of-type(3) > div > h3 {
-    left: 7.5%; 
-}
-
-main > section:nth-of-type(3) > div:nth-of-type(1){
-    text-align: center;
-    padding: 40px;
-    padding-right: 0;
-    padding-bottom: 0;
-/*    border: 3px solid green;*/
-}
-
-main > section:nth-of-type(3) > div:nth-of-type(1) > i{
-    transform: rotate(270deg);
-    color: #e3ac23;
-    padding-bottom: 30px;
-}
-
-main > section:nth-of-type(3) > div:nth-of-type(1) > p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/*
-main > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3){
-    border-bottom: 3px dotted #e3ac23;
-    padding-bottom: 50px;
-}
-*/
-
-main > section:nth-of-type(3) > div:nth-of-type(2){
-    background-image: url(../images/discover/montreDiffuseur.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-/***************** SECTION 5 : Scientific studies ************/
-
-/*********** Strong section5 ***************/
-main > div > h2 > strong {
-    color: #e3ac23;
-}
-
-main > section:nth-of-type(4){
-    width: 100%;
-    height: 600px;
-    background-image: url(../images/discover/1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 50px;
-/*    margin-top: 50px;*/
-}
-
-main > section:nth-of-type(4) > div{
-    width: 85%;
-    height: 500px;
-    background-color: rgba(255, 255, 255, 0.8);
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px dotted #e3ac23;
-    border-radius: 10px;   
-}
 
 }
 
