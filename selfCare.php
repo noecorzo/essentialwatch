@@ -40,19 +40,19 @@ require_once('./session_auth.php');
                     <p>
 
                         The <span>essential oil</span> is the most powerful and developed extract of a vegetal. <br><br>                         
-                        Ellaborated with active molecules both very rich and complex, it will transmite many benefits to your body.
+                        Composed of active molecules both very rich and complex, it will bring many benefits to your body.
 
                     </p>
             </div>
             <div id="slide2">
-                    <h2>The power of nature and high technology, captured in<br> <span>Essential Watch.</span>
+                <h2>The power of nature and high technology, captured in<br> <span>Essential Watch</span></h2>
 
                 </div>
                 
         </section>
         
-        <div id ="EWithYou">
-            <h2></h2>
+        <div id ="selfCareEssential">
+            <h2><span>Self care </span>is not an option, it is <span>essential</span></h2>
             
         </div>
       

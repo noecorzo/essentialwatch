@@ -15,7 +15,7 @@
 span {
 
     color: #e3ac23;
-
+ 
 
 }
 
@@ -94,50 +94,74 @@ body{
 
 
 /******************DIVbackgroundOrange ********************/
+.backgroundOrange{
+    
+    display: flex;
+    justify-content: center;
+     background-color: #e3ac23;
+   
+}
 
-.backgroundOrange {
 
-    background-image: url(../images/selfDevelopment/montre3.png);
+
+.backgroundOrange div:nth-child(1) {
+
+    background-image: url(../images/selfDevelopment/watch-front.png);
     background-repeat: no-repeat;
-    /*    background-size: cover;*/
-/*    height: auto;*/
-    text-align: center;
-    /*   border: 1px solid black;*/
-    margin-bottom: 40px;
-   height: 420px;
-    background-color: #e3ac23;
+    background-size: cover;
+/*   border: 1px solid black;*/
+    height: 490px;
+    width: 40%;
+  
     
 }
 
 
-.backgroundOrange p {
-    margin-left: 25%;
-    padding-top: 10%;
+.backgroundOrange div:nth-child(2){
+    width: 60%;
+/*    border: 1px solid black;*/
+}
+
+.backgroundOrange p{
+    
+    padding-top: 15%;
     font-weight: bold;
     color: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
-    /*      border: 1px solid black;*/
+    width: 22em;
+    text-align: justify;
+    margin-left: 20px;
+   
 }
 
+.backgroundOrange span{
+    
+    color:white;
+    font-family: relancer;
+    
+    
+}
 
 
 .btnKnowMore{
     width: 115px;
     padding: 10px;
-    border: 3px solid #e3ac23;
-    background-color: white;
+    border: 3px solid white;
+    background-color: #e3ac23;
     border-radius: 5px;
-    color: #e3ac23;
+    color: white;
     margin-top: 70px;
-     margin-left: 25%;
+    margin-left:30%;
     font-size: 0.85em;
+    
+   
 }
 
 .btnKnowMore:hover{
     border: 3px solid white;
-    background-color: #e3ac23;
-    color: white;
+    background-color: white;
+    color:#e3ac23 ;
 }
 
 
@@ -161,28 +185,28 @@ body{
 #container div {
 
 
-    /*   border:2px solid red; */
+/*    border:2px solid red; */
     width: 50%;
-/*    height: ;*/
-/*    border: 2px dotted #e3ac23;*/
+    height: 400px ;
+
 
 }
 
 #container h2 {
 
-    margin-top: 20%;
+    margin-top: 3em;
     font-size: 28px;
     text-transform: uppercase;
     color: #e3ac23;
     margin-left: 30%;
-
+/*border:10px solid red; */
 }
 
 
 #container .personally h2 {
 
     margin-left: 36%;
-
+    
 
 }
 
@@ -193,7 +217,8 @@ body{
     font-size: 30px;
     margin-left: 60px;
     margin-right: 60px;
-    /*      border:10px solid blue; */
+     margin-top: 0.5em;
+/*  border:10px solid blue; */
 }
 
 
@@ -204,7 +229,7 @@ body{
     background-color: white;
     border-radius: 5px;
     color: #e3ac23;
-    margin-top: 70px;
+    margin-top: 20px;
      margin-left: 40%;
     font-size: 0.85em;
 }
@@ -221,10 +246,10 @@ body{
 
 #container div:nth-child(1) {
     background-image: url(../images/selfDevelopment/selfdev.png);
-    background-size: 60%;
+    background-size: 70%;
     background-repeat: no-repeat;
-    /* border: 2px solid red;*/
-    background-position: center;
+/*     border: 2px solid red;*/
+    background-position: left;
 }
 
 /******DIVpersonally*/
@@ -235,10 +260,12 @@ body{
 
     background-image: url(../images/selfDevelopment/personally_web.png);
 
-    background-size: 60%;
+    background-size: 70%;
     background-repeat: no-repeat;
-    /*    border:2px solid red;*/
-    background-position: center;
+      
+/*    border:2px solid red;*/
+    background-position: right;
+
     
 }
 
