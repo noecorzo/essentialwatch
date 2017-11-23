@@ -1,0 +1,196 @@
+/*********** TABLETTE **************/
+@media (max-width: 1150px) {
+  /************* MAIN ****************/
+  /************* BLOCK 2 : titre + SECTION 1 du main (icons + texte) ****************/
+  /************ h1 ************/
+  h1 {
+    font-size: 1.6em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /************* h2 **********/
+  h2 {
+    font-size: 1.5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; }
+
+  /*************** SECTION 1 du main (icons + texte) ***************/
+  main > section:nth-of-type(1) {
+    margin-bottom: 0; }
+
+  main > section:nth-of-type(1) > div:nth-of-type(2) {
+    width: 90%;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    padding-top: 30px; }
+
+  main > section:nth-of-type(1) > div > div {
+    width: 45%;
+    padding-bottom: 30px;
+    padding-top: 10px; }
+
+  main > section:nth-of-type(1) > div > div > img {
+    width: 4em; }
+
+  main > section:nth-of-type(1) > div > div > p {
+    font-size: 1.2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /****************** BLOCK 3 ****************/
+  /************ SECTION 2 du main : Our Technology ****************/
+  main {
+    margin-top: 0;
+    padding-top: 0; }
+
+  main > section:nth-of-type(2) {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0; }
+
+  main > section:nth-of-type(2) > div {
+    width: 48%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  main > section:nth-of-type(2) > div:nth-of-type(1) {
+    background-size: 380px; }
+
+  main > section:nth-of-type(2) > div:nth-of-type(2) {
+    padding-top: 0; }
+
+  main > section:nth-of-type(2) > div:nth-of-type(2) > p {
+    font-size: 1em; }
+
+  /***************** SECTION 3 du main : How to connect ************/
+  main > section:nth-of-type(3) {
+    width: 90%;
+    margin-top: 0; }
+
+  main > section:nth-of-type(3) > div {
+    width: 48%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0; }
+
+  main > section:nth-of-type(3) > div:nth-of-type(1) {
+    padding-top: 0; }
+
+  main > section:nth-of-type(3) > div:nth-of-type(1) > p {
+    font-size: 1em; }
+
+  main > section:nth-of-type(3) > div:nth-of-type(2) {
+    background-size: 420px; } }
+@media (max-width: 1250px) {
+  /********* SECTION 4 du main : Scientific studies ******/
+  main > section:nth-of-type(4) {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+
+  main > section:nth-of-type(4) > div {
+    width: 90%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 10px; }
+
+  figure {
+    width: 306px;
+    margin-bottom: 30px; }
+
+  figure > img {
+    width: auto; } }
+/*********** MOBILE **************/
+@media (max-width: 650px) {
+  /************* MAIN ****************/
+  main > section:nth-of-type(1) {
+    margin-bottom: 50px; }
+
+  /*************** BLOCK 2 ***************/
+  /*** SECTION 1 du main (icons + texte) *****/
+  main > section:nth-of-type(1) > div > div {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 0; }
+
+  /****** SECTION 2 du main : Our Technology ****************/
+  main > section:nth-of-type(2) {
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding-top: 0; }
+
+  h3 {
+    margin-top: 0; }
+
+  main > section:nth-of-type(2) > div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0; }
+
+  main > section:nth-of-type(2) > div:nth-of-type(1) {
+    order: 2;
+    height: 250px;
+    background-size: 300px; }
+
+  main > section:nth-of-type(2) > div:nth-of-type(2) {
+    order: 1;
+    padding: 0;
+    height: auto;
+    margin-top: 0; }
+
+  .btnKnowMore {
+    margin-top: 40px;
+    margin-bottom: 10px; }
+
+  /***************** SECTION 3 du main : How to connect ************/
+  main > section:nth-of-type(3) {
+    flex-wrap: wrap;
+    margin-bottom: 50px; }
+
+  main > section:nth-of-type(3) > div {
+    width: 100%;
+    height: auto; }
+
+  main > section:nth-of-type(3) > div:nth-of-type(1) {
+    padding-top: 20px; }
+
+  main > section:nth-of-type(3) > div:nth-of-type(2) {
+    height: 300px;
+    margin-top: 30px; }
+
+  /********* SECTION 4 du main : Scientific studies ******/
+  main > section:nth-of-type(4) {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+
+  main > section:nth-of-type(4) > div {
+    width: 90%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px; }
+
+  figure {
+    width: 306px;
+    margin-bottom: 30px; }
+
+  figure > img {
+    width: 100%; } }
+
+/*# sourceMappingURL=discover-responsive.css.map */

@@ -1,42 +1,47 @@
+$padding: 30px;
+$margin: 50px;
+$fontSizeTitres: 1.5em;
+$width80: 80%;
+$width90: 90%;
+
 /*********** TABLETTE **************/
-@media (max-width:1250px){
+@media (max-width:1150px){
 
     /************* MAIN ****************/
 
-    /************* SECTION 2 : titre + icons avec texte ****************/
+    /************* BLOCK 2 : titre + SECTION 1 du main (icons + texte) ****************/
     /************ h1 ************/
     h1 {
-       font-size: 1.6em;
-        width: 80%; 
+       font-size: $fontSizeTitres + 0.1;
+        width: $width80; 
         margin-left: auto;
         margin-right: auto;
     }
 
     /************* h2 **********/
     h2{
-        font-size: 1.4em;
-        width: 80%;
+        font-size: $fontSizeTitres;
+        width: $width80;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
     }
 
-    /*************** SECTION 1 ***************/
+    /*************** SECTION 1 du main (icons + texte) ***************/
     main > section:nth-of-type(1){
-        margin-bottom: 50px;
+        margin-bottom: 0;
     }
 
     main > section:nth-of-type(1) > div:nth-of-type(2) {
-        width: 90%;
+        width: $width90;
         flex-wrap: wrap;
         padding-bottom: 0;
-        padding-top: 30px;
-    /*    border: 3px solid green;*/
+        padding-top: $padding;
     }
 
     main > section:nth-of-type(1) > div > div {
         width: 45%;
-        padding-bottom: 30px;
+        padding-bottom: $padding;
         padding-top: 10px;
     }
 
@@ -46,41 +51,61 @@
 
     main > section:nth-of-type(1) > div > div > p {
         font-size: 1.2em;
-        width: 90%;
+        width: $width90;
         margin-left: auto;
         margin-right: auto;
     }
-
-    /************ SECTION 3 : Our Technology ****************/
+    
+    /****************** BLOCK 3 ****************/
+    /************ SECTION 2 du main : Our Technology ****************/
+    main{
+       margin-top: 0;
+        padding-top: 0;
+    }
+    
     main > section:nth-of-type(2){
-        width: 90%;
+        width: $width90;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     main > section:nth-of-type(2) > div{
         width: 48%;
+        height: 350px;
         margin-left: auto;
         margin-right: auto;
-/*        border: 3px solid green;*/
     }
 
     main > section:nth-of-type(2) > div:nth-of-type(1){
-        background-size: cover;
+        background-size: 380px;
+    }
+    
+    main > section:nth-of-type(2) > div:nth-of-type(2){
+        padding-top: 0;;
     } 
 
     main > section:nth-of-type(2) > div:nth-of-type(2) > p{
         font-size: 1em;
     }
 
-    /***************** SECTION 4 : How to connect ************/
+    /***************** SECTION 3 du main : How to connect ************/
     main > section:nth-of-type(3){
-        width: 90%;
+        width: $width90;
+        margin-top: 0;
     }
 
     main > section:nth-of-type(3) > div{
         width: 48%;
+        height: 350px;
         margin-left: auto;
         margin-right: auto;
-/*        border: 3px solid green;*/
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    main > section:nth-of-type(3) > div:nth-of-type(1){
+        padding-top: 0;
     }
 
     main > section:nth-of-type(3) > div:nth-of-type(1) > p{
@@ -88,30 +113,32 @@
     }
 
     main > section:nth-of-type(3) > div:nth-of-type(2){
-        background-size: cover;
+        background-size: 420px;
     }
+}
 
-    /********* SECTION 5 : Scientific studies ******/
-
+@media (max-width: 1250px){
+    /********* SECTION 4 du main : Scientific studies ******/
     main > section:nth-of-type(4){
         width: 100%;
         height: auto;
         background-position: center;
-        padding-top: 75px;
-        padding-bottom: 75px;
+        padding-top: $padding * 2;
+        padding-bottom: $padding * 2;
     }
 
     main > section:nth-of-type(4) > div{
-        width: 90%;
+        width: $width90;
         height: auto;
         padding-left: 10%;
         padding-right: 10%;
-        padding-top: 50px;
+        padding-top: $margin;
+        padding-bottom: 10px;
     }
 
     figure{
         width: 306px;
-        margin-bottom: 30px;
+        margin-bottom: $padding;
     }
 
     figure > img{
@@ -124,15 +151,19 @@
 @media (max-width:650px){
 
     /************* MAIN ****************/
+    main > section:nth-of-type(1){
+        margin-bottom: $margin;
+    }
 
-    /*************** SECTION 1 ***************/
+    /*************** BLOCK 2 ***************/
+    /*** SECTION 1 du main (icons + texte) *****/
     main > section:nth-of-type(1) > div > div {
         width: 100%;
-        padding-bottom: 50px;
+        padding-bottom: $margin;
         padding-top: 0;
     }
 
-    /************ SECTION 3 : Our Technology ****************/
+    /****** SECTION 2 du main : Our Technology ****************/
     main > section:nth-of-type(2){
         flex-wrap: wrap;
         margin-top: 0;
@@ -152,6 +183,8 @@
 
     main > section:nth-of-type(2) > div:nth-of-type(1){
         order: 2;
+        height: 250px;
+        background-size: 300px;
     } 
     
     main > section:nth-of-type(2) > div:nth-of-type(2){
@@ -163,13 +196,13 @@
     
     .btnKnowMore{
         margin-top: 40px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
-    /***************** SECTION 4 : How to connect ************/
+    /***************** SECTION 3 du main : How to connect ************/
     main > section:nth-of-type(3){
         flex-wrap: wrap;
-        margin-bottom: 20px;
+        margin-bottom: $margin;
     }
 
     main > section:nth-of-type(3) > div{
@@ -178,41 +211,40 @@
     }
     
     main > section:nth-of-type(3) > div:nth-of-type(1){
-        padding-top: 0;
+        padding-top: 20px;
     }
     
     main > section:nth-of-type(3) > div:nth-of-type(2){
-        height: 450px;
+        height: 300px;
+        margin-top: 30px;
     }
 
-    /********* SECTION 5 : Scientific studies ******/
+    /********* SECTION 4 du main : Scientific studies ******/
 
     main > section:nth-of-type(4){
         width: 100%;
         height: auto;
         background-position: center;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: $padding;
+        padding-bottom: $padding;
     }
 
     main > section:nth-of-type(4) > div{
-        width: 90%;
+        width: $width90;
         height: auto;
         padding-left: 10%;
         padding-right: 10%;
-        padding-top: 50px;
+        padding-top: $margin;
     }
 
     figure{
         width: 306px;
-        margin-bottom: 30px;
+        margin-bottom: $padding;
     }
 
     figure > img{
         width: 100%;
     }
-
-
 }
 
 
