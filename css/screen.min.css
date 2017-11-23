@@ -1,3 +1,138 @@
+@font-face {
+    src: url(Fonts/regular.otf);
+    font-family: relancer
+}
 
-@font-face{src:url(Fonts/regular.otf);font-family:relancer}*,:after,:before{box-sizing:border-box;padding:0;margin:0}body{box-sizing:border-box;font-family:'Open Sans',sans-serif}article{top:0;margin:0;height:900px;background:url(../images/home/montre.png) 50% 0 no-repeat fixed;margin:0 auto;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;text-align:center;color:#fff}h1{color:#e3ac23;font-family:relancer;margin-top:0}h2{color:#e3ac23}article>div{padding-top:40vh}#divText{width:80%;height:500px;text-align:center;color:#000;margin-left:auto;margin-right:auto;padding-top:400px;position:relative}#divText>p{padding-bottom:30px}strong{color:#e3ac23}.buttonKnowMore{background-color:none;width:200px;border-radius:5px}.knowMore{width:100%;height:300px;background-color:grey;padding-top:50px;position:absolute;top:600px;left:0;margin-top:0;display:none}.knowMore>p{width:600px;margin-left:auto;margin-right:auto}.visible{display:block}.paralaxtext{text-transform:uppercase;letter-spacing:2px;padding:100px;color:#000}.paralax1{height:900px;background:url(../images/home/boost.jpg) 50% 0 no-repeat fixed;margin:0 auto;padding:50px 0;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;text-align:center}.paralax2{height:900px;background:url(../images/home/zen.jpg) 50% 0 no-repeat fixed;margin:0 auto;padding:50px 0;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;text-align:center}.paralax3{height:900px;background:url(../images/home/viequot.jpg) 50% 0 no-repeat fixed;margin:0 auto;padding:50px 0;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;text-align:center}
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
 
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+
+article {
+    top: 0;
+    margin: 0;
+    height: 900px;
+    background: url(../images/home/watch-front.png) no-repeat ;
+    margin: 0 auto;
+    /*-webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;*/
+    background-size:1000px;
+    background-position: bottom;
+    text-align: center;
+}
+
+h1 {
+    color: #e3ac23;
+    font-family: relancer;
+    margin-top: -200px;
+}
+
+h2 {
+    color: black;
+}
+
+article > div {
+    padding-top: 40vh
+}
+
+#divText {
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 400px;
+    position: relative
+}
+
+#divText > p {
+    padding-bottom: 30px
+}
+
+strong {
+    color: #e3ac23
+}
+
+.buttonKnowMore {
+    background-color: none;
+    width: 200px;
+    border-radius: 5px
+}
+
+.knowMore {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    padding-top: 50px;
+    position: absolute;
+    top: 600px;
+    left: 0;
+    margin-top: 0;
+    display: none
+}
+
+.knowMore > p {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.visible {
+    display: block
+}
+
+.paralaxtext {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 100px;
+    color: #000
+}
+
+.paralax1 {
+    height: 900px;
+    background: url(../images/home/success.png) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center
+}
+
+.paralax2 {
+    height: 900px;
+    background: url(../images/home/zen2.png) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center
+}
+
+.paralax3 {
+    height: 900px;
+    background: url(../images/home/) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center
+}

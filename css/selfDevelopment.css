@@ -31,7 +31,7 @@ body{
 /******************DIVimgParallax ********************/
 
 #imgParallax {
-    background-image: url(../images/selfDevelopment/coach.jpg);
+    background-image: url(../images/selfDevelopment/coach-white.jpg);
     /*    background-image: url(../images/selfDevelopment/coach5.jpg);*/
     background-attachment: fixed;
     background-size: cover;
