@@ -17,7 +17,7 @@ require_once('./session_auth.php');
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/discover.min.css">
-    <link rel="stylesheet" href="./css/responsive-discover.css">
+    <link rel="stylesheet" href="./css/discover-responsive.min.css">
 <!--font-awesome-->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
 <!-- police-->
