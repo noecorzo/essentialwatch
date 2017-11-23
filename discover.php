@@ -16,7 +16,7 @@ require_once('./session_auth.php');
 <!--style-->
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/discover.css">
+    <link rel="stylesheet" href="./css/discover.min.css">
     <link rel="stylesheet" href="./css/responsive-discover.css">
 <!--font-awesome-->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -37,17 +37,19 @@ require_once('./session_auth.php');
   <?php
     require_once './include/nav.php';
     ?>
-<!--    SECTION 1 - SLIDER -->
+<!--    BLOCK 1 (section 1) - SLIDER -->
     <section id="parallax">
          <ul class="slider">
+
              <li><img id="img1" src="./images/discover/montre3.png"></li>
              <li><img id="img2" src="./images/discover/front-slider.png"></li>
              <li><img id="img3" src="./images/discover/slider-mobile.png"></li>
+
          </ul>   
     </section>
      
    <main>
-<!--      SECTION 2 : titre + icons avec texte-->
+<!--      BLOCK 2 : titre + SECTION 1 du main (icons + texte) -->
        <section>
            <div>
                 <h1>An <strong>essential</strong> in personal and professional development</h1>
@@ -70,18 +72,16 @@ require_once('./session_auth.php');
                    <img src="./images/discover/drop-design-white.svg" alt="drop">
                    <p>Take care of yourself when you feel the need</p>
                </div>
-       </div>
+           </div>
        </section>
        
-<!--       <div><h2>How does it work?</h2></div>-->
-       
-<!--SECTION 3 : Our Technology-->
+<!--BLOCK 3-->
+<!--SECTION 2 du main : Our Technology-->
        <section>          
            <div>   
            </div>
            <div>
                 <h3>Our Technology</h3>
-<!--                <i class="fa fa-tint fa-3x" aria-hidden="true"></i>-->
                 <p>Three reservoirs.</p>
                 <p> Three synergies of essential oils.</p>
                 <p> Plenty of small filaments to difuse their properties into your body.</p>
@@ -89,12 +89,11 @@ require_once('./session_auth.php');
            </div>
        </section>
        
-<!--       SECTION 4 : How to connect-->
+<!--SECTION 3 du main : How to connect-->
        
        <section>
            <div>
                 <h3>How to connect</h3>
-<!--                <i class="fa fa-usb fa-3x" aria-hidden="true"></i>-->
                 <p>Put on your Essential Watch into your wrist.</p>
                 <p>Choose the diffusion mode better suits you: manually or automatically.</p>
                 <p>Let Essential Watch change your life.</p>
@@ -104,7 +103,7 @@ require_once('./session_auth.php');
            </div>
        </section>
        
-<!--       SECTION 5 : Scientific studies-->
+<!--SECTION 4 : Scientific studies-->
        
        <div><h2>Based on <strong>scientific studies</strong></h2></div>
        <section>
@@ -142,18 +141,9 @@ require_once('./session_auth.php');
            </div>  
        </section>   
    </main>
-   
-   
-   
-   
-   
    <?php
     require_once './include/footer.php';
-    ?>
-   
-    
-
-    
+    ?>   
 </body>
 </html>
 <?php
