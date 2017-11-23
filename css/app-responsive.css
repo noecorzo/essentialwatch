@@ -17,6 +17,7 @@
     .download-btn a img {
         width: 150px;
     }
+
     #service .block h3 {
         font-size: 22px;
     }
@@ -24,6 +25,13 @@
         padding: 0;
         font-size: 15px;
     }
+    #service img {
+        width: 5em;
+        height: auto;
+    }
+
+    .serviceTools {}
+
     #showcase .block img {
         max-width: 100%;
         margin-bottom: 0;
@@ -35,6 +43,7 @@
     #smartphone {
         display: none;
     }
+
 }
 
 /*		Mobile Layout: 320px.
@@ -45,9 +54,7 @@
     h1 {
         font-size: 3em;
     }
-    #header {
-        padding: 50px 0;
-    }
+
     #header .block {
         text-align: center;
     }
@@ -61,6 +68,28 @@
     .download-btn a img {
         width: 130px;
         height: auto;
+    }
+
+    #service .block h3 {
+        font-size: 18px;
+    }
+    #service img {
+        width: 3em;
+        height: auto;
+    }
+
+    #service .title {
+        padding-bottom: 20px;
+    }
+
+    .serviceTools {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .block.wow.fadeInLeft {
+
+        margin: 20px;
     }
     #showcase {
         padding-bottom: 50px;
@@ -77,6 +106,23 @@
     }
     #download-btn {
         display: flex;
+    }
 
+    .featureTools {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .media.wow.fadeInDown.animated{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .media.wow.fadeInDown.animated  h4 {
+        display : none;
     }
 }

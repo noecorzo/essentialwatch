@@ -38,7 +38,6 @@ h3 {
 }
 
 .title p {
-    font-size: 1.7vw;
     font-weight: 400px;
     color: #9da8ad;
 }
@@ -208,7 +207,7 @@ padding-bottom: 5em;*/
 }
 
 #feature {
-    padding: 325px 0 105px 0;
+    padding: 100px 0 105px 0;
 }
 
 #feature .title {

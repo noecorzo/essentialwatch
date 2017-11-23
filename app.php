@@ -99,9 +99,7 @@ require_once('./session_auth.php');
         <section id="service">
             <div class="title" data-wow-delay=".5s">
                 <h2>Useful Tools For Your Life</h2>
-                <p>
-                    Our platform is used to help people to reach their success day by day
-                </p>
+                <p>Our platform will help you reach success</p>
             </div>
 
             <!-- Icons-->
@@ -122,7 +120,7 @@ require_once('./session_auth.php');
                     <img src="./images/app/clock-design.svg" alt="">
                     <h3>Timeline &amp; Milestone</h3>
                     <p>
-                        Lorem Ipsum is simply dummy text
+                        Lorem ipsum dolor sit amet, consectetur adipisicing.
                     </p>
                 </div>
 
@@ -153,10 +151,8 @@ require_once('./session_auth.php');
             <!--INTRO FEATURES-->
 
             <div class="title" data-wow-delay=".5s">
-                <h2>Helping People To Get a Better Life</h2>
-                <p>
-                    Every people is deserved to have a better living
-                </p>
+                <h2>Essential features</h2>
+
             </div>
 
             <!--FEATURES-->
@@ -169,7 +165,7 @@ require_once('./session_auth.php');
                         <img class="media-object pull-left" src="./images/app/progress-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Visualize your progress</h4>
-                            <p>Start from now, you can easily manage your time and it has reminder to let you know every time.</p>
+                            <p>Keep track of your daily evolution and see how you manage your emotional moments of the day.</p>
                         </div>
                     </div>
 
@@ -187,7 +183,7 @@ require_once('./session_auth.php');
                         <img class="media-object pull-left" src="./images/app/heart-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Heart Rate</h4>
-                            <p>Analyze your heart activity to know more about your natural boost, relax or stressful moments (of your day).</p>
+                            <p>Analyze your heart activity to know more about your natural boost, stressful or relaxing moments.</p>
                         </div>
                     </div>
                 </div>
@@ -202,16 +198,16 @@ require_once('./session_auth.php');
                         <img class="media-object pull-left" src="./images/app/notifications-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Notifications</h4>
-                            <p>Get notifications to do some relaxing or energizing exercices.</p>
+                            <p>Get notified when it's time to do some relaxing or energizing exercices.</p>
                         </div>
                     </div>
 
                     <!--CALENDAR-->
                     <div class="media wow fadeInDown" data-wow-delay="1.7s">
-                        <img class="media-object pull-left" src="./images/app/calendar.svg" alt="Image">
+                        <img class="media-object pull-left" src="./images/app/calendar-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Calendar</h4>
-                            <p>Schedule your meetings, lorem ipsum dolor sit amet</p>
+                            <p>Schedule your meetings, lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, vitae!.</p>
                         </div>
                     </div>
 
