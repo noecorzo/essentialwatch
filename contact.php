@@ -51,7 +51,7 @@ initial-scale=1.0"/>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/contactM.css">
+    <link rel="stylesheet" href="./css/contact.css">
 <!--font-awesome-->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
 <!-- police-->
@@ -65,21 +65,16 @@ initial-scale=1.0"/>
 <body>
 <?php
     require_once './include/nav.php';
+?> 
 
-?>   
+<main>  
+<form id="formcontact" name="formulaire" method="POST" action="<?php echo basename($_SERVER['PHP_SELF']); ?>"> 
+   <h2>Contact us</h2> 
+    <input class="inputcontact" type="text" id="first_name" name="first_name" placeholder="First Name">
+    <input class="inputcontact" type="text" id="last_name" name="last_name" placeholder="Last Name">
+    <input class="inputcontact" type="text" id="email" name="email" placeholder="Email"/>
 
-<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
-<source src="./images/contact/cq5dam.video.mp4" type="video/webm"> 
-<source src="./images/contact/cq5dam.video.mp4" type="video/mp4"> Video not supported </video>
-
-
-<form id="formcontact" name="formulaire" method="POST" action="<?php echo basename($_SERVER['PHP_SELF']); ?>">  
-    <div>
-        <input class="inputcontact" type="text" id="first_name" name="first_name" placeholder="First Name">
-        <input class="inputcontact" type="text" id="last_name" name="last_name" placeholder="Last Name">
-         <input class="inputcontact" type="text" id="email" name="email" placeholder="Email"/>
-    </div>
-     <textarea type="text" id="message" name="message" maxlength="1000" cols="25" rows="10"placeholder="Type your message..."></textarea>
+    <textarea type="text" id="message" name="message" maxlength="1000" cols="25" rows="10"placeholder="Type your message..."></textarea>
      <button id="button">Submit</button>
      
      <?php
@@ -87,6 +82,8 @@ initial-scale=1.0"/>
     
     ?>
 </form>
+<div></div>
+</main>
 <?php
     require_once './include/footer.php';
 ?>
