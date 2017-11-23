@@ -59,9 +59,9 @@ span{
 
 #container div:nth-child(1){
     
-    background-image: url("../images/selfCare/stress3.png");
+    background-image: url("../images/selfCare/zen.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70%;
     height: 600px;
     
 }
@@ -79,18 +79,19 @@ span{
 /******************DIV4**************************/
 #container div:nth-child(4){
     
-    background-image: url("../images/selfCare/demotive2.png");
+    background-image: url("../images/selfCare/boost.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70%;
+    background-position: right;
     height: 600px;
    
  /*****************DIV5**************************/   
 }
 #container div:nth-child(5){
     
-    background-image: url("../images/selfCare/febrile2.png");
+    background-image: url("../images/selfCare/imune.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70%;
     height: 600px;
     
 }

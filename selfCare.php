@@ -39,6 +39,7 @@ require_once('./session_auth.php');
                     <h2>Essential oil for <span>self-care</span></h2>
                     <p>
 
+
                         The <span>essential oil</span> is a highly concentrated vegetal extract. <br><br>
                         <!--                        is a highly concentrated vegetal extract.                        -->
                         Elaborated from active molecules both very rich and complex, the <span>essential oils</span> will benefit your body in many ways.
@@ -65,6 +66,7 @@ require_once('./session_auth.php');
                         <h2><span>Essential Watch&trade;</span><br> relaxes you</h2>
                         <a href="./selfCareRelaxBoost.php">
 				          <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more
+
 				          </button>
 				    </a>
                     </figcaption>

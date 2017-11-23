@@ -45,11 +45,21 @@ require_once('./session_auth.php');
         
         <div class="backgroundOrange">
             
-                <p>This is some text that is placed in the transparent box.</p>
+            <div>
+            
+            
+            </div>    
+            
+           <div>
+            
+                <p><span>essential watch</span> fait plus que collecter et interpréter vos données, elle permet une réel interaction grâce à sa capacité à libérer une synergie d'huile essentielle.</p>
                 <a href="">
                  <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
                  </a>
            
+            </div> 
+            
+                
         </div>
         
 
