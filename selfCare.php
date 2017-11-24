@@ -53,8 +53,8 @@ require_once('./session_auth.php');
 
             </section>
 
-            <div id="EWithYou">
-                <h2></h2>
+            <div id="selfCareEssential">
+                <h2><span>self care</span> is not an option, it is essential</h2>
 
             </div>
 
@@ -65,10 +65,8 @@ require_once('./session_auth.php');
                     <figcaption>
                         <h2><span>Essential Watch&trade;</span><br> relaxes you</h2>
                         <a href="./selfCareRelaxBoost.php">
-				          <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more
-
-				          </button>
-				    </a>
+				          <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
+                       </a>
                     </figcaption>
                 </figure>
                 <figure class="picto"><img src="./images/selfCare/boost.svg" />
@@ -102,8 +100,6 @@ require_once('./session_auth.php');
 </body>
 
 <script src="./js/scriptSelfCare/script.js"></script>
-
-
 </html>
 <?php
     ob_flush();
