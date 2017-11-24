@@ -88,7 +88,7 @@ require_once('./session_auth.php');
                     <p>Three reservoirs.</p>
                     <p> Three synergies of essential oils.</p>
                     <p> Plenty of small filaments to difuse their properties into your body.</p>
-                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
                 </div>
             </section>
 
@@ -100,7 +100,7 @@ require_once('./session_auth.php');
                     <p>Put on your Essential Watch&trade; to your wrist.</p>
                     <p>Choose the diffusion mode that suits you the best: manually or automatically.</p>
                     <p>Let Essential Watch&trade; change your life.</p>
-                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                    <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
                 </div>
                 <div>
                 </div>

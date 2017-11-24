@@ -7,7 +7,7 @@ require_once('./session_auth.php');
 
 <head>
     <meta charset="UTF-8">
-    <title>Essential Watch Self-development</title>
+    <title>Essential Watch&trade; Self-development</title>
     <link rel="stylesheet" href="./css/normalize.css">
     
     <link rel="stylesheet" href="./css/selfCareRelaxBoost.css">

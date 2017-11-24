@@ -6,7 +6,7 @@ require_once('./session_auth.php');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Essential Watch Self-development</title>
+    <title>Essential Watch&trade; Self-development</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="stylesheet" href="./css/normalize.css">
      <link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -54,7 +54,7 @@ require_once('./session_auth.php');
             
                 <p><span>essential watch</span> fait plus que collecter et interpréter vos données, elle permet une réel interaction grâce à sa capacité à libérer une synergie d'huile essentielle.</p>
                 <a href="">
-                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
                  </a>
            
             </div> 
@@ -79,7 +79,7 @@ require_once('./session_auth.php');
                 </p>
                 
                 <a href="">
-                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
                  </a>
                 
         </div>  
@@ -90,7 +90,7 @@ require_once('./session_auth.php');
                Oportunum est, ut arbitror, explanare nunc causam, quae ad exitium
                 </p>
                  <a href="">
-                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Know more</button>
+                 <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
                  </a>
                 
         </div> 

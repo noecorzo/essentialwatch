@@ -5,11 +5,20 @@
     h1 {
         font-size: 3em;
     }
+
+    h2,
+    .title h2,
+    #service .title h2 {
+        font-size: 2em;
+    }
+
+
     #header .app-showcase img {
         max-width: 100%;
     }
     #header .block {
         text-align: center;
+         width: auto;
     }
     #header .block .logo {
         margin-bottom: 35px;
@@ -44,6 +53,10 @@
         display: none;
     }
 
+    .bg-img {
+        padding: 0;
+    }
+
 }
 
 /*		Mobile Layout: 320px.
@@ -55,8 +68,14 @@
         font-size: 3em;
     }
 
+    h2,
+    .title h2,
+    #service .title h2 {
+        font-size: 2em;
+    }
     #header .block {
         text-align: center;
+        width: auto;
     }
     #header .app-showcase img {
         max-width: 100%;
@@ -64,6 +83,7 @@
     #header .block .logo {
         margin-bottom: 20px;
     }
+    
 
     .download-btn a img {
         width: 130px;
@@ -113,16 +133,20 @@
         flex-direction: column;
         align-content: center;
     }
-    .media.wow.fadeInDown.animated{
-     
+    .media.wow.fadeInDown.animated {
+
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    
-    .media.wow.fadeInDown.animated  h4 {
-        display : none;
+
+    .media.wow.fadeInDown.animated h4 {
+        display: none;
+    }
+
+    .bg-img {
+        padding: 0;
     }
 }

@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 42px;
     font-weight: 300;
     line-height: 32px;
     margin-bottom: 10px;
@@ -29,11 +29,14 @@ h3 {
 
 .title {
     text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .title h2 {
     font-size: 36px;
-    color: #1b1b1b;
     font-weight: 300;
 }
 
@@ -42,18 +45,6 @@ h3 {
     color: #9da8ad;
 }
 
-/*.navbar-default {
-    background: transparent;
-    border: none;
-    margin-bottom: 0;
-}*/
-
-/*.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}*/
 
 .serviceTools {
     display: flex;
@@ -62,7 +53,6 @@ h3 {
 }
 
 #service .block {
-
     width: 25em;
 }
 
@@ -75,13 +65,7 @@ ul li {
     list-style: none;
 }
 
-#header {
-    /*background-image: url("../images/app/bg1.png");*/
-    /*background-repeat: no-repeat;
-background-size: cover;*/
-    /*padding-top: 5em;
-padding-bottom: 5em;*/
-}
+#header {}
 
 .bg-img:before {
     position: absolute;
@@ -91,34 +75,33 @@ padding-bottom: 5em;*/
     left: 0;
     right: 0;
     content: "";
-    /*background-image: url("../images/app/bg1.png");*/
     background-color: #e3ac23;
     background-position: 50% 5%;
     background-size: cover;
-    /*filter: blur(1px);*/
-    /*border: solid 10px white;*/
 }
 
 .bg-img {
     width: 100%;
-    /*background-image: url("../images/app/bg1.png");*/
-    /*background-color: black;*/
-    /*background-repeat: no-repeat;
-    background-size: cover;
-    */
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 4em 0px;
+    padding: 8em 0px;
 }
 
 #header .app-showcase {}
 
 #header .block {
-    text-align: left;
+
     width: 32em;
+
+    height: 30em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #smartphone {
@@ -140,7 +123,7 @@ padding-bottom: 5em;*/
 }
 
 #header .block h2 {
-    margin: 20px 0 20px 0;
+    margin: 50px 0 50px 0;
     color: black;
     line-height: 1;
 }
@@ -151,12 +134,9 @@ padding-bottom: 5em;*/
     margin-right: 10px;
 }
 
-#service {
-    padding: 80px 0 100px;
-}
 
 #service .title {
-    padding-bottom: 90px;
+    margin-bottom: 100px;
 }
 
 #service .title h2 {

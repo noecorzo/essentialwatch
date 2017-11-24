@@ -12,7 +12,7 @@ require_once('./session_auth.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-    <title>Essential Watch Self-development</title>
+    <title>Essential Watch&trade; Self-development</title>
     <link rel="stylesheet" href="./css/normalize.css">
 
     <link rel="stylesheet" href="./css/selfCare.css">

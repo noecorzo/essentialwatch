@@ -7,7 +7,7 @@ require_once('./session_auth.php');
 
 <head>
     <meta charset="utf-8">
-    <title>Essential Watch</title>
+    <title>Essential Watch&trade;</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -74,7 +74,7 @@ require_once('./session_auth.php');
 
                         <img id="app" src="./images/app/appIcon.png" alt="essential app">
 
-                        <h2>Essential App, the only app you need</h2>
+                        <h2>Essential App, the only app you need.</h2>
 
                         <!-- App Store icons -->
                         <div class="download-btn">
@@ -139,7 +139,7 @@ require_once('./session_auth.php');
         <section id="showcase">
             <div class="container">
                 <div class="block text-center wow fadeInUp" data-wow-delay=".5s">
-                    <img src="./images/app/appPreview.svg" alt="">
+                    <img src="./images/app/appPreview.png" alt="mobile app preview">
                 </div>
             </div>
         </section>
@@ -151,7 +151,7 @@ require_once('./session_auth.php');
             <!--INTRO FEATURES-->
 
             <div class="title" data-wow-delay=".5s">
-                <h2>Essential features</h2>
+                <h2>Essential Features</h2>
 
             </div>
 
@@ -182,7 +182,7 @@ require_once('./session_auth.php');
                     <div class="media wow fadeInDown" data-wow-delay="1.1s">
                         <img class="media-object pull-left" src="./images/app/heart-design.svg" alt="Image">
                         <div class="media-body">
-                            <h4 class="media-heading">Heart Rate</h4>
+                            <h4 class="media-heading">Heart rate</h4>
                             <p>Analyze your heart activity to know more about your natural boost, stressful or relaxing moments.</p>
                         </div>
                     </div>
