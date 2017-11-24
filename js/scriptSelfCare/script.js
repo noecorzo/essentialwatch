@@ -1,3 +1,4 @@
+/********** hover figure *********/
 var picto = document.getElementsByTagName("figure");
 var figcaption = document.getElementsByTagName("figcaption");
     
@@ -24,4 +25,13 @@ var figcaption = document.getElementsByTagName("figcaption");
             figcaption[i].style.display="none";
             }    
         });   
-    }   
+    } 
+
+/*********** btn 3 *************/
+var btn = document.getElementsByClassName('btnKnowMore');
+    
+    for (var i = 0; i<btn.length; i++){
+        btn[i].setAttribute("id", i);
+    }
+    
+    btn[2].style.marginTop = "20px";

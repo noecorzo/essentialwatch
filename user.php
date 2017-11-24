@@ -59,7 +59,7 @@ foreach ($data_enterprises as $enterprise) {
                 foreach ($data_enterprises as $row){
                     echo '<option value="' . $row["idEnterprise"] . '">' .  $row['nomEnterprise'] . '</option>';
                 };
-            ?>
+                ?>
           </select>
             <button>Get Started</button>
         </form>
@@ -69,6 +69,7 @@ foreach ($data_enterprises as $enterprise) {
     require_once './include/footer.php';
     ?>   
 </body>
+<script src="./js/user/script.js"></script>
 </html>
 <?php
     ob_flush();

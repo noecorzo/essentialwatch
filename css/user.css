@@ -60,6 +60,10 @@ form > select {
     color: grey;
 }
 
+form > select > option{
+    color: black;
+}
+
 form > button {
     width: 300px;
     height: 40px;

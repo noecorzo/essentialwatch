@@ -92,10 +92,7 @@ span {
     min-height: 80em;
     background-attachment: fixed;
 
-
 }
-
-
 
 #slide2 h2 {
 
@@ -105,15 +102,11 @@ span {
     font-size: 3em;
     width: 20em;
 
-
-
 }
 
 #slide2 span {
 
     font-family: relancer;
-
-
 
 }
 
@@ -131,11 +124,7 @@ span {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
 
-
-
 }
-
-
 
 #selfCareEssential h2{
     
@@ -143,17 +132,6 @@ span {
      text-transform: uppercase;
 
 }
-
-#selfCareEssential span {
-
-    font-size: 1.2em;
-
-
-
-}
-
-
-
 
 /********************div sectionPicto*******************/
 
@@ -212,8 +190,6 @@ figure > img {
     width: 300px;
 }
 
-
-
 .btnKnowMore {
     width: 115px;
     padding: 10px;
@@ -230,7 +206,6 @@ figure > img {
     background-color: #e3ac23;
     color: white;
 }
-
 
 
 /*********version tablette*************/
@@ -274,16 +249,12 @@ figure > img {
     }
 
 
-
-
     #slide2 h2 {
 
         padding-top: 1em;
-/*        padding-left: 5em;*/
         font-size: 2.5em;
         width: 18em;
-    text-align: center;
-
+        text-align: center;
 
     }
 
@@ -291,11 +262,9 @@ figure > img {
 
         font-family: relancer;
         font-size: 1em;
-
     }
     
 /*div picto */
-    
     
     #sectionPicto {
     
@@ -303,16 +272,12 @@ figure > img {
     padding-top: 25px;
     padding-bottom: 25px;
 
-
 }
-    
     
    figure > img {
     width: 240px;
 }
- 
-    
-    
+  
  figcaption{
     width: 13em;
     height: 13em;
@@ -321,20 +286,65 @@ figure > img {
     left:1em;
    
 }
-    
-    
+     
 figcaption h2{
         
     font-size: 1em;    
-        
         
 }
     
  
 
-   
+}
+
+/*********version mobile phone******************/
+
+@media(max-width:700px) {
+    
+/*slide1*/
+    
+#slide1 {
+    background-image: url("../images/selfCare/splash2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 55em;
+    background-attachment: fixed;
+}  
+#slide1 p {
+
+        margin-top: 1em;
+        margin-left: 2em;
+        font-size: 2em;
+        width: 10em;
+}  
+    
+#slide1 h2 {
+
+        padding-top: 1.5em;
+        margin-left: 1em;
+        font-size: 3em;
+        width: 8em;
+     
+
+}  
     
     
     
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

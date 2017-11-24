@@ -13,136 +13,80 @@
 }
 
 span {
-
     color: #e3ac23;
- 
-
+    font-family: relancer;
 }
 
-body{
-    
-     font-family: 'Open Sans', sans-serif;
-    
-    
+body{  
+     font-family: 'Open Sans', sans-serif; 
 }
 
+/************** BLOCK 1 : IMG FOND + H1 ************/
 
-
-/******************DIVimgParallax ********************/
-
-#imgParallax {
+main > div:nth-of-type(1) {
     background-image: url(../images/selfDevelopment/coach-white.jpg);
-    /*    background-image: url(../images/selfDevelopment/coach5.jpg);*/
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 1000px;
-    /*    border: solid 2px red;*/
+    height: 700px;
 }
 
-
-
-#imgParallax h1 {
-    font-size: 50px;
+main > div:nth-of-type(1) > h1 {
+    font-size: 3em;
+    width: 65%;
     color: black;
-    margin: 0;
-    padding-top: 15%;
-    padding-right: 30%;
+    margin-top: 18%;
     text-align:center;
-    font-size: 50px;
-
 }
 
-#imgParallax span {
+/*********** BLOCK 2 : H2  ****************/
 
-    font-size: 36px;
-    font-family: relancer;
-
-}
-
-/******************DIV EWithYou********************/
-
-#EWithYou {
+main > div:nth-of-type(2) {
+    width: 100%;
     height: 100px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 1.8em;
+    text-transform: uppercase;
     color: white;
     background-color: black;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 0;
-
-
-}
-
-
-
-#EWithYou h2{
-    
-     font-size: 32px;
-     text-transform: uppercase;
-
-}
-
-#EWithYou span {
-
-    font-size: 30px;
-    font-family: relancer;
-
-
-}
-
-
-/******************DIVbackgroundOrange ********************/
-.backgroundOrange{
-    
+    align-items: center;
     display: flex;
     justify-content: center;
-     background-color: #e3ac23;
-   
 }
 
+/************ BLOCK 3 : BLOCK ORANGE ********************/
+main > div:nth-of-type(3){ 
+    display: flex;
+    align-items: center;
+    background-color: #e3ac23;
+}
 
+main > div:nth-of-type(3) > div:nth-of-type(1) {
 
-.backgroundOrange div:nth-child(1) {
-
-    background-image: url(../images/selfDevelopment/watch-front.png);
+    background-image: url(../images/selfDevelopment/watch-front3.png);
     background-repeat: no-repeat;
     background-size: cover;
-/*   border: 1px solid black;*/
-    height: 490px;
-    width: 40%;
-  
-    
+    background-position: center;
+    height: 410px;
+    width: 40%;    
 }
 
 
-.backgroundOrange div:nth-child(2){
+main > div:nth-of-type(3) > div:nth-of-type(2){
     width: 60%;
-/*    border: 1px solid black;*/
+    text-align: center;
 }
 
-.backgroundOrange p{
-    
-    padding-top: 15%;
-    font-weight: bold;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    width: 22em;
-    text-align: justify;
-    margin-left: 20px;
-   
+div:nth-of-type(3) p{
+    font-weight: bolder;
+    font-size: 1.7em;
+    width: 80%;
+    margin-left: 7%;   
 }
 
-.backgroundOrange span{
-    
-    color:white;
-    font-family: relancer;
-    
-    
+div:nth-of-type(3) span{
+    color:white;    
 }
-
 
 .btnKnowMore{
     width: 115px;
@@ -151,124 +95,88 @@ body{
     background-color: #e3ac23;
     border-radius: 5px;
     color: white;
-    margin-top: 70px;
-    margin-left:30%;
-    font-size: 0.85em;
-    
-   
+    margin-top: 50px;
+    font-size: 0.85em;  
 }
 
 .btnKnowMore:hover{
-    border: 3px solid white;
+    border: 3px solid #e3ac23;
     background-color: white;
     color:#e3ac23 ;
 }
 
-
-
-/******************DIVcontainer********************/
-
-#container {
-
+/*********** BLOCK 4 : PROFESSIONALLY **************/
+main > div:nth-of-type(4) {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-/*    border: 5px solid red;*/
-    margin-bottom: 5em;
-
-    
-
 }
 
-#container div {
-
-
-/*    border:2px solid red; */
+main > div:nth-of-type(4) > div {
     width: 50%;
-    height: 400px ;
-
-
 }
 
-#container h2 {
+main > div:nth-of-type(4) > div:nth-child(1) {
+    background-image: url(../images/selfDevelopment/selfdev.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
 
-    margin-top: 3em;
-    font-size: 28px;
+main > div:nth-of-type(4) > div:nth-child(2) {
+    text-align: center;
+}
+
+main > div > div > h2 {
+    font-size: 2em;
     text-transform: uppercase;
     color: #e3ac23;
-    margin-left: 30%;
-/*border:10px solid red; */
+    margin-bottom: 30px;
 }
 
-
-#container .personally h2 {
-
-    margin-left: 36%;
-    
-
+main > div > div > p {
+    font-size: 1.6em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-#container p {
-
-    text-align: center;
-    font-size: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
-     margin-top: 0.5em;
-/*  border:10px solid blue; */
-}
-
-
-#container .btnKnowMore{
-    width: 115px;
-    padding: 10px;
-    border: 3px solid #e3ac23;
-    background-color: white;
-    border-radius: 5px;
+main > div > div > h2 {
+    font-size: 2em;
+    text-transform: uppercase;
     color: #e3ac23;
-    margin-top: 20px;
-     margin-left: 40%;
-    font-size: 0.85em;
+    margin-bottom: 30px;
 }
 
-#container .btnKnowMore:hover{
-    border: 3px solid #e3ac23;
-    background-color: #e3ac23;
-    color: white;
+main > div > div > p {
+    font-size: 1.6em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main > div:nth-of-type(5) {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-
-/******DIVprofessionnally*/
-
-#container div:nth-child(1) {
-    background-image: url(../images/selfDevelopment/selfdev.png);
-    background-size: 70%;
-    background-repeat: no-repeat;
-/*     border: 2px solid red;*/
-    background-position: left;
+main > div:nth-of-type(5) > div {
+    width: 50%; 
 }
 
-/******DIVpersonally*/
+main > div:nth-of-type(5) > div:nth-child(1){
+    text-align: center;
+}
 
-
-
-#container div:nth-child(4) {
-
+main > div:nth-of-type(5) > div:nth-child(2){
     background-image: url(../images/selfDevelopment/personally_web.png);
-
-    background-size: 70%;
+    background-size: 500px;
     background-repeat: no-repeat;
-      
-/*    border:2px solid red;*/
     background-position: right;
-
-    
+    height: 400px;
 }
-
-
-
-
