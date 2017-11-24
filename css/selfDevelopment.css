@@ -106,9 +106,10 @@ body{
 
 .backgroundOrange div:nth-child(1) {
 
-    background-image: url(../images/selfDevelopment/watch-front.png);
+    background-image: url(../images/selfDevelopment/watch-front3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 /*   border: 1px solid black;*/
     height: 490px;
     width: 40%;
