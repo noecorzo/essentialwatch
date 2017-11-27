@@ -19,8 +19,18 @@ body {
 }
 
 /********** BLOCK 1 (section 1) - SLIDER ***********/
+.bx-viewport{
+//    height: 720px;
+//    border: 3px solid red;
+}
+
+.slider img{
+    height: 100%;
+}
+
 .bx-wrapper {
     border: none;
+    margin-bottom: 0;
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
@@ -29,7 +39,7 @@ body {
 }
 
 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
-    bottom: -35px;
+    bottom: 20px;
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {

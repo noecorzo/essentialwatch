@@ -1,5 +1,9 @@
 /*********** TABLETTE **************/
 @media (max-width: 1150px) {
+  /****** BLOCK 1 (section 1) - SLIDER ********/
+  .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+    bottom: 10px; }
+
   /************* MAIN ****************/
   /************* BLOCK 2 : titre + SECTION 1 du main (icons + texte) ****************/
   /************ h1 ************/
@@ -114,12 +118,9 @@
     width: auto; } }
 /*********** MOBILE **************/
 @media (max-width: 650px) {
-  /************* MAIN ****************/
+  /****** BLOCK 1 (section 1) - SLIDER **********/
   main > section:nth-of-type(1) {
     margin-bottom: 50px; }
-
-  .bx-wrapper {
-    margin-bottom: 20px; }
 
   .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
     display: none; }
