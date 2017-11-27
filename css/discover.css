@@ -10,15 +10,19 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 /********** BLOCK 1 (section 1) - SLIDER ***********/
+.slider img {
+  height: 100%; }
+
 .bx-wrapper {
-  border: none; }
+  border: none;
+  margin-bottom: 0; }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: center;
   width: 100%; }
 
 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
-  bottom: -35px; }
+  bottom: 20px; }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
   display: none; }

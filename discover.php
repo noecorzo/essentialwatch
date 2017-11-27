@@ -41,11 +41,12 @@ require_once('./session_auth.php');
     require_once './include/nav.php';
     ?>
         <!--    BLOCK 1 (section 1) - SLIDER -->
-        <section id="parallax">
+        <section>
             <ul class="slider">
                 <li><img id="img1" src="./images/discover/slider-2montres.png" alt="montre essential watch"></li>
-                <li><img id="img2" src="./images/discover/front-slider.png" alt="montre essential watch"></li>
-                <li><img id="img3" src="./images/discover/slider-mobile.png" alt="app essential watch"></li>
+                <li><img id="img2" src="./images/discover/front-slider765.png" alt="montre essential watch"></li>
+                <li><img id="img3" src="./images/discover/appPreview.png" alt="app essential watch"></li>
+<!--                <li><img id="img3" src="./images/discover/slider-mobile.png" alt="app essential watch"></li>-->
             </ul>
         </section>
 
