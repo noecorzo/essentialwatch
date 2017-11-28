@@ -18,7 +18,7 @@
     }
     #header .block {
         text-align: center;
-         width: auto;
+        width: auto;
     }
     #header .block .logo {
         margin-bottom: 35px;
@@ -39,8 +39,6 @@
         height: auto;
     }
 
-    .serviceTools {}
-
     #showcase .block img {
         max-width: 100%;
         margin-bottom: 0;
@@ -59,9 +57,7 @@
 
 }
 
-/*		Mobile Layout: 320px.
-		margins: 34px.
-*/
+/* Mobile Layout */
 
 @media only screen and (max-width: 767px) {
     h1 {
@@ -71,7 +67,7 @@
     h2,
     .title h2,
     #service .title h2 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     #header .block {
         text-align: center;
@@ -83,7 +79,7 @@
     #header .block .logo {
         margin-bottom: 20px;
     }
-    
+
 
     .download-btn a img {
         width: 130px;
@@ -100,6 +96,7 @@
 
     #service .title {
         padding-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     .serviceTools {
@@ -107,23 +104,29 @@
         align-items: center;
 
     }
+
     .block.wow.fadeInLeft {
 
         margin: 20px;
     }
+
     #showcase {
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
+
     #showcase .block img {
         max-width: 100%;
         margin-bottom: 0;
     }
+
     #feature {
-        padding: 80px 0;
+        padding: 0;
     }
+
     #smartphone {
         display: none;
     }
+
     #download-btn {
         display: flex;
     }
@@ -133,13 +136,18 @@
         flex-direction: column;
         align-content: center;
     }
+    
+    #feature .title {
+    margin-bottom: 5px;
+}
+
     .media.wow.fadeInDown.animated {
 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: center;
+        text-align: justify;
     }
 
     .media.wow.fadeInDown.animated h4 {
@@ -149,4 +157,5 @@
     .bg-img {
         padding: 0;
     }
+
 }

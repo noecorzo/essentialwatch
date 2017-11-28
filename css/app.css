@@ -65,8 +65,6 @@ ul li {
     list-style: none;
 }
 
-#header {}
-
 .bg-img:before {
     position: absolute;
     z-index: -1;
@@ -93,9 +91,7 @@ ul li {
 #header .app-showcase {}
 
 #header .block {
-
     width: 32em;
-
     height: 30em;
     text-align: center;
     display: flex;
@@ -111,7 +107,6 @@ ul li {
 }
 
 /*APP LOGO INTRO*/
-
 #app {
     width: 5em;
     height: auto;
@@ -162,15 +157,8 @@ ul li {
 
 /*BACKGROUND*/
 
-#showcase {
-    /*background-image: url("/images/bg1.png");
-    background-size: cover;
-    background-repeat: no-repeat;*/
-}
-
 #showcase .container {
     text-align: center;
-    /*border: solid 2px blue;*/
 }
 
 #showcase .container img {
@@ -181,10 +169,6 @@ ul li {
     margin: 0;
 }
 
-
-#showcase .block {
-    /*padding-top: 90px;*/
-}
 
 #feature {
     padding: 100px 0 105px 0;
@@ -225,4 +209,3 @@ ul li {
     padding: 1em;
 }
 
-footer {}
