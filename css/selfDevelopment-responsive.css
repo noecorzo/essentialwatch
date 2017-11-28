@@ -22,10 +22,11 @@
     /************ BLOCK 3 : BLOCK ORANGE ********************/
     main > div:nth-of-type(3) > div:nth-of-type(1) {
         height: 300px; 
+        background-size: 400px;
     }
 
-    div:nth-of-type(3) p{
-        font-size: 1.4em;
+    main > div:nth-of-type(3) > div > p{
+        font-size: 1.4em !important;
         width: 80%;
 
     }
@@ -33,6 +34,8 @@
     /*********** BLOCK 4 : PROFESSIONALLY ****************/
     main > div:nth-of-type(4) {
         width: 90%;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     main > div:nth-of-type(4) > div {
@@ -40,21 +43,29 @@
     }
     
     main > div:nth-of-type(4) > div:nth-child(1){
-        background-size: 350px;
-        height: 300px;
+        background-size: 370px;
+        height: 220px;
     }
     
     main > div > div > h2 {
         font-size: 1.5em;
+        margin-bottom: 20px;
     }
 
     main > div > div > p {
-        font-size: 1.3em;
+        font-size: 1.2em;
+        width: 80%;
     }
     
-    /*********** BLOCK 4 : PERSONALLY ****************/
+    .btnKnowMore{
+    margin-top: 30px;  
+}
+    
+    /*********** BLOCK 5 : PERSONALLY ****************/
     main > div:nth-of-type(5) {
         width: 90%;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     main > div:nth-of-type(5) > div {
@@ -62,8 +73,8 @@
     }
     
     main > div:nth-of-type(5) > div:nth-child(2){
-        background-size: 350px;
-        height: 300px;
+        background-size: 370px;
+        height: 220px;
     }   
 }
 
@@ -92,25 +103,65 @@
 
     /************ BLOCK 3 : BLOCK ORANGE ********************/
     main > div:nth-of-type(3) > div:nth-of-type(1) {
-        height: 350px; 
+        display: none; 
+    }
+    
+    main > div:nth-of-type(3) > div:nth-of-type(2) {
+         background-image: url(../images/selfDevelopment/watch-front3.png);
+        background-repeat: no-repeat;
+        background-size: 460px;
+        background-position: center;
+        height: 430px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    div:nth-of-type(3) p{
-        font-size: 1.1em;
+    main > div:nth-of-type(3) > div > p{
+        width: 90%;
+        height: auto;
+        max-height: 430px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 30px;
+        padding: 20px;
+        padding-bottom: 90px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    
+    .btnKnowMoreWhite{
+        position: relative;
+        top: -110px;
+        border: 3px solid #e3ac23;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #e3ac23;
+        align-self: center;
+    }
+    
+    .btnKnowMoreWhite:hover{
+        border: 3px solid #e3ac23;
+        background-color: #e3ac23;
+        color: white;
     }
     
     /*********** BLOCK 4 : PROFESSIONALLY ****************/
     main > div:nth-of-type(4) {
         width: 90%;
+        flex-direction: column;
+        padding-bottom: 0;
     }
 
     main > div:nth-of-type(4) > div {
-        width: 50%;
+        width: 100%;
     }
     
     main > div:nth-of-type(4) > div:nth-child(1){
         background-size: 350px;
-        height: 300px;
+        height: 220px;
+        background-position: center;
     }
     
     main > div > div > h2 {
@@ -118,22 +169,47 @@
     }
 
     main > div > div > p {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     
-    /*********** BLOCK 4 : PERSONALLY ****************/
+    /*********** BLOCK 5 : PERSONALLY ****************/
     main > div:nth-of-type(5) {
         width: 90%;
+        flex-direction: column;
+        padding-top: 30px;
     }
 
     main > div:nth-of-type(5) > div {
-        width: 50%; 
+        width: 100%; 
     }
+    
+    main > div:nth-of-type(5) > div:nth-child(1){
+        order: 2;
+    } 
     
     main > div:nth-of-type(5) > div:nth-child(2){
         background-size: 350px;
-        height: 300px;
+        height: 220px;
+        background-position: center;
+        order: 1;
     }   
+}
+
+@media (max-width: 350px){
+   /************ BLOCK 3 : BLOCK ORANGE ********************/
+    main > div:nth-of-type(3) > div:nth-of-type(2) {
+        background-size: 460px;
+        height: 400px;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    main > div:nth-of-type(3) > div > p{
+        padding: 20px;
+        padding-bottom: 70px;
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
 }
 
 

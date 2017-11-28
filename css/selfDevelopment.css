@@ -14,7 +14,6 @@
 
 span {
     color: #e3ac23;
-    font-family: relancer;
 }
 
 body{  
@@ -59,16 +58,16 @@ main > div:nth-of-type(3){
     display: flex;
     align-items: center;
     background-color: #e3ac23;
+    padding-top: 20px;
 }
 
 main > div:nth-of-type(3) > div:nth-of-type(1) {
-
     background-image: url(../images/selfDevelopment/watch-front3.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 500px;
     background-position: center;
-    height: 410px;
-    width: 40%;    
+    height: 390px;
+    width: 40%;  
 }
 
 
@@ -77,30 +76,25 @@ main > div:nth-of-type(3) > div:nth-of-type(2){
     text-align: center;
 }
 
-div:nth-of-type(3) p{
+main > div:nth-of-type(3) > div > p{
     font-weight: bolder;
     font-size: 1.7em;
     width: 80%;
     margin-left: 7%;   
 }
 
-div:nth-of-type(3) span{
-    color:white;    
-}
-
-.btnKnowMore{
-    width: 115px;
+.btnKnowMoreWhite{
+    width: 150px;
     padding: 10px;
     border: 3px solid white;
     background-color: #e3ac23;
     border-radius: 5px;
     color: white;
-    margin-top: 50px;
-    font-size: 0.85em;  
+    margin-top: 50px;  
 }
 
-.btnKnowMore:hover{
-    border: 3px solid #e3ac23;
+.btnKnowMoreWhite:hover{
+    border: 3px solid white;
     background-color: white;
     color:#e3ac23 ;
     cursor: pointer;
@@ -116,7 +110,7 @@ main > div:nth-of-type(4) {
 }
 
 main > div:nth-of-type(4) > div {
-    width: 50%;
+    width: 50%
 }
 
 main > div:nth-of-type(4) > div:nth-child(1) {
@@ -124,7 +118,7 @@ main > div:nth-of-type(4) > div:nth-child(1) {
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: left;
-    height: 400px;
+    height: 350px;
 }
 
 main > div:nth-of-type(4) > div:nth-child(2) {
@@ -158,6 +152,24 @@ main > div > div > p {
     margin-left: auto;
     margin-right: auto;
 }
+
+.btnKnowMore{
+    width: 150px;
+    padding: 10px;
+    border: 3px solid #e3ac23;
+    background-color: white;
+    border-radius: 5px;
+    color: #e3ac23;
+    margin-top: 50px;  
+}
+
+.btnKnowMore:hover{
+    border: 3px solid #e3ac23;
+    background-color: #e3ac23;
+    color: white;
+}
+
+/********** BLOCK 5 : PERSONALLY ***************/
 main > div:nth-of-type(5) {
     display: flex;
     align-items: center;
@@ -179,5 +191,5 @@ main > div:nth-of-type(5) > div:nth-child(2){
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: right;
-    height: 400px;
+    height: 350px;
 }

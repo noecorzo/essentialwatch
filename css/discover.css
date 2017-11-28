@@ -10,15 +10,19 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 /********** BLOCK 1 (section 1) - SLIDER ***********/
+.slider img {
+  height: 100%; }
+
 .bx-wrapper {
-  border: none; }
+  border: none;
+  margin-bottom: 0; }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
   text-align: center;
   width: 100%; }
 
 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
-  bottom: -35px; }
+  bottom: 20px; }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
   display: none; }
@@ -112,7 +116,7 @@ h3 {
 
 main > section:nth-of-type(2) > div:nth-of-type(1) {
   background-image: url(../images/discover/montreReservoirs.jpg);
-  background-size: cover;
+  background-size: 600px;
   background-repeat: no-repeat;
   background-position: center; }
 
@@ -139,9 +143,8 @@ main > section:nth-of-type(2) > div:nth-of-type(2) > p {
 .btnKnowMore:hover {
   border: 3px solid #e3ac23;
   background-color: #e3ac23;
-  color: white; 
-
-
+  color: white;
+  cursor: pointer; 
 }
 
 /***************** SECTION 3 du main : How to connect ************/
@@ -178,9 +181,10 @@ main > section:nth-of-type(3) > div:nth-of-type(1) > p {
 
 main > section:nth-of-type(3) > div:nth-of-type(2) {
   background-image: url(../images/discover/watch-front3.png);
-  background-size: cover;
+  background-size: 600px;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: left;
+  margin-left: 50px; }
 
 /***************** SECTION 4 du main : Scientific studies ************/
 main > div > h2 {
@@ -257,8 +261,8 @@ figcaption a:visited {
 figcaption > ul > li > a:hover {
   color: #e3ac23;
   text-decoration: underline;
-  border-bottom: none; 
-
+  border-bottom: none;
+  cursor: pointer; 
 }
 
 /*# sourceMappingURL=discover.css.map */

@@ -46,7 +46,7 @@ if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email']
         $statement->execute();
 
         if($statement->errorInfo()[0]==="00000"){
-            $msg = 'Thank you for your inscription. We will keep you updated with the latest news about Essential Watch.';
+            $msg = 'Thank you for your inscription.<br> You can <a href="session_login.php" id="linkLogIn">log in</a> now.';
         }
 
         else {
@@ -70,6 +70,7 @@ if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email']
     <title>New User</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/newUser.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/newUser.css">
