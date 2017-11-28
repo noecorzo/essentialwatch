@@ -1,6 +1,7 @@
 # Ignore all binary assets (video, image ...)
 /images/
 /typo/
+/assets/
 
 # Junk
 Thumbs.db

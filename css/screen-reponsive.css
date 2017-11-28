@@ -1,31 +1,45 @@
-/*	Tablet Layout: 768px.  */
+/* TABLET LAYOUT */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    h1 {
-        color: #e3ac23;
-        font-family: relancer;
-        margin-top: -300px;
+    h1 {}
+
+    article p {
+        height: 600px;
+        background-size: 750px;
     }
-    
-    article {
-       
-    }
-   
+
+
 }
 
-/*		Mobile Layout: 320px.
-		margins: 34px.
-*/
+/* MOBILE LAYOUT */
 
 @media only screen and (max-width: 767px) {
     h1 {
-        color: #e3ac23;
-        font-family: relancer;
-        margin-top: -300px;
+        font-size: 45px;
+        margin-top: -220px;
+    }
+
+    article {
+        background-size: 750px;
+        text-align: center;
+        height: 600px;
+    }
+
+    article p {
+        font-size: 17px;
     }
     
-     article {
-        
+    .paralax1,
+    .paralax2,
+    .paralax3 {
+        height: 600px;
+        background-size: cover;
     }
-  
+    
+}
+
+@media only screen and (max-width: 590px) {
+    h1{
+        font-size: 40px;
+    }
 }

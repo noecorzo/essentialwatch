@@ -99,7 +99,7 @@ require_once('./session_auth.php');
         <section id="service">
             <div class="title" data-wow-delay=".5s">
                 <h2>Useful Tools For Your Life</h2>
-                <p>Our platform will help you reach success</p>
+                
             </div>
 
             <!-- Icons-->
@@ -171,7 +171,7 @@ require_once('./session_auth.php');
 
                     <!--KNOW YOU-->
                     <div class="media wow fadeInDown" data-wow-delay=".8s">
-                        <img class="media-object pull-left" src="./images/app/knowYou-Design.svg" alt="Image">
+                        <img class="media-object pull-left" src="./images/app/knowYou-design.svg" alt="Image">
                         <div class="media-body">
                             <h4 class="media-heading">Get to know you</h4>
                             <p>Identify your best and worst feelings to take control of stress.</p>
@@ -211,14 +211,14 @@ require_once('./session_auth.php');
                         </div>
                     </div>
 
-                    <!--STATS Overview
-<div class="media wow fadeInDown" data-wow-delay="1.9s">
-    <img class="media-object pull-left" src="images/app/" alt="Image">
-    <div class="media-body">
-        <h4 class="media-heading">Autre option</h4>
-        <p>Start from now, you can easily manage your time and it has reminder to let you know every time.</p>
-    </div>
-</div>-->
+                    <div class="media wow fadeInDown" data-wow-delay="2s">
+                        <img class="media-object pull-left" src="./images/app/progress-design.svg" alt="Image">
+                        <div class="media-body">
+                            <h4 class="media-heading">Visualize your progress</h4>
+                            <p>Keep track of your daily evolution and see how you manage your emotional moments of the day.</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
