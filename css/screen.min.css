@@ -20,28 +20,34 @@ article {
     top: 0;
     margin: 0;
     height: 900px;
-    background: url(../images/home/watch-front.png) no-repeat ;
+    background: url(../images/home/watch-front.png) no-repeat;
     margin: 0 auto;
-    /*-webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;*/
-    background-size:1000px;
+    background-size: 900px;
     background-position: bottom;
     text-align: center;
+}
+
+article p {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
     color: #e3ac23;
     font-family: relancer;
-    margin-top: -200px;
+    margin-top: -250px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    letter-spacing: 15px;
 }
 
 h2 {
-    color: black;
+    color: #e3ac23;
 }
 
 article > div {
-    padding-top: 40vh
+    padding-top: 35vh;
 }
 
 #divText {
