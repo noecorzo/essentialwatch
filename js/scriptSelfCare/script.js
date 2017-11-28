@@ -28,10 +28,5 @@ var figcaption = document.getElementsByTagName("figcaption");
     } 
 
 /*********** btn 3 *************/
-var btn = document.getElementsByClassName('btnKnowMore');
-    
-    for (var i = 0; i<btn.length; i++){
-        btn[i].setAttribute("id", i);
-    }
-    
+var btn = document.getElementsByClassName('btnKnowMore');    
     btn[2].style.marginTop = "20px";
