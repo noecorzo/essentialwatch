@@ -143,7 +143,8 @@ main > section:nth-of-type(2) > div:nth-of-type(2) > p {
 .btnKnowMore:hover {
   border: 3px solid #e3ac23;
   background-color: #e3ac23;
-  color: white; }
+  color: white;
+  cursor: pointer; }
 
 /***************** SECTION 3 du main : How to connect ************/
 main > section:nth-of-type(3) {
@@ -259,6 +260,7 @@ figcaption a:visited {
 figcaption > ul > li > a:hover {
   color: #e3ac23;
   text-decoration: underline;
-  border-bottom: none; }
+  border-bottom: none;
+  cursor: pointer; }
 
 /*# sourceMappingURL=discover.css.map */

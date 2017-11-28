@@ -182,6 +182,7 @@ main > section:nth-of-type(2) > div:nth-of-type(2) > p{
     border: 3px solid $goldenColor;
     background-color: $goldenColor;
     color: white;
+    cursor: pointer;
 }
 
 /***************** SECTION 3 du main : How to connect ************/
@@ -320,6 +321,7 @@ figcaption > ul > li > a:hover{
     color: $goldenColor;
     text-decoration: underline;
     border-bottom: none;
+    cursor: pointer;
 }
 
 
