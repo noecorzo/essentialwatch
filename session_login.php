@@ -51,6 +51,7 @@ if(isset ($_POST['email'], $_POST['password'])){
 </head>
 <body>
     <?php
+        $page = "login";
         require_once './include/nav.php';
     ?>
     <main>

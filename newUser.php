@@ -82,6 +82,7 @@ if(isset ($_POST['fname'], $_POST['lname'], $_POST['telephone'], $_POST['email']
 </head>
 <body>
   <?php
+    $page = 'newUser';
     require_once './include/nav.php';
     ?>
     

@@ -31,6 +31,7 @@ require_once('./session_auth.php');
 <body>
    <!-- INCLUDE NAVIGATION -->
     <?php
+    $page = 'home';
     require_once './include/nav.php';
     ?>
 

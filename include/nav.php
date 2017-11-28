@@ -5,14 +5,50 @@
         <a href="index.php"><img src="./images/logo/logo-FIN.png" alt="Logo Essential Watch"></a>
         <nav class="menu">
             <ul>
-                <li><a href="discover.php">Discover</a>
+                <li>
+                    <?php
+                        if($page == 'discover'){
+                          echo '<span>Discover</span>'; 
+                        } else {
+                            echo '<a href="discover.php">Discover</a>';
+                        }
+                    ?>
                 </li>
-                <li><a href="selfDevelopment.php">Self-development</a>
+                <li>
+                    <?php
+                        if($page == 'selfDevelopment'){
+                          echo '<span>Self-development</span>'; 
+                        } else {
+                            echo '<a href="selfDevelopment.php">Self-development</a>';
+                        }
+                    ?>
                 </li>
-                <li><a href="selfCare.php">Self-care</a>
+                <li>
+                    <?php
+                        if($page == 'selfCare'){
+                          echo '<span>Self-care</span>'; 
+                        } else {
+                            echo '<a href="selfCare.php">Self-care</a>';
+                        }
+                    ?>
                 </li>
-                <li><a href="app.php">App</a></li>
-                <li><a href="contact.php">Contact</a>
+                <li>
+                    <?php
+                        if($page == 'app'){
+                          echo '<span>App</span>'; 
+                        } else {
+                            echo '<a href="app.php">App</a>';
+                        }
+                    ?>
+                </li>
+                <li>
+                    <?php
+                        if($page == 'contact'){
+                          echo '<span>Contact</span>'; 
+                        } else {
+                            echo '<a href="contact.php">Contact</a>';
+                        }
+                    ?>
                 </li>
             </ul>
         </nav>

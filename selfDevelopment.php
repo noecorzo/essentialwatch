@@ -21,6 +21,7 @@ require_once('./session_auth.php');
 </head>
 <body>  
     <?php
+    $page = 'selfDevelopment';
         require_once './include/nav.php'
     ?>  
     <main>

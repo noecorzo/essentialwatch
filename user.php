@@ -41,6 +41,7 @@ foreach ($data_enterprises as $enterprise) {
 </head>
 <body>
   <?php
+    $page = 'user';
     require_once './include/nav.php';
     ?>
     
