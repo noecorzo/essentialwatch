@@ -167,6 +167,7 @@ main > div > div > p {
     border: 3px solid #e3ac23;
     background-color: #e3ac23;
     color: white;
+    cursor: pointer;
 }
 
 /********** BLOCK 5 : PERSONALLY ***************/
