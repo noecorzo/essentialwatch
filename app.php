@@ -1,5 +1,6 @@
 <?php
 ob_start();
+$page = 'app';
 require_once('./session_auth.php');
 ?>
 <!DOCTYPE html>

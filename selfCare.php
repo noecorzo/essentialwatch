@@ -30,6 +30,7 @@ require_once('./session_auth.php');
 <body>
 
     <?php
+    $page = 'selfCare';
     require_once './include/nav.php'
     ?>
         <main>

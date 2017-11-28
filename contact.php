@@ -48,6 +48,7 @@ initial-scale=1.0"/>
 </head>
 <body>
 <?php
+    $page = 'contact';
     require_once './include/nav.php';
 ?> 
 <main>  
