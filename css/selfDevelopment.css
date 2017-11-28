@@ -103,6 +103,7 @@ div:nth-of-type(3) span{
     border: 3px solid #e3ac23;
     background-color: white;
     color:#e3ac23 ;
+    cursor: pointer;
 }
 
 /*********** BLOCK 4 : PROFESSIONALLY **************/

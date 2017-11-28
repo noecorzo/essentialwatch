@@ -84,6 +84,8 @@ span {
 
 /****************SLIDE2***************************/
 
+
+
 #slide2 {
     background-image: url("../images/selfCare/montreSplash.jpg");
     background-repeat: no-repeat;
@@ -103,6 +105,10 @@ span {
     width: 20em;
 
 }
+
+
+
+
 
 #slide2 span {
 
@@ -144,7 +150,7 @@ span {
     padding-bottom: 1.5em;
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 
 }
 
@@ -205,20 +211,19 @@ figure > img {
     border: 3px solid #e3ac23;
     background-color: #e3ac23;
     color: white;
+    cursor: pointer;
 }
 
 
 /*********version tablette*************/
 
-@media(max-width:968px) {
+@media(max-width:1200px) {
 
 /*slide1*/
 
     #slide1 p {
 
         margin-top: 1em;
-        margin-left: 3em;
-        font-size: 2em;
         width: 10em;
 
     }
@@ -232,16 +237,15 @@ figure > img {
      
 
     }
+  
+    
+    
     
 /*slide2*/
 
 
     #slide2 {
 
-        
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         min-height: 30em;
         background-attachment: fixed;
 
@@ -263,12 +267,151 @@ figure > img {
         font-family: relancer;
         font-size: 1em;
     }
+
     
+  
+    
+    
+
+    
+ 
+ 
+
+}
+
+/*********version tablette******************/
+
+@media(max-width:800px) {
+    
+/*slide1*/
+    
+#slide1 {
+    
+    min-height: 40em;
+   
+
+
+}    
+    
+    
+    
+    
+#slide1 h2 {
+
+        padding-top: 1.5em;
+        margin-left: 1em;
+        font-size: 2em;
+        width: 8em;
+     
+
+}      
+    
+ 
+#slide1 p {
+
+        margin-top: 1em;
+        margin-left: 2em;
+        font-size: 1.5em;
+        width: 9em;
+}  
+
+
+
+/*slide2*/  
+    
+ 
+#slide2 h2 {
+
+    padding-top: 2em;
+    padding-right: 8em;
+    padding-left: 2em;
+    font-size: 2em;
+    width: 15em;
+
+}
+    
+    
+    
+    
+/*div selfCareEssential*/
+#selfCareEssential h2{
+    
+     font-size: 2em;
+}    
+   
 /*div picto */
+
+#sectionPicto {
+   
+    display: flex;
+  
+    text-align: center;
+
+}
+
+
+}
+
+
+/*********version mobile phone******************/
+
+@media(max-width:540px) {
     
-    #sectionPicto {
+/*  slide1  */
+ 
+
+
     
-    /*    border: 5px solid red;*/
+    
+#slide1 > h2 {
+
+    display: block;
+    width: 5em;
+    padding-top: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+
+
+}
+
+#slide1 > p {
+
+    margin-top: 1em;
+    margin-left: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+    width: 6em;
+    font-weight: bolder;
+   
+}
+   
+/*slide2    */
+  
+    
+ #slide2 h2 {
+
+    padding-top: 2em;
+/*    padding-right: 8em;*/
+    padding-left: 1em;
+    font-size: 2em;
+    width: 5em;
+
+}
+ 
+/* div selfCareEssential */
+    
+#selfCareEssential h2{
+    
+     font-size: 1.3em;
+     
+
+}  
+    
+/*div picto */    
+ 
+#sectionPicto {
+    
+   
     padding-top: 25px;
     padding-bottom: 25px;
 
@@ -292,59 +435,16 @@ figcaption h2{
     font-size: 1em;    
         
 }
+   
     
- 
 
-}
-
-/*********version mobile phone******************/
-
-@media(max-width:700px) {
-    
-/*slide1*/
-    
-#slide1 {
-    background-image: url("../images/selfCare/splash2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 55em;
-    background-attachment: fixed;
-}  
-#slide1 p {
-
-        margin-top: 1em;
-        margin-left: 2em;
-        font-size: 2em;
-        width: 10em;
-}  
-    
-#slide1 h2 {
-
-        padding-top: 1.5em;
-        margin-left: 1em;
-        font-size: 3em;
-        width: 8em;
-     
-
-}  
     
     
     
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
 }
