@@ -144,7 +144,8 @@ main > section:nth-of-type(2) > div:nth-of-type(2) > p {
   border: 3px solid #e3ac23;
   background-color: #e3ac23;
   color: white;
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 /***************** SECTION 3 du main : How to connect ************/
 main > section:nth-of-type(3) {
@@ -261,6 +262,7 @@ figcaption > ul > li > a:hover {
   color: #e3ac23;
   text-decoration: underline;
   border-bottom: none;
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 /*# sourceMappingURL=discover.css.map */

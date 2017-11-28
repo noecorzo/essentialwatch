@@ -38,8 +38,6 @@ require_once('./session_auth.php');
                 <div id="slide1">
                     <h2>Essential oil for <span>self-care</span></h2>
                     <p>
-
-
                         The <span>essential oil</span> is a highly concentrated vegetal extract. <br><br>
                         <!--                        is a highly concentrated vegetal extract.                        -->
                         Elaborated from active molecules both very rich and complex, the <span>essential oils</span> will benefit your body in many ways.
