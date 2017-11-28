@@ -8,7 +8,7 @@ require_once('./session_auth.php');
 
 <head>
     <meta charset="utf-8">
-    <title>Essential Watch&trade;</title>
+    <title>Essential Watch&trade; App</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
