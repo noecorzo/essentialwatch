@@ -6,7 +6,7 @@
 header {
     width: 100%;
     background-color: black;
-/*    border-top: solid 3px #e3ac23;*/
+    border-top: solid 3px #e3ac23;
 }
 
 header > div {
@@ -38,8 +38,7 @@ header > div > a > img {
 header > div > nav {
     width: 90%;
     height: 100%;
-    z-index: 10;
-    
+    z-index: 10;   
 }
 
 header > div > nav > ul {
@@ -51,8 +50,7 @@ header > div > nav > ul {
     margin-left: auto;
     margin-right: auto;
     font-family: relancer;
-    letter-spacing: 0.15em;
-    
+    letter-spacing: 0.15em;   
 }
 
 header > div > nav > ul > li {
@@ -67,11 +65,7 @@ header > div > nav > ul > li > a {
     height: 100%;
 }
 
-
-
-
 /******BUTTON LOG IN******/
-
 #buttonLogIn {
     border-image: url(../images/logo/man-user.png);
     height: 2em; 
@@ -147,37 +141,17 @@ a:visited {
     color: white;
 }
 
-.sub-menu > li > a:visited {
-    color: black;
-}
-
-ul > li > a:hover{
-/*
-    color: #e3ac23;
-    border-bottom: 2px solid #e3ac23;
-    padding-bottom: 8px;
-    transition: all .6s;
-*/
-    
-    
-}
-
-
-nav ul li a:after
-{
+nav ul li a:after {
   transition: all .5s;
   
 }
 
-
-ul > li > a
- {
+ul > li > a {
   position: relative;
 }
 
 
-ul > li > a:after
- {
+ul > li > a:after {
   position: absolute;
   top: 25px;
   left: 0;
@@ -187,22 +161,11 @@ ul > li > a:after
   content: '.';
   color: transparent;
   background: #e3ac23;
-  height: 1px;
-     
+  height: 1px;     
 }
 
 ul > li > a:hover:after {
-  width: 100%;
-    
-   
-}
-
-
-
-
-
-.sub-menu > li > a:hover {
-    color: #e3ac23;
+  width: 100%;  
 }
 
 /*************** TABLETTE *********************/
@@ -296,5 +259,11 @@ ul > li > a:hover:after {
     /******BUTTON LOG IN******/
     #buttonLogIn {
         height: 1.5em; 
+    }
+    
+        /***********LogIN/Close*********/
+    header > div > div {
+        width: 130px;
+        font-size: 0.8em;
     }
 }

@@ -63,8 +63,15 @@ main > div > div > i {
 }
 
 main > div > div > i:hover{
-    color: #e3ac23;
-    
+    color: #e3ac23;   
+}
+
+#linkLogIn{
+   color: #e3ac23 !important; 
+}
+
+#linkLogIn:visited{
+   color: #e3ac23; 
 }
 
 /************** VERSION TABLETTE **************/

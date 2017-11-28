@@ -4,6 +4,11 @@
   .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
     bottom: 10px; }
 
+  .slider img {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+
   /************* MAIN ****************/
   /************* BLOCK 2 : titre + SECTION 1 du main (icons + texte) ****************/
   /************ h1 ************/
@@ -92,7 +97,8 @@
     font-size: 1em; }
 
   main > section:nth-of-type(3) > div:nth-of-type(2) {
-    background-size: 420px; } }
+    background-size: 420px;
+    background-position: center; } }
 @media (max-width: 1250px) {
   /********* SECTION 4 du main : Scientific studies ******/
   main > section:nth-of-type(4) {
@@ -121,6 +127,12 @@
   /****** BLOCK 1 (section 1) - SLIDER **********/
   main > section:nth-of-type(1) {
     margin-bottom: 50px; }
+
+  .slider img {
+    width: 500px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto; }
 
   .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
     display: none; }
