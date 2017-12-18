@@ -82,7 +82,7 @@ require_once('./session_auth.php');
                     <figcaption>
                         <h2><span>Essential Watch&trade;</span><br>improves your immunity</h2>
                         <a href="./selfCareRelaxBoost.php"> 
-				       <button class="btnKnowMore"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
+				       <button class="btnKnowMore" id="btnKnowMore3"><i class="fa fa-plus-circle" aria-hidden="true"></i> Learn more</button>
 				    </a>
                     </figcaption>
                 </figure>

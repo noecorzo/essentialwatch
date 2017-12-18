@@ -1,15 +1,11 @@
 @font-face {
-  src: url(./Fonts/regular.otf);
+  src: url(Fonts/regular.otf);
   font-family: relancer; }
-/**********typo************/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    font-family: 'Open Sans', sans-serif;*/
 *,
-::after,
-::before {
+:after,
+:before {
   box-sizing: border-box;
   padding: 0;
-  padding-top: 0px;
   margin: 0; }
 
 body {
@@ -20,20 +16,27 @@ article {
   top: 0;
   margin: 0;
   height: 900px;
-  background: url(../images/home/montre.png) 50% 0 no-repeat fixed;
+  background: url(../images/home/watch-front.png) no-repeat;
   margin: 0 auto;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  color: #fff; }
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: 900px;
+  background-position: bottom;
+  text-align: center; }
+
+article p {
+  font-size: 20px;
+  padding: 0;
+  margin: 0; }
 
 h1 {
   color: #e3ac23;
   font-family: relancer;
-  margin-top: 0; }
+  margin-top: -250px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  letter-spacing: 15px; }
 
 h2 {
   color: #e3ac23; }
@@ -45,7 +48,7 @@ article > div {
   width: 80%;
   height: 500px;
   text-align: center;
-  color: black;
+  color: #000;
   margin-left: auto;
   margin-right: auto;
   padding-top: 400px;
@@ -57,40 +60,15 @@ article > div {
 strong {
   color: #e3ac23; }
 
-.buttonKnowMore {
-  background-color: none;
-  width: 200px;
-  border-radius: 5px; }
-
-.knowMore {
-  width: 100%;
-  height: 300px;
-  background-color: grey;
-  padding-top: 50px;
-  position: absolute;
-  top: 600px;
-  left: 0;
-  margin-top: 0;
-  display: none; }
-
-.knowMore > p {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.visible {
-  display: block; }
-
-/* Parallax windows*/
 .paralaxtext {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 100px;
-  color: black; }
+  color: #000; }
 
 .paralax1 {
   height: 900px;
-  background: url(../images/home/boost.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/home/success.png) 50% 0 no-repeat fixed;
   margin: 0 auto;
   padding: 50px 0;
   background-position: center center;
@@ -102,7 +80,7 @@ strong {
 
 .paralax2 {
   height: 900px;
-  background: url(../images/home/zen.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/home/zen2.png) 50% 0 no-repeat fixed;
   margin: 0 auto;
   padding: 50px 0;
   background-position: center center;
@@ -114,7 +92,7 @@ strong {
 
 .paralax3 {
   height: 900px;
-  background: url(../images/home/viequot.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/home/personal.png) 50% 0 no-repeat fixed;
   margin: 0 auto;
   padding: 50px 0;
   background-position: center center;

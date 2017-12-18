@@ -78,7 +78,7 @@ span {
     font-size: 2em;
     text-align: center;
     width: 15em;
-    /*    line-height: 50em;*/
+  
 }
 
 
@@ -112,7 +112,7 @@ span {
 
 #slide2 span {
 
-    font-family: relancer;
+/*    font-family: relancer;*/
 
 }
 
@@ -186,7 +186,7 @@ figcaption{
 
 figcaption span{
     
-    font-family: relancer;
+/*    font-family: relancer;*/
  
 }
 
@@ -206,6 +206,17 @@ figure > img {
     margin-top: 40px;
     font-size: 0.85em;
 }
+
+#btnKnowMore3{
+    
+    
+/*    border: 3px solid red;*/
+    margin-top: 20px;
+    
+    
+}
+
+
 
 .btnKnowMore:hover {
     border: 3px solid #e3ac23;
@@ -230,7 +241,7 @@ figure > img {
 
     #slide1 h2 {
 
-        padding-top: 1.5em;
+        padding-top: 4em;
         margin-left: 1.5em;
         font-size: 3em;
         width: 8em;
@@ -239,15 +250,13 @@ figure > img {
     }
   
     
-    
-    
 /*slide2*/
 
 
     #slide2 {
 
         min-height: 30em;
-        background-attachment: fixed;
+       
 
 
     }
@@ -255,7 +264,7 @@ figure > img {
 
     #slide2 h2 {
 
-        padding-top: 1em;
+        padding-top: 2em;
         font-size: 2.5em;
         width: 18em;
         text-align: center;
@@ -264,46 +273,155 @@ figure > img {
 
     #slide2 span {
 
-        font-family: relancer;
+/*        font-family: relancer;*/
         font-size: 1em;
     }
-
     
+    
+    
+ #sectionPicto {
+   
+    display: flex;
+  flex-wrap: nowrap;
+   justify-content: space-around;
+    text-align: center;
+    
+
+}
+    
+  figure > img {
+    width: 250px;
+}
   
+ figcaption{
+    width: 230px;
+    height: 230px;
+    top: 0.5em;
+/*    border:2px solid red;*/
+    left:0.6em;
+   
+}  
     
+    
+figcaption h2{
+
+        position: absolute;
+        bottom: 5em;
+        font-size: 1.3em; 
+        left:1.5em;
+     
+} 
     
 
     
- 
- 
+.btnKnowMore {
+    width: 120px;
+    padding: 7px;
+    margin-top: 35px;
+    font-size: 0.9em;
+}
+    
+ #btnKnowMore3{
+    
+    
+/*    border: 3px solid red;*/
+    margin-top: 40px;
+    
+    
+}
+   
+
 
 }
 
-/*********version tablette******************/
+@media(max-width:950px){
+    
+/* slide1*/
+    #slide1 {
 
-@media(max-width:800px) {
+        min-height: 40em;
+    
+    }
+    
+    
+    #slide1 h2 {
+
+        padding-top: 3em;
+        margin-left: 0.1em;
+        font-size: 3em;
+        width: 15em;
+     
+    }
+   
+    #slide1 p {
+
+        margin-top: 1em;
+        width: 15em;
+
+    }
+    
+    
+/*slide2*/
+
+     #slide2 h2 {
+
+        padding-top: 6em;
+         padding-left: 0.5em;
+        font-size: 1.8em;
+        width: 24em;
+     
+
+    }
+    
+/*div picto */  
+
+#sectionPicto {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+    
+  figure > img {
+    width: 250px;
+}
+  
+ figcaption{
+    width: 14em;
+    height: 14em;
+    padding-bottom: 2em;
+/*    border:2px solid red;*/
+    left:0.8em;
+    top:0.7em;
+   
+}   
+    
+    
+    
+    
+    
+    
+}
+
+
+@media(max-width:939px) {
     
 /*slide1*/
     
 #slide1 {
     
     min-height: 40em;
-   
 
-
-}    
-    
-    
-    
-    
+}  
 #slide1 h2 {
 
-        padding-top: 1.5em;
-        margin-left: 1em;
+        padding-top: 3em;
+        margin-left: 0.3em;
         font-size: 2em;
-        width: 8em;
-     
-
+        width: 15em;
 }      
     
  
@@ -312,27 +430,22 @@ figure > img {
         margin-top: 1em;
         margin-left: 2em;
         font-size: 1.5em;
-        width: 9em;
+        width: 15em;
 }  
-
-
 
 /*slide2*/  
     
  
 #slide2 h2 {
 
-    padding-top: 2em;
+    padding-top: 4em;
     padding-right: 8em;
     padding-left: 2em;
     font-size: 2em;
-    width: 15em;
+    width: 20em;
 
 }
-    
-    
-    
-    
+   
 /*div selfCareEssential*/
 #selfCareEssential h2{
     
@@ -344,10 +457,55 @@ figure > img {
 #sectionPicto {
    
     display: flex;
-  
+    flex-wrap: nowrap;
+    justify-content: space-around;
     text-align: center;
+    
 
 }
+    
+figure > img {
+    width: 200px;
+}
+  
+ figcaption{
+    width: 11em;
+    height: 11em;
+    padding-bottom: 2em;
+/*    border:2px solid red;*/
+    left:0.8em;
+    top:0.7em;
+   
+}  
+    
+    
+    figcaption h2{
+        position: absolute;
+/*        border:2px solid blue;*/
+        top: 3em;
+        font-size: 1.2em; 
+        left:0.5em;
+        
+    } 
+    
+   .btnKnowMore {
+    width: 100px;
+    padding: 7px;
+    margin-top: 30px;
+    font-size: 0.7em;
+}
+ 
+    
+  #btnKnowMore3{
+    
+    
+/*    border: 3px solid red;*/
+    margin-top: 30px;
+    
+    
+}   
+   
+    
 
 
 }
@@ -355,19 +513,16 @@ figure > img {
 
 /*********version mobile phone******************/
 
-@media(max-width:540px) {
+@media(max-width:785px) {
     
 /*  slide1  */
  
-
-
-    
-    
+  
 #slide1 > h2 {
 
     display: block;
-    width: 5em;
-    padding-top: 1em;
+    width: 12em;
+    padding-top: 3em;
     margin-left: 1em;
     font-size: 2em;
 
@@ -380,8 +535,8 @@ figure > img {
     margin-left: 1.5em;
     font-size: 1.5em;
     text-align: center;
-    width: 6em;
-    font-weight: bolder;
+    width: 15em;
+   
    
 }
    
@@ -390,11 +545,12 @@ figure > img {
     
  #slide2 h2 {
 
-    padding-top: 2em;
+    padding-top: 5em;
 /*    padding-right: 8em;*/
     padding-left: 1em;
     font-size: 2em;
-    width: 5em;
+    width: 20em;
+     
 
 }
  
@@ -414,37 +570,131 @@ figure > img {
    
     padding-top: 25px;
     padding-bottom: 25px;
+    flex-wrap: wrap;
 
 }
     
-   figure > img {
-    width: 240px;
+figure > img {
+    width: 350px;
 }
   
  figcaption{
-    width: 13em;
-    height: 13em;
+    width: 20em;
+    height: 20em;
     padding-top: 4em;
     top:1em;
     left:1em;
    
 }
+    
      
 figcaption h2{
-        
-    font-size: 1em;    
-        
+    bottom: 7em;   
+    font-size: 2em;    
+    left:1em;   
 }
    
     
+.btnKnowMore {
+    width: 110px;
+    padding: 7px;
+    margin-top: 10em;
+    font-size: 0.9em;
+}
+ 
+    
+   #btnKnowMore3{
+    
+/* border: 3px solid red;*/
+    margin-top: 12em;
+    
+    
+}   
+  
+    
+}
 
+
+@media(max-width:430px) {
+    
+/*  slide1  */
+ 
+  
+#slide1 > h2 {
+
+    display: block;
+    width: 8em;
+    padding-top: 2em;
+    margin-left: 0.3em;
+    font-size: 2em;
+
+
+}
+
+#slide1 > p {
+
+    margin-top: 1em;
+    margin-left: 0.7em;
+    font-size: 1.5em;
+    text-align: center;
+    width: 10em;
+   
+   
+}
+   
+/*slide2    */
+  
+    
+ #slide2 h2 {
+
+    padding-top: 3em;
+/*    padding-right: 8em;*/
+    padding-left: 0.3em;
+    font-size: 2em;
+    width: 17em;
+     
+
+}
+    
+/*div picto */     
+    
+figure > img {
+    width: 250px;
+}
+  
+ figcaption{
+    width: 14em;
+    height: 14em;
+    padding-top: 3em;
+/*    top:1em;*/
+    left:0.8em;
+   
+}
+    
+     
+figcaption h2{
+    bottom: 7em;   
+    font-size: 1.4em;    
+    left:0.8em;   
+}
+   
+    
+.btnKnowMore {
+    width: 110px;
+    padding: 7px;
+    margin-top: 7em;
+    font-size: 0.9em;
+}
+ 
+    
+#btnKnowMore3{
     
     
+/*    border: 3px solid red;*/
+    margin-top: 8em;
     
     
-    
-    
-    
+}   
     
     
 }
