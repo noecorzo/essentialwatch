@@ -27,6 +27,3 @@ var figcaption = document.getElementsByTagName("figcaption");
         });   
     } 
 
-/*********** btn 3 *************/
-var btn = document.getElementsByClassName('btnKnowMore');    
-    btn[2].style.marginTop = "20px";
